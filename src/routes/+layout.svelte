@@ -1,9 +1,17 @@
 <script lang="ts">
   import { base } from '$app/paths';
   import { page } from '$app/stores';
+  import { onMount } from 'svelte';
   import '../app.css';
 
   let { children } = $props();
+
+  // PWA の Service Worker を登録する。
+  // @vite-pwa/sveltekit は自動登録しないため、ここで明示的に呼ぶ必要がある。
+  onMount(async () => {
+    const { registerSW } = await import('virtual:pwa-register');
+    registerSW({ immediate: true });
+  });
 
   const nav = [
     { href: '', label: 'ホーム', icon: '🏠' },
