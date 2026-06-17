@@ -1,0 +1,2282 @@
+[
+ {
+  "level": "beginner",
+  "question": "She ___ to school every day.",
+  "choices": [
+   "go",
+   "goes",
+   "going",
+   "gone"
+  ],
+  "answerIndex": 1,
+  "explanation": "主語が三人称単数（She）なので、動詞に -s/-es を付けます。go は -es が付いて goes になります。"
+ },
+ {
+  "level": "beginner",
+  "question": "My brother ___ soccer on Sundays.",
+  "choices": [
+   "play",
+   "plays",
+   "playing",
+   "played"
+  ],
+  "answerIndex": 1,
+  "explanation": "主語 My brother は三人称単数なので、現在形の動詞に -s を付けて plays とします。"
+ },
+ {
+  "level": "beginner",
+  "question": "I ___ coffee in the morning.",
+  "choices": [
+   "drinks",
+   "drinking",
+   "drink",
+   "to drink"
+  ],
+  "answerIndex": 2,
+  "explanation": "主語が I のときは -s を付けず原形のまま drink を使います。-s が付くのは三人称単数のときだけです。"
+ },
+ {
+  "level": "beginner",
+  "question": "He ___ TV every evening.",
+  "choices": [
+   "watch",
+   "watchs",
+   "watches",
+   "watching"
+  ],
+  "answerIndex": 2,
+  "explanation": "主語が He（三人称単数）で、watch は -ch で終わるため -es を付けて watches になります。"
+ },
+ {
+  "level": "beginner",
+  "question": "The baby ___ a lot at night.",
+  "choices": [
+   "cry",
+   "crys",
+   "cries",
+   "crying"
+  ],
+  "answerIndex": 2,
+  "explanation": "三人称単数で、cry のように「子音+y」で終わる動詞は y を i に変えて -es を付け cries になります。"
+ },
+ {
+  "level": "beginner",
+  "question": "They ___ in Tokyo.",
+  "choices": [
+   "lives",
+   "live",
+   "living",
+   "to live"
+  ],
+  "answerIndex": 1,
+  "explanation": "主語 They は複数なので -s は付けず、原形の live を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "Tom ___ his homework after dinner.",
+  "choices": [
+   "do",
+   "does",
+   "doing",
+   "dos"
+  ],
+  "answerIndex": 1,
+  "explanation": "主語 Tom は三人称単数で、do は不規則に変化して does になります。"
+ },
+ {
+  "level": "beginner",
+  "question": "My sister ___ English very well.",
+  "choices": [
+   "speak",
+   "speaking",
+   "speaks",
+   "spoke"
+  ],
+  "answerIndex": 2,
+  "explanation": "主語 My sister は三人称単数なので、動詞に -s を付けて speaks とします。"
+ },
+ {
+  "level": "beginner",
+  "question": "We ___ to music every day.",
+  "choices": [
+   "listens",
+   "listen",
+   "listening",
+   "listened"
+  ],
+  "answerIndex": 1,
+  "explanation": "主語 We は複数なので -s は付けず、原形の listen を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "My father ___ a car to work.",
+  "choices": [
+   "drive",
+   "driving",
+   "drives",
+   "drived"
+  ],
+  "answerIndex": 2,
+  "explanation": "主語 My father は三人称単数なので、動詞に -s を付けて drives とします。"
+ },
+ {
+  "level": "beginner",
+  "question": "I ___ to school yesterday.",
+  "choices": [
+   "go",
+   "went",
+   "gone",
+   "going"
+  ],
+  "answerIndex": 1,
+  "explanation": "goの過去形は不規則変化でwent。yesterday(昨日)があるので過去形を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "She ___ a letter last night.",
+  "choices": [
+   "write",
+   "writes",
+   "wrote",
+   "writing"
+  ],
+  "answerIndex": 2,
+  "explanation": "writeの過去形は不規則変化でwrote。last night(昨夜)は過去を表します。"
+ },
+ {
+  "level": "beginner",
+  "question": "We ___ soccer last Sunday.",
+  "choices": [
+   "play",
+   "played",
+   "plays",
+   "playing"
+  ],
+  "answerIndex": 1,
+  "explanation": "playは規則動詞で、過去形は-edをつけてplayed。"
+ },
+ {
+  "level": "beginner",
+  "question": "He ___ his homework two hours ago.",
+  "choices": [
+   "finish",
+   "finished",
+   "finishes",
+   "finishing"
+  ],
+  "answerIndex": 1,
+  "explanation": "finishは規則動詞で過去形はfinished。ago(〜前)は過去を表します。"
+ },
+ {
+  "level": "beginner",
+  "question": "They ___ a new car last month.",
+  "choices": [
+   "buy",
+   "buys",
+   "bought",
+   "buying"
+  ],
+  "answerIndex": 2,
+  "explanation": "buyの過去形は不規則変化でbought。last month(先月)は過去を示します。"
+ },
+ {
+  "level": "beginner",
+  "question": "I ___ tired yesterday.",
+  "choices": [
+   "am",
+   "was",
+   "were",
+   "be"
+  ],
+  "answerIndex": 1,
+  "explanation": "主語Iにつくbe動詞の過去形はwas。yesterdayがあるので過去形です。"
+ },
+ {
+  "level": "beginner",
+  "question": "My mother ___ dinner an hour ago.",
+  "choices": [
+   "cook",
+   "cooks",
+   "cooking",
+   "cooked"
+  ],
+  "answerIndex": 3,
+  "explanation": "cookは規則動詞で過去形はcooked。ago(〜前)で過去を表します。"
+ },
+ {
+  "level": "beginner",
+  "question": "We ___ happy at the party.",
+  "choices": [
+   "was",
+   "were",
+   "are",
+   "is"
+  ],
+  "answerIndex": 1,
+  "explanation": "主語We(複数)につくbe動詞の過去形はwere。"
+ },
+ {
+  "level": "beginner",
+  "question": "He ___ breakfast this morning.",
+  "choices": [
+   "eat",
+   "ate",
+   "eats",
+   "eaten"
+  ],
+  "answerIndex": 1,
+  "explanation": "eatの過去形は不規則変化でate。this morning(今朝)は過去を表します。"
+ },
+ {
+  "level": "beginner",
+  "question": "She ___ to music last weekend.",
+  "choices": [
+   "listen",
+   "listens",
+   "listened",
+   "listening"
+  ],
+  "answerIndex": 2,
+  "explanation": "listenは規則動詞で過去形はlistened。last weekend(先週末)は過去を示します。"
+ },
+ {
+  "level": "beginner",
+  "question": "I have ___ apple in my bag.",
+  "choices": [
+   "a",
+   "an",
+   "the",
+   "some"
+  ],
+  "answerIndex": 1,
+  "explanation": "母音の音で始まる単語（apple）の前には「an」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "She is ___ teacher at my school.",
+  "choices": [
+   "an",
+   "the",
+   "a",
+   "of"
+  ],
+  "answerIndex": 2,
+  "explanation": "子音で始まる単語（teacher）で、初めて話題に出す数えられる名詞には「a」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "The sun rises in ___ east.",
+  "choices": [
+   "a",
+   "an",
+   "the",
+   "no"
+  ],
+  "answerIndex": 2,
+  "explanation": "方角（east）は世界に一つしかないので、特定を表す「the」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "He bought ___ umbrella yesterday.",
+  "choices": [
+   "a",
+   "an",
+   "the",
+   "one"
+  ],
+  "answerIndex": 1,
+  "explanation": "umbrellaは母音の音「ア」で始まるので「an」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "Can you close ___ door, please?",
+  "choices": [
+   "a",
+   "an",
+   "the",
+   "at"
+  ],
+  "answerIndex": 2,
+  "explanation": "話し手と聞き手が分かっている特定のドアなので「the」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "I saw a cat. ___ cat was very small.",
+  "choices": [
+   "A",
+   "An",
+   "The",
+   "Some"
+  ],
+  "answerIndex": 2,
+  "explanation": "一度話に出たもの（前の文のcat）を再び指すときは「The」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "My father is ___ honest man.",
+  "choices": [
+   "a",
+   "an",
+   "the",
+   "this"
+  ],
+  "answerIndex": 1,
+  "explanation": "honestのhは発音されず母音の音で始まるため「an」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "We had dinner at ___ restaurant near the station.",
+  "choices": [
+   "an",
+   "a",
+   "the",
+   "in"
+  ],
+  "answerIndex": 1,
+  "explanation": "初めて話題にする子音始まりの数えられる名詞（restaurant）には「a」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "There is ___ orange on the table.",
+  "choices": [
+   "a",
+   "the",
+   "an",
+   "that"
+  ],
+  "answerIndex": 2,
+  "explanation": "orangeは母音の音で始まるので「an」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "She plays ___ piano every day.",
+  "choices": [
+   "a",
+   "an",
+   "the",
+   "by"
+  ],
+  "answerIndex": 2,
+  "explanation": "楽器を演奏すると言うときは「play the + 楽器」で「the」を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "I was born ___ April.",
+  "choices": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "answerIndex": 0,
+  "explanation": "月の前には前置詞 in を使います。「in April（4月に）」のように月・年・季節には in を用います。"
+ },
+ {
+  "level": "beginner",
+  "question": "The meeting starts ___ 9 o'clock.",
+  "choices": [
+   "in",
+   "on",
+   "at",
+   "by"
+  ],
+  "answerIndex": 2,
+  "explanation": "時刻の前には at を使います。「at 9 o'clock（9時に）」のように具体的な時刻には at を用います。"
+ },
+ {
+  "level": "beginner",
+  "question": "We have a party ___ Sunday.",
+  "choices": [
+   "in",
+   "on",
+   "at",
+   "of"
+  ],
+  "answerIndex": 1,
+  "explanation": "曜日や日付の前には on を使います。「on Sunday（日曜日に）」のように特定の日には on を用います。"
+ },
+ {
+  "level": "beginner",
+  "question": "There is a cat ___ the table.",
+  "choices": [
+   "on",
+   "in",
+   "at",
+   "to"
+  ],
+  "answerIndex": 0,
+  "explanation": "「〜の上に」と表面に接している場合は on を使います。「on the table（テーブルの上に）」となります。"
+ },
+ {
+  "level": "beginner",
+  "question": "My keys are ___ the box.",
+  "choices": [
+   "on",
+   "in",
+   "at",
+   "by"
+  ],
+  "answerIndex": 1,
+  "explanation": "「〜の中に」と容器や空間の内部を表すときは in を使います。「in the box（箱の中に）」となります。"
+ },
+ {
+  "level": "beginner",
+  "question": "She is waiting ___ the bus stop.",
+  "choices": [
+   "in",
+   "on",
+   "at",
+   "of"
+  ],
+  "answerIndex": 2,
+  "explanation": "特定の地点・場所を表すときは at を使います。「at the bus stop（バス停で）」のように地点には at を用います。"
+ },
+ {
+  "level": "beginner",
+  "question": "I get up early ___ the morning.",
+  "choices": [
+   "in",
+   "on",
+   "at",
+   "by"
+  ],
+  "answerIndex": 0,
+  "explanation": "「朝・午前・午後」など時間帯には in を使います。「in the morning（朝に）」となります。ただし at night は例外です。"
+ },
+ {
+  "level": "beginner",
+  "question": "The picture is ___ the wall.",
+  "choices": [
+   "in",
+   "on",
+   "at",
+   "to"
+  ],
+  "answerIndex": 1,
+  "explanation": "壁に接して掛かっている場合は on を使います。「on the wall（壁に）」のように表面に接するものには on を用います。"
+ },
+ {
+  "level": "beginner",
+  "question": "I will see you ___ Christmas Day.",
+  "choices": [
+   "in",
+   "on",
+   "at",
+   "by"
+  ],
+  "answerIndex": 1,
+  "explanation": "特定の日付・記念日には on を使います。「on Christmas Day（クリスマスの日に）」となります。"
+ },
+ {
+  "level": "beginner",
+  "question": "He lives ___ Japan.",
+  "choices": [
+   "on",
+   "at",
+   "in",
+   "to"
+  ],
+  "answerIndex": 2,
+  "explanation": "国・都市など広い場所には in を使います。「in Japan（日本に）」のように国名には in を用います。"
+ },
+ {
+  "level": "beginner",
+  "question": "There ___ a book on the table.",
+  "choices": [
+   "is",
+   "are",
+   "am",
+   "be"
+  ],
+  "answerIndex": 0,
+  "explanation": "単数名詞 a book には is を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "There ___ three apples in the basket.",
+  "choices": [
+   "is",
+   "are",
+   "was",
+   "be"
+  ],
+  "answerIndex": 1,
+  "explanation": "複数名詞 three apples には are を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "I have two ___ in my bag.",
+  "choices": [
+   "pen",
+   "pens",
+   "penes",
+   "pen's"
+  ],
+  "answerIndex": 1,
+  "explanation": "two の後は複数形 pens にします。"
+ },
+ {
+  "level": "beginner",
+  "question": "She has three ___ at home.",
+  "choices": [
+   "box",
+   "boxs",
+   "boxes",
+   "boxen"
+  ],
+  "answerIndex": 2,
+  "explanation": "box の複数形は es を付けて boxes です。"
+ },
+ {
+  "level": "beginner",
+  "question": "There ___ many children in the park.",
+  "choices": [
+   "is",
+   "are",
+   "was",
+   "be"
+  ],
+  "answerIndex": 1,
+  "explanation": "children は複数なので are を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "How many ___ do you have?",
+  "choices": [
+   "a book",
+   "book",
+   "books",
+   "bookes"
+  ],
+  "answerIndex": 2,
+  "explanation": "How many の後は複数形 books が来ます。"
+ },
+ {
+  "level": "beginner",
+  "question": "There ___ some milk in the glass.",
+  "choices": [
+   "is",
+   "are",
+   "were",
+   "have"
+  ],
+  "answerIndex": 0,
+  "explanation": "milk は数えられない名詞なので is を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "There are five ___ in the picture.",
+  "choices": [
+   "man",
+   "mans",
+   "men",
+   "mens"
+  ],
+  "answerIndex": 2,
+  "explanation": "man の複数形は不規則で men です。"
+ },
+ {
+  "level": "beginner",
+  "question": "I see two ___ near the river.",
+  "choices": [
+   "city",
+   "citys",
+   "cities",
+   "cityes"
+  ],
+  "answerIndex": 2,
+  "explanation": "子音+y の語は y を i に変え es を付けて cities にします。"
+ },
+ {
+  "level": "beginner",
+  "question": "___ there any students in the classroom?",
+  "choices": [
+   "Is",
+   "Are",
+   "Am",
+   "Do"
+  ],
+  "answerIndex": 1,
+  "explanation": "複数名詞 students の疑問文は Are で始めます。"
+ },
+ {
+  "level": "beginner",
+  "question": "___ you like coffee?",
+  "choices": [
+   "Do",
+   "Are",
+   "Is",
+   "Does"
+  ],
+  "answerIndex": 0,
+  "explanation": "一般動詞 like の疑問文は主語 you に対して Do を文頭に置きます。be動詞ではないので Are/Is は誤り。"
+ },
+ {
+  "level": "beginner",
+  "question": "___ she play tennis on Sundays?",
+  "choices": [
+   "Do",
+   "Does",
+   "Is",
+   "Are"
+  ],
+  "answerIndex": 1,
+  "explanation": "三人称単数 she が主語で一般動詞 play の疑問文なので Does を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "___ they at home now?",
+  "choices": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "answerIndex": 2,
+  "explanation": "主語 they(複数)の be動詞疑問文なので Are が正解。動詞 play などがないので do/does は不可。"
+ },
+ {
+  "level": "beginner",
+  "question": "___ this your bag?",
+  "choices": [
+   "Are",
+   "Do",
+   "Does",
+   "Is"
+  ],
+  "answerIndex": 3,
+  "explanation": "主語 this は単数なので be動詞は Is。一般動詞がないので do/does は使えません。"
+ },
+ {
+  "level": "beginner",
+  "question": "Where ___ you live?",
+  "choices": [
+   "do",
+   "does",
+   "are",
+   "is"
+  ],
+  "answerIndex": 0,
+  "explanation": "主語 you の一般動詞 live の疑問文なので do を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "___ you can swim well?",
+  "choices": [
+   "Do",
+   "Can",
+   "Are",
+   "Does"
+  ],
+  "answerIndex": 1,
+  "explanation": "助動詞 can の疑問文は Can を文頭に出します。Can you swim well? が正しい形。"
+ },
+ {
+  "level": "beginner",
+  "question": "What time ___ the movie start?",
+  "choices": [
+   "do",
+   "is",
+   "does",
+   "are"
+  ],
+  "answerIndex": 2,
+  "explanation": "主語 the movie(三人称単数)の一般動詞 start の疑問文なので does を使います。"
+ },
+ {
+  "level": "beginner",
+  "question": "___ you a student?",
+  "choices": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "answerIndex": 2,
+  "explanation": "主語 you の be動詞疑問文は Are。後ろに名詞 a student があり、一般動詞がないので do は不可。"
+ },
+ {
+  "level": "beginner",
+  "question": "___ he have a car?",
+  "choices": [
+   "Does",
+   "Do",
+   "Is",
+   "Are"
+  ],
+  "answerIndex": 0,
+  "explanation": "三人称単数 he が主語で一般動詞 have の疑問文なので Does を使い、動詞は原形 have になります。"
+ },
+ {
+  "level": "beginner",
+  "question": "Why ___ the baby crying?",
+  "choices": [
+   "do",
+   "does",
+   "is",
+   "are"
+  ],
+  "answerIndex": 2,
+  "explanation": "the baby(単数)+ crying(現在進行形)なので be動詞 is が必要。Why is the baby crying? が正しい。"
+ },
+ {
+  "level": "intermediate",
+  "question": "I ___ my homework an hour ago, so now I can relax.",
+  "choices": [
+   "have finished",
+   "finished",
+   "finish",
+   "had finished"
+  ],
+  "answerIndex": 1,
+  "explanation": "「an hour ago(1時間前)」という過去の明確な時点を示す語があるため、過去形 finished を使います。現在完了は具体的な過去の時点を表す副詞とは一緒に使えません。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She ___ in Tokyo since 2015 and still lives there now.",
+  "choices": [
+   "lived",
+   "lives",
+   "has lived",
+   "was living"
+  ],
+  "answerIndex": 2,
+  "explanation": "「since 2015」は過去から現在まで継続していることを示すため、現在完了 has lived を使います。今も住んでいる継続の状態を表します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "___ you ever ___ sushi before?",
+  "choices": [
+   "Did / eat",
+   "Have / eaten",
+   "Have / ate",
+   "Did / eaten"
+  ],
+  "answerIndex": 1,
+  "explanation": "「ever(今までに)」という経験を尋ねる表現なので現在完了 Have you eaten を使います。過去分詞は eaten が正しい形です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "When ___ you ___ your new car?",
+  "choices": [
+   "have / bought",
+   "did / buy",
+   "did / bought",
+   "have / buy"
+  ],
+  "answerIndex": 1,
+  "explanation": "「When(いつ)」で具体的な過去の時点を尋ねる疑問文なので、過去形 did you buy を使います。When と現在完了は通常一緒に使いません。"
+ },
+ {
+  "level": "intermediate",
+  "question": "We ___ each other for ten years; we're still close friends.",
+  "choices": [
+   "knew",
+   "have known",
+   "know",
+   "had known"
+  ],
+  "answerIndex": 1,
+  "explanation": "「for ten years」で過去から現在まで続く状態を表すため、現在完了 have known を使います。今も友達である継続を示します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "He ___ to France last summer with his family.",
+  "choices": [
+   "has gone",
+   "went",
+   "has been",
+   "goes"
+  ],
+  "answerIndex": 1,
+  "explanation": "「last summer(昨年の夏)」という過去の明確な時点があるため、過去形 went を使います。現在完了は具体的な過去の時を表す語とは使えません。"
+ },
+ {
+  "level": "intermediate",
+  "question": "I can't find my keys. I think I ___ them.",
+  "choices": [
+   "lost",
+   "have lost",
+   "lose",
+   "was losing"
+  ],
+  "answerIndex": 1,
+  "explanation": "鍵をなくした結果として今見つからないという現在への影響を表すため、現在完了 have lost を使います。過去の動作が現在に結果として残っている状況です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "They ___ the project yet, so they're still working on it.",
+  "choices": [
+   "didn't finish",
+   "haven't finished",
+   "don't finish",
+   "weren't finishing"
+  ],
+  "answerIndex": 1,
+  "explanation": "「yet(まだ)」は現在完了の否定文でよく使われ、現時点でまだ完了していないことを表すため haven't finished を使います。"
+ },
+ {
+  "level": "intermediate",
+  "question": "Last night I ___ a really interesting documentary on TV.",
+  "choices": [
+   "have watched",
+   "watched",
+   "have been watching",
+   "watch"
+  ],
+  "answerIndex": 1,
+  "explanation": "「Last night(昨夜)」という終わった過去の時点を示すため、過去形 watched を使います。完結した過去の出来事を表します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This is the best meal I ___ ever ___ in my life.",
+  "choices": [
+   "did / have",
+   "have / had",
+   "have / has",
+   "had / have"
+  ],
+  "answerIndex": 1,
+  "explanation": "「最上級 + ever」は経験を表す現在完了 have had と一緒に使われる典型的な形です。過去分詞は had が正しい形です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This bridge is ___ than that one.",
+  "choices": [
+   "long",
+   "longer",
+   "longest",
+   "more long"
+  ],
+  "answerIndex": 1,
+  "explanation": "thanがあるので比較級。longのような短い形容詞は語尾に-erを付けてlongerとします。more longは誤りです。"
+ },
+ {
+  "level": "intermediate",
+  "question": "Mt. Fuji is the ___ mountain in Japan.",
+  "choices": [
+   "high",
+   "higher",
+   "highest",
+   "more high"
+  ],
+  "answerIndex": 2,
+  "explanation": "the ... in Japanの形と「最も高い」という意味から最上級highestが正解。短い形容詞は語尾に-estを付けます。"
+ },
+ {
+  "level": "intermediate",
+  "question": "Health is ___ important than money.",
+  "choices": [
+   "more",
+   "much",
+   "most",
+   "very"
+  ],
+  "answerIndex": 0,
+  "explanation": "importantのような長い形容詞の比較級はmore importantとします。後ろにthanがあるので比較級more が正解です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This is the ___ interesting book I have ever read.",
+  "choices": [
+   "more",
+   "much",
+   "most",
+   "very"
+  ],
+  "answerIndex": 2,
+  "explanation": "the ... I have ever readは最上級でよく使う表現。長い形容詞interestingの最上級はmost interestingです。"
+ },
+ {
+  "level": "intermediate",
+  "question": "My new computer is much ___ than my old one.",
+  "choices": [
+   "fast",
+   "faster",
+   "fastest",
+   "more fast"
+  ],
+  "answerIndex": 1,
+  "explanation": "thanがあるので比較級faster。muchは比較級を強調して「ずっと速い」という意味を加えます。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She can run ___ than her brother.",
+  "choices": [
+   "fast",
+   "faster",
+   "fastest",
+   "most fast"
+  ],
+  "answerIndex": 1,
+  "explanation": "副詞fastもthanがあるので比較級fasterになります。runを修飾する副詞の比較級です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This is ___ movie I have ever seen.",
+  "choices": [
+   "worse",
+   "the worst",
+   "bad",
+   "the baddest"
+  ],
+  "answerIndex": 1,
+  "explanation": "badの最上級は不規則変化でworst。I have ever seenとともに最上級the worstを使います。baddestは誤りです。"
+ },
+ {
+  "level": "intermediate",
+  "question": "Tokyo is ___ city in Japan.",
+  "choices": [
+   "big",
+   "bigger",
+   "the biggest",
+   "the most big"
+  ],
+  "answerIndex": 2,
+  "explanation": "in Japanの範囲で「最も大きい」なので最上級。bigはgを重ねてbiggest、theを付けてthe biggestとします。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The weather today is ___ than yesterday.",
+  "choices": [
+   "good",
+   "better",
+   "best",
+   "more good"
+  ],
+  "answerIndex": 1,
+  "explanation": "goodの比較級は不規則変化でbetter。thanがあるので比較級betterが正解です。more goodは誤りです。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This question is ___ difficult as that one.",
+  "choices": [
+   "as",
+   "more",
+   "so",
+   "than"
+  ],
+  "answerIndex": 0,
+  "explanation": "as ... as ~「~と同じくらい…」の構文。後ろにasがあるので前にもasを置きます。原級比較の形です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "If it ___ tomorrow, we will cancel the picnic.",
+  "choices": [
+   "rains",
+   "will rain",
+   "would rain",
+   "rained"
+  ],
+  "answerIndex": 0,
+  "explanation": "第一条件文(if節)では未来のことでも現在形を使います。主節がwillなので現実的な仮定の第一条件文です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "If I ___ rich, I would travel around the world.",
+  "choices": [
+   "am",
+   "were",
+   "will be",
+   "have been"
+  ],
+  "answerIndex": 1,
+  "explanation": "第二条件文は現実とは異なる仮定。be動詞は主語に関係なくwereを使うのが原則です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "If you heat ice, it ___ into water.",
+  "choices": [
+   "would turn",
+   "turned",
+   "turns",
+   "will turning"
+  ],
+  "answerIndex": 2,
+  "explanation": "一般的な事実・科学的真理を表すゼロ条件文。if節も主節も現在形を使います。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She would call you if she ___ your number.",
+  "choices": [
+   "knows",
+   "knew",
+   "will know",
+   "has known"
+  ],
+  "answerIndex": 1,
+  "explanation": "第二条件文。主節がwould+動詞原形なので、if節は過去形knewにします(現在の事実に反する仮定)。"
+ },
+ {
+  "level": "intermediate",
+  "question": "If we leave now, we ___ catch the last train.",
+  "choices": [
+   "would",
+   "catch",
+   "caught",
+   "will"
+  ],
+  "answerIndex": 3,
+  "explanation": "第一条件文の主節はwill+動詞原形。現実的に起こりうる未来の結果を表します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "If I ___ you, I would apologize to her.",
+  "choices": [
+   "am",
+   "was",
+   "were",
+   "be"
+  ],
+  "answerIndex": 2,
+  "explanation": "「もし私があなたなら」という典型的な第二条件文。If I were you は助言の決まり文句です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "What will you do if he ___ to the party?",
+  "choices": [
+   "won't come",
+   "doesn't come",
+   "didn't come",
+   "wouldn't come"
+  ],
+  "answerIndex": 1,
+  "explanation": "第一条件文(主節will)。if節は現在形の否定doesn't comeを使います。"
+ },
+ {
+  "level": "intermediate",
+  "question": "If they ___ harder, they would pass the exam.",
+  "choices": [
+   "study",
+   "studied",
+   "will study",
+   "would study"
+  ],
+  "answerIndex": 1,
+  "explanation": "第二条件文。主節would passに合わせ、if節は過去形studiedで現実に反する仮定を表します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "If you don't hurry, you ___ the bus.",
+  "choices": [
+   "will miss",
+   "would miss",
+   "missed",
+   "miss"
+  ],
+  "answerIndex": 0,
+  "explanation": "第一条件文。現実に起こりうる結果なので主節はwill+動詞原形will missを使います。"
+ },
+ {
+  "level": "intermediate",
+  "question": "If I had more time, I ___ learn another language.",
+  "choices": [
+   "will",
+   "would",
+   "can",
+   "am going to"
+  ],
+  "answerIndex": 1,
+  "explanation": "第二条件文。if節がhad(過去形)なので、主節はwould+動詞原形で現実に反する仮定を表します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The woman ___ lives next door is a famous pianist.",
+  "choices": [
+   "who",
+   "which",
+   "whom",
+   "whose"
+  ],
+  "answerIndex": 0,
+  "explanation": "先行詞が人(woman)で主格なので who を使う。which は物、whose は所有格。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This is the book ___ changed my life.",
+  "choices": [
+   "who",
+   "which",
+   "whose",
+   "whom"
+  ],
+  "answerIndex": 1,
+  "explanation": "先行詞が物(book)で主格なので which を使う。who は人に用いる。"
+ },
+ {
+  "level": "intermediate",
+  "question": "I have a friend ___ can speak five languages.",
+  "choices": [
+   "which",
+   "what",
+   "who",
+   "whose"
+  ],
+  "answerIndex": 2,
+  "explanation": "先行詞が人(friend)で主格なので who を使う。what は先行詞を含む関係代名詞で不可。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The train ___ goes to Tokyo leaves at noon.",
+  "choices": [
+   "who",
+   "that",
+   "whom",
+   "what"
+  ],
+  "answerIndex": 1,
+  "explanation": "先行詞が物(train)で that は人にも物にも使え主格として適切。who は人専用。"
+ },
+ {
+  "level": "intermediate",
+  "question": "He is the only person ___ understands me.",
+  "choices": [
+   "which",
+   "what",
+   "that",
+   "whose"
+  ],
+  "answerIndex": 2,
+  "explanation": "先行詞に the only が付くと that を好んで使う。which は物用で不可。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The movie ___ we watched last night was boring.",
+  "choices": [
+   "who",
+   "which",
+   "whose",
+   "what"
+  ],
+  "answerIndex": 1,
+  "explanation": "先行詞が物(movie)で目的格なので which を使う。who は人用。"
+ },
+ {
+  "level": "intermediate",
+  "question": "Do you know the man ___ they invited to the party?",
+  "choices": [
+   "which",
+   "who",
+   "what",
+   "whose"
+  ],
+  "answerIndex": 1,
+  "explanation": "先行詞が人(man)で目的格には who(または whom)を使う。which は物用。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This is the house ___ was built in 1900.",
+  "choices": [
+   "who",
+   "whom",
+   "that",
+   "what"
+  ],
+  "answerIndex": 2,
+  "explanation": "先行詞が物(house)で主格には that が使える。who/whom は人用。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The students ___ passed the exam were very happy.",
+  "choices": [
+   "which",
+   "who",
+   "what",
+   "whose"
+  ],
+  "answerIndex": 1,
+  "explanation": "先行詞が人(students)で主格なので who を使う。which は物用。"
+ },
+ {
+  "level": "intermediate",
+  "question": "I bought a phone ___ has a great camera.",
+  "choices": [
+   "who",
+   "whom",
+   "what",
+   "that"
+  ],
+  "answerIndex": 3,
+  "explanation": "先行詞が物(phone)で主格には that が使える。who/whom は人用、what は不可。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This temple ___ over 300 years ago.",
+  "choices": [
+   "built",
+   "was built",
+   "is built",
+   "has built"
+  ],
+  "answerIndex": 1,
+  "explanation": "過去の受動態は「was/were + 過去分詞」。over 300 years agoという過去の時を表す語があるのでwas built。"
+ },
+ {
+  "level": "intermediate",
+  "question": "English ___ in many countries around the world.",
+  "choices": [
+   "speaks",
+   "is spoken",
+   "is speaking",
+   "spoke"
+  ],
+  "answerIndex": 1,
+  "explanation": "英語は「話される」側なので現在の受動態「is/are + 過去分詞」を使い、is spokenが正しい。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The new bridge ___ next year.",
+  "choices": [
+   "will build",
+   "will be built",
+   "is built",
+   "builds"
+  ],
+  "answerIndex": 1,
+  "explanation": "未来の受動態は「will be + 過去分詞」。next yearという未来を示す語があるのでwill be built。"
+ },
+ {
+  "level": "intermediate",
+  "question": "These cars ___ in Japan.",
+  "choices": [
+   "are made",
+   "is made",
+   "makes",
+   "are making"
+  ],
+  "answerIndex": 0,
+  "explanation": "主語These cars(複数)に合わせbe動詞はare。受動態「are + 過去分詞」でare madeが正解。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The room ___ cleaned right now.",
+  "choices": [
+   "is being",
+   "is been",
+   "has being",
+   "was been"
+  ],
+  "answerIndex": 0,
+  "explanation": "現在進行形の受動態は「is/are being + 過去分詞」。right now(今まさに)なのでis being cleaned。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The letter ___ already been sent.",
+  "choices": [
+   "have",
+   "has",
+   "is",
+   "was"
+  ],
+  "answerIndex": 1,
+  "explanation": "現在完了の受動態は「has/have been + 過去分詞」。主語The letter(単数)なのでhas been sent。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The window ___ by the children yesterday.",
+  "choices": [
+   "broke",
+   "was broken",
+   "is broken",
+   "breaks"
+  ],
+  "answerIndex": 1,
+  "explanation": "「by ~に割られた」という受動態。yesterdayがあるので過去の受動態was brokenが正しい。"
+ },
+ {
+  "level": "intermediate",
+  "question": "This problem can ___ easily.",
+  "choices": [
+   "solve",
+   "be solved",
+   "solved",
+   "is solved"
+  ],
+  "answerIndex": 1,
+  "explanation": "助動詞を含む受動態は「助動詞 + be + 過去分詞」。canの後はbe solvedとなる。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The homework must ___ by Friday.",
+  "choices": [
+   "finish",
+   "be finished",
+   "finished",
+   "is finished"
+  ],
+  "answerIndex": 1,
+  "explanation": "助動詞mustの後の受動態は「be + 過去分詞」。be finishedで「終えられねばならない」を表す。"
+ },
+ {
+  "level": "intermediate",
+  "question": "When ___ this picture taken?",
+  "choices": [
+   "was",
+   "did",
+   "is",
+   "has"
+  ],
+  "answerIndex": 0,
+  "explanation": "受動態の疑問文は「be動詞 + 主語 + 過去分詞」。takenがあり過去の出来事なのでWas this picture taken。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She enjoys ___ to classical music in the evening.",
+  "choices": [
+   "to listen",
+   "listening",
+   "listen",
+   "listened"
+  ],
+  "answerIndex": 1,
+  "explanation": "enjoyは動名詞(-ing形)を目的語に取る動詞です。to不定詞は使えません。"
+ },
+ {
+  "level": "intermediate",
+  "question": "He decided ___ a new car next month.",
+  "choices": [
+   "buying",
+   "to buy",
+   "buy",
+   "bought"
+  ],
+  "answerIndex": 1,
+  "explanation": "decideはto不定詞を目的語に取る動詞です。動名詞は使えません。"
+ },
+ {
+  "level": "intermediate",
+  "question": "I'm looking forward to ___ you again soon.",
+  "choices": [
+   "see",
+   "seeing",
+   "saw",
+   "to see"
+  ],
+  "answerIndex": 1,
+  "explanation": "look forward toのtoは前置詞なので、後ろは動名詞(-ing形)になります。"
+ },
+ {
+  "level": "intermediate",
+  "question": "Would you mind ___ the window? It's getting cold.",
+  "choices": [
+   "to close",
+   "closing",
+   "close",
+   "closed"
+  ],
+  "answerIndex": 1,
+  "explanation": "mindは動名詞を目的語に取ります。Would you mind ~ing?で「~してもらえませんか」という依頼表現です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "I forgot ___ the door when I left this morning.",
+  "choices": [
+   "locking",
+   "to lock",
+   "lock",
+   "locked"
+  ],
+  "answerIndex": 1,
+  "explanation": "forget to doは「~するのを忘れる(これからすべきこと)」。forget ~ingは過去の出来事を忘れる意味で、文脈上ここはto不定詞です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "We stopped ___ a break because everyone was tired.",
+  "choices": [
+   "taking",
+   "to take",
+   "take",
+   "took"
+  ],
+  "answerIndex": 1,
+  "explanation": "stop to doは「~するために立ち止まる」。stop ~ingは「~するのをやめる」。休憩を取るためなのでto不定詞です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She is good at ___ problems quickly.",
+  "choices": [
+   "solve",
+   "to solve",
+   "solving",
+   "solved"
+  ],
+  "answerIndex": 2,
+  "explanation": "be good atのatは前置詞なので、後ろは動名詞(-ing形)になります。"
+ },
+ {
+  "level": "intermediate",
+  "question": "They want ___ abroad next year to study English.",
+  "choices": [
+   "going",
+   "to go",
+   "go",
+   "gone"
+  ],
+  "answerIndex": 1,
+  "explanation": "wantはto不定詞を目的語に取る動詞です。want to doで「~したい」。"
+ },
+ {
+  "level": "intermediate",
+  "question": "My doctor advised me ___ more vegetables every day.",
+  "choices": [
+   "eating",
+   "to eat",
+   "eat",
+   "ate"
+  ],
+  "answerIndex": 1,
+  "explanation": "advise + 人 + to doの形で「人に~するよう助言する」を表します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "It's no use ___ about the past; let's move forward.",
+  "choices": [
+   "to worry",
+   "worrying",
+   "worry",
+   "worried"
+  ],
+  "answerIndex": 1,
+  "explanation": "It's no use ~ingは「~しても無駄だ」という決まった動名詞の表現です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "You ___ wear a seatbelt when you drive a car. It's the law.",
+  "choices": [
+   "must",
+   "might",
+   "could",
+   "may"
+  ],
+  "answerIndex": 0,
+  "explanation": "法律上の強い義務には must を使います。「~しなければならない」。might/could/may は可能性・許可を表すのでここでは不適切です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "You ___ smoke in this restaurant; it's prohibited by law.",
+  "choices": [
+   "mustn't",
+   "don't have to",
+   "might not",
+   "shouldn't have to"
+  ],
+  "answerIndex": 0,
+  "explanation": "「~してはいけない」という禁止には mustn't を使います。don't have to は「~する必要がない」で意味が逆になります。"
+ },
+ {
+  "level": "intermediate",
+  "question": "It's raining, so the picnic ___ be canceled. I'm not sure yet.",
+  "choices": [
+   "might",
+   "must",
+   "can't",
+   "has to"
+  ],
+  "answerIndex": 0,
+  "explanation": "「~かもしれない」という不確かな可能性には might を使います。must は「~に違いない」、can't は「~のはずがない」で確信を表します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "You don't ___ finish the report today; the deadline is next week.",
+  "choices": [
+   "have to",
+   "must",
+   "should",
+   "ought to"
+  ],
+  "answerIndex": 0,
+  "explanation": "「~する必要はない」は don't have to で表します。否定文で「不必要」を示す代表的な表現です。must は don't と一緒には使えません。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She studied very hard, so she ___ pass the exam easily.",
+  "choices": [
+   "should",
+   "must not",
+   "can't",
+   "mustn't"
+  ],
+  "answerIndex": 0,
+  "explanation": "should は「~するはずだ」という予想・期待を表します。努力したのだから合格するはずだ、という文脈に合います。"
+ },
+ {
+  "level": "intermediate",
+  "question": "The lights are off and no one answers. They ___ be at home.",
+  "choices": [
+   "can't",
+   "must",
+   "have to",
+   "should"
+  ],
+  "answerIndex": 0,
+  "explanation": "「~のはずがない」という否定的な確信には can't を使います。must は逆に「~に違いない」という肯定的な確信です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "His phone is off and he left an hour ago. He ___ be on the train now.",
+  "choices": [
+   "must",
+   "can't",
+   "needn't",
+   "mustn't"
+  ],
+  "answerIndex": 0,
+  "explanation": "状況から判断した強い肯定の推量「~に違いない」は must を使います。can't は「~のはずがない」で逆の意味になります。"
+ },
+ {
+  "level": "intermediate",
+  "question": "Visitors ___ register at the front desk before entering the building.",
+  "choices": [
+   "have to",
+   "might",
+   "could",
+   "would"
+  ],
+  "answerIndex": 0,
+  "explanation": "規則による義務「~しなければならない」は have to で表せます。might/could/would は可能性や仮定で義務を表しません。"
+ },
+ {
+  "level": "intermediate",
+  "question": "You ___ want to bring an umbrella; the forecast says it may rain later.",
+  "choices": [
+   "might",
+   "must",
+   "have to",
+   "can't"
+  ],
+  "answerIndex": 0,
+  "explanation": "might want to は「~したほうがいいかもしれない」という控えめな提案・可能性を表します。must や have to では強すぎて文脈に合いません。"
+ },
+ {
+  "level": "intermediate",
+  "question": "We ___ to leave early yesterday because the meeting was canceled.",
+  "choices": [
+   "didn't have",
+   "mustn't",
+   "couldn't",
+   "shouldn't"
+  ],
+  "answerIndex": 0,
+  "explanation": "「~する必要がなかった」という過去の不必要は didn't have to で表します。must には過去形がないため have to を使います。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She said that she ___ tired after the long trip.",
+  "choices": [
+   "is",
+   "was",
+   "be",
+   "being"
+  ],
+  "answerIndex": 1,
+  "explanation": "間接話法では主節が過去(said)のとき、従属節の現在形 is は過去形 was に変化します(時制の一致)。"
+ },
+ {
+  "level": "intermediate",
+  "question": "He told me that he ___ finished his homework.",
+  "choices": [
+   "has",
+   "had",
+   "have",
+   "having"
+  ],
+  "answerIndex": 1,
+  "explanation": "直接話法の現在完了 has finished は、過去の伝達では過去完了 had finished になります。"
+ },
+ {
+  "level": "intermediate",
+  "question": "They said they ___ visit us the next day.",
+  "choices": [
+   "will",
+   "would",
+   "shall",
+   "are"
+  ],
+  "answerIndex": 1,
+  "explanation": "未来を表す will は間接話法で would に変わります。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She asked me where I ___.",
+  "choices": [
+   "live",
+   "lived",
+   "living",
+   "do live"
+  ],
+  "answerIndex": 1,
+  "explanation": "間接疑問文では「疑問詞+主語+動詞」の語順になり、主節が過去なので live は lived になります。"
+ },
+ {
+  "level": "intermediate",
+  "question": "He asked me ___ I was busy.",
+  "choices": [
+   "that",
+   "what",
+   "if",
+   "which"
+  ],
+  "answerIndex": 2,
+  "explanation": "Yes/No疑問文を間接話法にするときは if または whether を使って導きます。"
+ },
+ {
+  "level": "intermediate",
+  "question": "My teacher told me ___ late again.",
+  "choices": [
+   "not be",
+   "not to be",
+   "to not be",
+   "don't be"
+  ],
+  "answerIndex": 1,
+  "explanation": "命令・依頼の間接話法は「tell+人+to do」、否定は to の前に not を置いて not to be とします。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She said that the sun ___ in the east.",
+  "choices": [
+   "rises",
+   "rose",
+   "had risen",
+   "would rise"
+  ],
+  "answerIndex": 0,
+  "explanation": "不変の真理は時制の一致を受けず、現在形 rises のままにします。"
+ },
+ {
+  "level": "intermediate",
+  "question": "He said he had bought the car ___ day before.",
+  "choices": [
+   "the",
+   "that",
+   "this",
+   "a"
+  ],
+  "answerIndex": 0,
+  "explanation": "間接話法では yesterday は the day before に変わります。よって the が正解です。"
+ },
+ {
+  "level": "intermediate",
+  "question": "Tom said he ___ help me with the project.",
+  "choices": [
+   "can",
+   "could",
+   "cans",
+   "is able"
+  ],
+  "answerIndex": 1,
+  "explanation": "助動詞 can は間接話法で could に変化します。"
+ },
+ {
+  "level": "intermediate",
+  "question": "She asked me ___ to close the window.",
+  "choices": [
+   "that I wanted",
+   "do I want",
+   "if I wanted",
+   "whether do I want"
+  ],
+  "answerIndex": 2,
+  "explanation": "Yes/No疑問の間接話法は「if/whether+主語+動詞」の平叙語順で、過去に合わせ wanted とします。"
+ },
+ {
+  "level": "advanced",
+  "question": "Had I known the meeting was cancelled, I ___ all the way to the office.",
+  "choices": [
+   "wouldn't have come",
+   "wouldn't come",
+   "hadn't come",
+   "wouldn't have been coming"
+  ],
+  "answerIndex": 0,
+  "explanation": "過去の事実に反する仮定。倒置の条件節 Had I known(=If I had known)に対し、主節は would have + 過去分詞。よって wouldn't have come が正解。"
+ },
+ {
+  "level": "advanced",
+  "question": "The board insisted that the new policy ___ effective immediately, regardless of objections.",
+  "choices": [
+   "be",
+   "is",
+   "was",
+   "would be"
+  ],
+  "answerIndex": 0,
+  "explanation": "insist that のような要求・提案を表す動詞の後の that 節では仮定法現在(原形)を用いる。主語が三人称単数でも be が正解。"
+ },
+ {
+  "level": "advanced",
+  "question": "If she ___ more cautious back then, she might still be running the company today.",
+  "choices": [
+   "had been",
+   "were",
+   "would have been",
+   "has been"
+  ],
+  "answerIndex": 0,
+  "explanation": "過去の事実に反する条件節は過去完了(had been)。主節が might still be(現在)という混合仮定法だが、条件節は過去完了で正しい。"
+ },
+ {
+  "level": "advanced",
+  "question": "It's high time the government ___ serious action on climate change.",
+  "choices": [
+   "took",
+   "takes",
+   "take",
+   "had taken"
+  ],
+  "answerIndex": 0,
+  "explanation": "It's (high) time that 構文では、今すべきなのにしていないという含みで仮定法過去(took)を用いる。"
+ },
+ {
+  "level": "advanced",
+  "question": "He spoke as though he ___ the entire ordeal himself, though he had only read about it.",
+  "choices": [
+   "had endured",
+   "endured",
+   "has endured",
+   "would endure"
+  ],
+  "answerIndex": 0,
+  "explanation": "as though(=as if)で、主節の時制より前の事実に反する内容を表すため仮定法過去完了(had endured)。実際は体験していないという含み。"
+ },
+ {
+  "level": "advanced",
+  "question": "Were it not for her timely intervention, the project ___ collapsed entirely.",
+  "choices": [
+   "would have",
+   "would have had",
+   "had",
+   "would"
+  ],
+  "answerIndex": 0,
+  "explanation": "Were it not for(=If it were not for)の倒置。主節は過去の結果を表すため would have + 過去分詞 collapsed。よって would have が正解。"
+ },
+ {
+  "level": "advanced",
+  "question": "I would rather you ___ anything to him about the surprise party last night.",
+  "choices": [
+   "hadn't said",
+   "didn't say",
+   "don't say",
+   "wouldn't say"
+  ],
+  "answerIndex": 0,
+  "explanation": "would rather + 主語 の後で、過去の事柄に対する願望は仮定法過去完了(hadn't said)を用いる。last night が過去を示す。"
+ },
+ {
+  "level": "advanced",
+  "question": "Should you ___ any difficulties during the installation, our support team is available around the clock.",
+  "choices": [
+   "encounter",
+   "encountered",
+   "have encountered",
+   "encountering"
+  ],
+  "answerIndex": 0,
+  "explanation": "Should you ... の倒置条件文(=If you should encounter)。should の後は動詞の原形 encounter が来る。"
+ },
+ {
+  "level": "advanced",
+  "question": "But for his colleagues' support, he ___ the deadline, and the contract would have been lost.",
+  "choices": [
+   "would never have met",
+   "would never meet",
+   "had never met",
+   "never met"
+  ],
+  "answerIndex": 0,
+  "explanation": "But for(=If it had not been for)が過去の事実に反する仮定を導く。主節は過去の結果なので would have + 過去分詞 met。"
+ },
+ {
+  "level": "advanced",
+  "question": "If only I ___ his advice, I wouldn't be in this predicament now.",
+  "choices": [
+   "had taken",
+   "took",
+   "have taken",
+   "would take"
+  ],
+  "answerIndex": 0,
+  "explanation": "If only で過去への後悔を表す場合は仮定法過去完了(had taken)。主節が now を含む現在の状態を示す混合仮定法。"
+ },
+ {
+  "level": "advanced",
+  "question": "Not until she had read the letter twice ___ its true meaning.",
+  "choices": [
+   "she understood",
+   "did she understand",
+   "she did understand",
+   "had she understood"
+  ],
+  "answerIndex": 1,
+  "explanation": "「Not until ...」が文頭に出ると、主節は倒置になり「助動詞(did)+主語+動詞の原形」の語順となる。"
+ },
+ {
+  "level": "advanced",
+  "question": "Seldom ___ such a breathtaking performance in all my years as a critic.",
+  "choices": [
+   "I have witnessed",
+   "have I witnessed",
+   "I witnessed",
+   "did I have witnessed"
+  ],
+  "answerIndex": 1,
+  "explanation": "否定的副詞「Seldom」が文頭に来ると倒置が起こる。現在完了なので「have+主語+過去分詞」の語順になる。"
+ },
+ {
+  "level": "advanced",
+  "question": "No sooner ___ the door than the phone began to ring.",
+  "choices": [
+   "I had closed",
+   "had I closed",
+   "did I close",
+   "I closed"
+  ],
+  "answerIndex": 1,
+  "explanation": "「No sooner ... than ...」構文は文頭で倒置を伴い、過去完了「had+主語+過去分詞」を用いる。"
+ },
+ {
+  "level": "advanced",
+  "question": "Not only ___ the deadline, but he also exceeded every expectation.",
+  "choices": [
+   "he met",
+   "did he meet",
+   "he did meet",
+   "had he met"
+  ],
+  "answerIndex": 1,
+  "explanation": "「Not only」が文頭に出ると倒置となる。一般動詞の過去形なので「did+主語+原形」の形を取る。"
+ },
+ {
+  "level": "advanced",
+  "question": "Under no circumstances ___ to share your password with anyone.",
+  "choices": [
+   "you are allowed",
+   "are you allowed",
+   "you allowed",
+   "do you allowed"
+  ],
+  "answerIndex": 1,
+  "explanation": "否定の副詞句「Under no circumstances」が文頭に来ると倒置。be動詞の場合は「be動詞+主語」の語順になる。"
+ },
+ {
+  "level": "advanced",
+  "question": "Little ___ that his decision would change the course of history.",
+  "choices": [
+   "he knew",
+   "did he know",
+   "he did know",
+   "knew he"
+  ],
+  "answerIndex": 1,
+  "explanation": "「Little」が「ほとんど〜ない」の否定的意味で文頭に来ると倒置。一般動詞の過去なので「did+主語+原形」。"
+ },
+ {
+  "level": "advanced",
+  "question": "Rarely ___ a politician speak with such candour about his own failures.",
+  "choices": [
+   "you hear",
+   "do you hear",
+   "you do hear",
+   "have you heard"
+  ],
+  "answerIndex": 1,
+  "explanation": "頻度の否定副詞「Rarely」が文頭に来ると倒置。現在の習慣を表すため「do+主語+原形」を用いる。"
+ },
+ {
+  "level": "advanced",
+  "question": "Only after the storm had passed ___ to assess the full extent of the damage.",
+  "choices": [
+   "they were able",
+   "were they able",
+   "they able were",
+   "did they were able"
+  ],
+  "answerIndex": 1,
+  "explanation": "「Only after ...」が文頭に出ると主節が倒置になる。be動詞なので「were+主語+able」の語順となる。"
+ },
+ {
+  "level": "advanced",
+  "question": "At no time ___ aware that the negotiations had already collapsed.",
+  "choices": [
+   "the board was",
+   "was the board",
+   "the board did be",
+   "did the board be"
+  ],
+  "answerIndex": 1,
+  "explanation": "否定の時を表す「At no time」が文頭に来ると倒置。be動詞の過去形なので「was+主語」の語順になる。"
+ },
+ {
+  "level": "advanced",
+  "question": "Nowhere ___ a more compelling argument for reform than in this report.",
+  "choices": [
+   "you will find",
+   "will you find",
+   "you find will",
+   "do you will find"
+  ],
+  "answerIndex": 1,
+  "explanation": "否定の場所を表す「Nowhere」が文頭に来ると倒置。助動詞willを用いて「will+主語+原形」の語順になる。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ no further objection from the board, the chairman proceeded to finalize the merger agreement.",
+  "choices": [
+   "There being",
+   "Being there",
+   "There having",
+   "It being"
+  ],
+  "answerIndex": 0,
+  "explanation": "独立分詞構文。意味上の主語that there were no...のthereを残し、be動詞を分詞beingにする。「There being+名詞」で「~がないので」という付帯状況・理由を表す。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ all the evidence presented during the trial, the jury reached a unanimous verdict within hours.",
+  "choices": [
+   "Having considered",
+   "Considered",
+   "Being considered",
+   "To have considered"
+  ],
+  "answerIndex": 0,
+  "explanation": "主節の主語(陪審員)が「考慮した」という能動かつ完了の関係なので完了分詞Having considered。受動のConsideredや進行受動Being consideredは意味が合わない。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ otherwise in the contract, the standard terms and conditions shall apply to all transactions.",
+  "choices": [
+   "Unless stated",
+   "Unless stating",
+   "Unless to state",
+   "Unless been stated"
+  ],
+  "answerIndex": 0,
+  "explanation": "接続詞+過去分詞の省略構文。Unless it is stated otherwiseのit isが省略された形。条項は「述べられる」受動関係なので過去分詞stated。"
+ },
+ {
+  "level": "advanced",
+  "question": "The negotiations having collapsed, ___ no alternative but to seek arbitration.",
+  "choices": [
+   "there remained",
+   "remaining there",
+   "there remaining",
+   "it remaining"
+  ],
+  "answerIndex": 0,
+  "explanation": "前半は独立分詞構文(交渉が決裂したので)。後半は主節であり定形動詞が必要。there構文の過去形there remained「~しか残らなかった」が正しい。分詞remainingでは文が成立しない。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ from a purely economic standpoint, the policy appears far less beneficial than its proponents claim.",
+  "choices": [
+   "Viewed",
+   "Viewing",
+   "Having viewed",
+   "To view"
+  ],
+  "answerIndex": 0,
+  "explanation": "懸垂分詞的な慣用表現で、政策が「見られる」受動関係のため過去分詞Viewed。「~の観点から見ると」の定型。能動のViewingは主語が政策となり不自然。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ by the sudden change in regulations, several companies were forced to revise their annual forecasts.",
+  "choices": [
+   "Caught off guard",
+   "Catching off guard",
+   "Having caught off guard",
+   "To be caught off guard"
+  ],
+  "answerIndex": 0,
+  "explanation": "主節の主語(several companies)が「不意を突かれた」受動関係なので過去分詞Caught off guard。catch ~ off guardの受動形。"
+ },
+ {
+  "level": "advanced",
+  "question": "Weather permitting, the outdoor ceremony ___ as scheduled this coming Saturday.",
+  "choices": [
+   "will proceed",
+   "proceeding",
+   "to proceed",
+   "having proceeded"
+  ],
+  "answerIndex": 0,
+  "explanation": "Weather permittingは独立分詞構文(天候が許せば)。続く部分は主節であり定形動詞willが必要。分詞や不定詞では主節が完成しない。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ with such hostility, the diplomat chose to withdraw the proposal rather than escalate tensions.",
+  "choices": [
+   "Confronted",
+   "Confronting",
+   "Having confronting",
+   "To confront"
+  ],
+  "answerIndex": 0,
+  "explanation": "外交官が敵意に「直面させられた」受動関係なので過去分詞Confronted。be confronted with「~に直面する」の受動形。能動Confrontingは意味が逆になる。"
+ },
+ {
+  "level": "advanced",
+  "question": "All things ___, the committee concluded that the original plan was the most viable option.",
+  "choices": [
+   "considered",
+   "considering",
+   "to consider",
+   "being considered"
+  ],
+  "answerIndex": 0,
+  "explanation": "独立分詞構文の慣用句All things considered「すべてを考慮すると」。things are consideredの受動関係から過去分詞consideredを用いる定型表現。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ that the contract had already expired, the supplier was under no obligation to deliver the goods.",
+  "choices": [
+   "Given",
+   "Giving",
+   "Having given",
+   "To give"
+  ],
+  "answerIndex": 0,
+  "explanation": "Given that ~「~であることを考えると」という接続詞的に機能する過去分詞の定型表現。理由・前提を導く。能動のGivingやHaving givenは不可。"
+ },
+ {
+  "level": "advanced",
+  "question": "If I ___ more carefully with my money in my twenties, I would be a homeowner by now.",
+  "choices": [
+   "had been",
+   "were",
+   "have been",
+   "would be"
+  ],
+  "answerIndex": 0,
+  "explanation": "過去の事柄(若い頃の行動)が現在の結果(今持ち家がない)に影響する混合仮定法。if節は過去完了 had been、主節は would be。"
+ },
+ {
+  "level": "advanced",
+  "question": "If she weren't so afraid of flying, she ___ to the conference in Paris last week.",
+  "choices": [
+   "would go",
+   "would have gone",
+   "had gone",
+   "went"
+  ],
+  "answerIndex": 1,
+  "explanation": "現在の恒常的な性質(飛行機嫌い)が過去の結果(先週行かなかった)に影響する混合仮定法。if節は過去形 weren't、主節は would have gone。"
+ },
+ {
+  "level": "advanced",
+  "question": "If we ___ that the road was closed, we wouldn't be stuck in this traffic right now.",
+  "choices": [
+   "knew",
+   "would know",
+   "had known",
+   "have known"
+  ],
+  "answerIndex": 2,
+  "explanation": "過去に知らなかったことが現在の結果(今渋滞にはまっている)に影響する混合仮定法。if節は過去完了 had known、主節は wouldn't be。"
+ },
+ {
+  "level": "advanced",
+  "question": "If he ___ a more patient person, he wouldn't have lost his temper at the meeting yesterday.",
+  "choices": [
+   "had been",
+   "would be",
+   "were",
+   "is"
+  ],
+  "answerIndex": 2,
+  "explanation": "現在の恒常的な性格(忍耐強くない)が過去の出来事(昨日の癇癪)に影響する混合仮定法。if節は過去形 were、主節は wouldn't have lost。"
+ },
+ {
+  "level": "advanced",
+  "question": "If they had invested in that company years ago, they ___ wealthy today.",
+  "choices": [
+   "would be",
+   "would have been",
+   "were",
+   "had been"
+  ],
+  "answerIndex": 0,
+  "explanation": "過去の行為(投資)が現在の結果(今裕福)に影響する混合仮定法。if節は過去完了 had invested、主節は現在を表す would be。"
+ },
+ {
+  "level": "advanced",
+  "question": "If I weren't allergic to seafood, I ___ that delicious paella at the party last night.",
+  "choices": [
+   "would try",
+   "had tried",
+   "would have tried",
+   "tried"
+  ],
+  "answerIndex": 2,
+  "explanation": "現在の恒常的な状態(海産物アレルギー)が過去の結果(昨夜試さなかった)に影響する混合仮定法。主節は would have tried。"
+ },
+ {
+  "level": "advanced",
+  "question": "If you had listened to my advice back then, you ___ in this difficult situation now.",
+  "choices": [
+   "wouldn't be",
+   "wouldn't have been",
+   "weren't",
+   "hadn't been"
+  ],
+  "answerIndex": 0,
+  "explanation": "過去のこと(助言を聞かなかった)が現在の結果(今困難な状況)に影響する混合仮定法。主節は現在を表す wouldn't be。"
+ },
+ {
+  "level": "advanced",
+  "question": "If she spoke fluent Japanese, she ___ that job in Tokyo when it was offered to her.",
+  "choices": [
+   "would take",
+   "would have taken",
+   "had taken",
+   "took"
+  ],
+  "answerIndex": 1,
+  "explanation": "現在の能力(日本語が堪能でない)が過去の結果(その仕事を引き受けなかった)に影響する混合仮定法。主節は would have taken。"
+ },
+ {
+  "level": "advanced",
+  "question": "If the surgeon ___ such a skilled professional, the operation last month would have failed.",
+  "choices": [
+   "weren't",
+   "hadn't been",
+   "wouldn't be",
+   "isn't"
+  ],
+  "answerIndex": 0,
+  "explanation": "現在の恒常的な特性(熟練している)が過去の出来事(先月の手術)に影響する混合仮定法。if節は過去形 weren't。"
+ },
+ {
+  "level": "advanced",
+  "question": "If we hadn't missed the last train, we ___ at home enjoying dinner right now.",
+  "choices": [
+   "would have been",
+   "would be",
+   "were",
+   "had been"
+  ],
+  "answerIndex": 1,
+  "explanation": "過去の出来事(終電を逃した)が現在の結果(今家にいない)に影響する混合仮定法。主節は現在を表す would be。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ the considerable risks involved, the board ultimately approved the merger.",
+  "choices": [
+   "Notwithstanding",
+   "Nevertheless",
+   "However",
+   "Whereas"
+  ],
+  "answerIndex": 0,
+  "explanation": "Notwithstanding は名詞句を従える前置詞として「~にもかかわらず」を表す。Nevertheless と However は副詞で名詞句を直接導けず、Whereas は対比の接続詞。"
+ },
+ {
+  "level": "advanced",
+  "question": "Much ___ he disliked the proposal, he had no choice but to comply with the new directive.",
+  "choices": [
+   "although",
+   "as",
+   "that",
+   "while"
+  ],
+  "answerIndex": 1,
+  "explanation": "\"Much as + 主語 + 動詞\" で「~ではあるが」という譲歩を表す倒置的構文。as がこの慣用構文で用いられる。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ all his expertise, the consultant failed to anticipate the regulatory changes.",
+  "choices": [
+   "For",
+   "Despite",
+   "Although",
+   "Even"
+  ],
+  "answerIndex": 1,
+  "explanation": "Despite は名詞句を従える前置詞で「~にもかかわらず」。Although は節を導く接続詞なので不適。"
+ },
+ {
+  "level": "advanced",
+  "question": "The new policy, ___ controversial, has nonetheless been widely adopted across the industry.",
+  "choices": [
+   "albeit",
+   "despite",
+   "whereas",
+   "unless"
+  ],
+  "answerIndex": 0,
+  "explanation": "albeit は形容詞句を直接導いて「~ではあるが」を表す譲歩接続詞。\"albeit controversial\" の形が自然。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ that the data were incomplete, the researchers proceeded with the analysis regardless.",
+  "choices": [
+   "Granting",
+   "Granted",
+   "To grant",
+   "Grant"
+  ],
+  "answerIndex": 1,
+  "explanation": "\"Granted (that) ~\" は「~は認めるとしても」という譲歩の慣用表現。過去分詞 Granted が定型。"
+ },
+ {
+  "level": "advanced",
+  "question": "He spoke with great confidence; ___, his argument rested on questionable assumptions.",
+  "choices": [
+   "therefore",
+   "that said",
+   "moreover",
+   "hence"
+  ],
+  "answerIndex": 1,
+  "explanation": "\"That said\" は「とはいえ」という譲歩・対比のつなぎ表現。前述を認めつつ反対の点を導く。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ as the negotiations were, both parties remained committed to reaching an agreement.",
+  "choices": [
+   "Difficult",
+   "However difficult",
+   "So difficult",
+   "Too difficult"
+  ],
+  "answerIndex": 0,
+  "explanation": "\"形容詞 + as + 主語 + 動詞\" の倒置構文で「~ではあるが」の譲歩を表す。文頭に形容詞 Difficult が来る。"
+ },
+ {
+  "level": "advanced",
+  "question": "The committee will revisit the budget; ___, no further cuts are anticipated at this stage.",
+  "choices": [
+   "in the meantime",
+   "by all means",
+   "that being said",
+   "for all that"
+  ],
+  "answerIndex": 2,
+  "explanation": "\"That being said\" は「そうは言っても」という譲歩のつなぎ表現。前文の内容を踏まえつつ留保を示す。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ the evidence may seem compelling, it does not conclusively establish causation.",
+  "choices": [
+   "Compelling though",
+   "However compelling",
+   "Though compelling",
+   "No matter compelling"
+  ],
+  "answerIndex": 1,
+  "explanation": "\"However + 形容詞 + 主語 + 動詞\" で「どれほど~であっても」の譲歩を表す。No matter は how を伴う必要がある。"
+ },
+ {
+  "level": "advanced",
+  "question": "___ his reputation for caution, the CEO endorsed an unusually bold strategy.",
+  "choices": [
+   "Contrary to",
+   "In spite",
+   "Regardless",
+   "Even though"
+  ],
+  "answerIndex": 0,
+  "explanation": "\"Contrary to + 名詞\" で「~とは裏腹に/反して」を表す前置詞句。In spite は of を伴わねばならず、Even though は節を導く。"
+ }
+]

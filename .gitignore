@@ -1,0 +1,15 @@
+node_modules/
+/.svelte-kit/
+/build/
+.DS_Store
+*.log
+
+# 生成されるアイコン（prebuild で再生成される）
+/static/icons/icon-192.png
+/static/icons/icon-512.png
+/static/icons/icon-512-maskable.png
+/static/favicon.png
+
+# PWA 生成物
+/static/sw.js
+/static/workbox-*.js

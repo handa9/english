@@ -1,0 +1,4490 @@
+[
+ {
+  "prompt": "Are you ready to order, or do you need a few more minutes?",
+  "situation": "レストランで席に着くと、店員が注文を取りに来た。",
+  "choices": [
+   "Yes, I think we're ready to order.",
+   "No, I already paid the bill.",
+   "Sorry, the kitchen is closed.",
+   "I'd like to book a table for two."
+  ],
+  "answerIndex": 0,
+  "explanation": "「ご注文はお決まりですか」という問いには、注文できる状態かどうかで答えるのが自然。「はい、注文できます」が適切。"
+ },
+ {
+  "prompt": "What would you like to drink with your meal?",
+  "situation": "料理を選んだあと、店員が飲み物を尋ねてきた。",
+  "choices": [
+   "I'll have a glass of orange juice, please.",
+   "The steak was a little cold.",
+   "Could I have the check, please?",
+   "No, I don't have a reservation."
+  ],
+  "answerIndex": 0,
+  "explanation": "飲み物の希望を聞かれているので、注文する飲み物を答えるのが正解。「オレンジジュースを一杯ください」が適切。"
+ },
+ {
+  "prompt": "How would you like your steak cooked?",
+  "situation": "ステーキを注文したら、焼き加減を聞かれた。",
+  "choices": [
+   "Medium, please.",
+   "On the table by the window, please.",
+   "Yes, for three people.",
+   "I'll pay by credit card."
+  ],
+  "answerIndex": 0,
+  "explanation": "ステーキの焼き加減を聞かれているので、「ミディアムでお願いします」と焼き加減を答えるのが自然。"
+ },
+ {
+  "prompt": "Would you like anything to start, like a soup or salad?",
+  "situation": "店員がメインの前に前菜を勧めてきた。",
+  "choices": [
+   "Yes, I'll have the garden salad.",
+   "No, the music is too loud.",
+   "Sure, I'll take the window seat.",
+   "Yes, the food was delicious."
+  ],
+  "answerIndex": 0,
+  "explanation": "スープかサラダなど前菜を勧められているので、サラダを選んで答えるのが適切。"
+ },
+ {
+  "prompt": "Can I get you anything else?",
+  "situation": "注文を一通り終えたあと、店員が追加の注文を確認してきた。",
+  "choices": [
+   "No, thanks, that'll be all.",
+   "Yes, I came here last week.",
+   "It's right around the corner.",
+   "No, I haven't seen the menu yet."
+  ],
+  "answerIndex": 0,
+  "explanation": "他に必要なものがあるか尋ねられているので、「いえ、それで全部です」と答えるのが自然。"
+ },
+ {
+  "prompt": "I'm sorry, but we're out of the salmon today.",
+  "situation": "注文したサーモンが品切れだと店員に言われた。",
+  "choices": [
+   "Oh, then I'll have the chicken instead.",
+   "Great, I'll take two of them.",
+   "Yes, please make it well done.",
+   "No, I don't need a fork."
+  ],
+  "answerIndex": 0,
+  "explanation": "サーモンが品切れと伝えられたので、別の料理に変更する返答が適切。「じゃあ代わりにチキンにします」が自然。"
+ },
+ {
+  "prompt": "Would you like to see the dessert menu?",
+  "situation": "食事が終わったあと、店員がデザートを勧めてきた。",
+  "choices": [
+   "Yes, please. That sounds good.",
+   "No, I'd like a table for four.",
+   "Sure, medium rare is fine.",
+   "Yes, I made a reservation online."
+  ],
+  "answerIndex": 0,
+  "explanation": "デザートメニューを見るか聞かれているので、「はい、お願いします」と応じるのが自然。"
+ },
+ {
+  "prompt": "Is everything okay with your meal?",
+  "situation": "食事中に店員が料理の様子を確認しに来た。",
+  "choices": [
+   "Yes, everything is delicious, thank you.",
+   "No, I'll have the soup to start.",
+   "Sure, I'll wait outside.",
+   "Yes, I'd like to make a reservation."
+  ],
+  "answerIndex": 0,
+  "explanation": "料理に問題がないか尋ねられているので、「はい、とても美味しいです」と感想を答えるのが適切。"
+ },
+ {
+  "prompt": "Would you like that for here or to go?",
+  "situation": "注文時に、店内で食べるか持ち帰るか聞かれた。",
+  "choices": [
+   "For here, please.",
+   "Medium well, please.",
+   "By card, please.",
+   "A table for two, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "店内で食べるか持ち帰りかを聞かれているので、「店内でお願いします」と答えるのが正解。"
+ },
+ {
+  "prompt": "Do you have any food allergies I should know about?",
+  "situation": "注文の際、店員がアレルギーの有無を確認してきた。",
+  "choices": [
+   "Yes, I'm allergic to peanuts.",
+   "Yes, a glass of red wine, please.",
+   "No, the table is too small.",
+   "Sure, I'll pay in cash."
+  ],
+  "answerIndex": 0,
+  "explanation": "食物アレルギーがあるか聞かれているので、「はい、ピーナッツアレルギーです」と答えるのが適切。"
+ },
+ {
+  "prompt": "Our special today is grilled chicken with vegetables.",
+  "situation": "店員が本日のおすすめ料理を紹介してくれた。",
+  "choices": [
+   "That sounds great. I'll have that.",
+   "No, I already finished eating.",
+   "Yes, I'd like to cancel my order.",
+   "Sorry, I don't have a reservation."
+  ],
+  "answerIndex": 0,
+  "explanation": "本日のおすすめを紹介されたので、「いいですね、それにします」と注文する返答が自然。"
+ },
+ {
+  "prompt": "How many of you will be dining today?",
+  "situation": "店に入ると、店員が人数を尋ねてきた。",
+  "choices": [
+   "Just two of us, please.",
+   "Medium rare, please.",
+   "Yes, the soup was cold.",
+   "I'll have the chocolate cake."
+  ],
+  "answerIndex": 0,
+  "explanation": "何名かを聞かれているので、人数を答える「2名です」が正解。"
+ },
+ {
+  "prompt": "Excuse me, how do I get to the train station from here?",
+  "situation": "道で見知らぬ人に駅への行き方を尋ねられた。",
+  "choices": [
+   "Go straight and turn left at the second traffic light.",
+   "I went to the station yesterday morning.",
+   "The train was very crowded today.",
+   "You should buy a ticket first."
+  ],
+  "answerIndex": 0,
+  "explanation": "行き方を尋ねられているので、具体的な道順を答える0が正解。他は道案内になっていない。"
+ },
+ {
+  "prompt": "Is there a convenience store nearby?",
+  "situation": "近くにコンビニがあるか聞かれている。",
+  "choices": [
+   "I like shopping on weekends.",
+   "Yes, there's one just around the corner.",
+   "No, I don't have any money.",
+   "Convenience stores are open all night."
+  ],
+  "answerIndex": 1,
+  "explanation": "近くにあるか尋ねているので、場所を示す1が適切。他は質問に答えていない。"
+ },
+ {
+  "prompt": "Could you tell me where the nearest restroom is?",
+  "situation": "建物内で一番近いトイレの場所を尋ねられた。",
+  "choices": [
+   "I usually rest at home.",
+   "The restaurant is on the third floor.",
+   "It's at the end of this hallway on your right.",
+   "You can wash your hands there."
+  ],
+  "answerIndex": 2,
+  "explanation": "トイレの場所を尋ねているので、場所を案内する2が正解。restaurant(レストラン)はrestroom(トイレ)と別物。"
+ },
+ {
+  "prompt": "How far is the museum from here?",
+  "situation": "ここから美術館までの距離を聞かれている。",
+  "choices": [
+   "It's about a ten-minute walk.",
+   "The museum is closed on Mondays.",
+   "I really enjoyed the exhibition.",
+   "You need to buy a ticket online."
+  ],
+  "answerIndex": 0,
+  "explanation": "距離(どのくらい遠いか)を尋ねているので、所要時間で答える0が適切。他は距離に答えていない。"
+ },
+ {
+  "prompt": "Excuse me, am I going the right way to the city hall?",
+  "situation": "市役所へ向かう道が正しいか確認された。",
+  "choices": [
+   "The city hall is a big building.",
+   "No, you're going the wrong way. Turn around and go back.",
+   "I work at the city hall.",
+   "City hall opens at nine."
+  ],
+  "answerIndex": 1,
+  "explanation": "方向が正しいかの確認なので、正誤と修正を示す1が正解。"
+ },
+ {
+  "prompt": "Which bus should I take to go downtown?",
+  "situation": "中心街へ行くにはどのバスに乗ればよいか尋ねられた。",
+  "choices": [
+   "The bus was late this morning.",
+   "I prefer taking the subway.",
+   "Take the number 5 bus from that stop.",
+   "Downtown is very busy at night."
+  ],
+  "answerIndex": 2,
+  "explanation": "どのバスに乗るべきか尋ねているので、具体的なバスを示す2が適切。"
+ },
+ {
+  "prompt": "Sorry, I'm a bit lost. Can you help me find this address?",
+  "situation": "道に迷った人が住所を探すのを手伝ってほしいと頼んでいる。",
+  "choices": [
+   "Sure, let me see the address.",
+   "I'm lost too, so good luck.",
+   "Addresses are hard to remember.",
+   "I lost my phone yesterday."
+  ],
+  "answerIndex": 0,
+  "explanation": "手伝いを求められているので、快く応じる0が正解。他は協力していない。"
+ },
+ {
+  "prompt": "Is the post office on this street?",
+  "situation": "郵便局がこの通りにあるか尋ねられている。",
+  "choices": [
+   "I need to mail a letter.",
+   "No, it's one block over on Main Street.",
+   "The post office uses red mailboxes.",
+   "I posted a photo online."
+  ],
+  "answerIndex": 1,
+  "explanation": "この通りにあるか尋ねているので、場所を正す1が適切。"
+ },
+ {
+  "prompt": "How long does it take to walk to the park?",
+  "situation": "公園まで歩いてどのくらいかかるか聞かれている。",
+  "choices": [
+   "The park has a beautiful fountain.",
+   "I walk my dog every day.",
+   "It takes about fifteen minutes on foot.",
+   "Parks are great for picnics."
+  ],
+  "answerIndex": 2,
+  "explanation": "所要時間を尋ねているので、時間で答える2が正解。"
+ },
+ {
+  "prompt": "Excuse me, do you know where Platform 3 is?",
+  "situation": "駅で3番ホームの場所を尋ねられた。",
+  "choices": [
+   "It's down the stairs and to your left.",
+   "I take the train to work.",
+   "Platform shoes are out of style.",
+   "The train leaves at noon."
+  ],
+  "answerIndex": 0,
+  "explanation": "ホームの場所を尋ねているので、場所案内の0が適切。"
+ },
+ {
+  "prompt": "Should I turn right or left at the next corner?",
+  "situation": "次の角で右か左か迷っている人に聞かれた。",
+  "choices": [
+   "I turned thirty last week.",
+   "Corners can be dangerous for drivers.",
+   "Turn right, then go straight for two blocks.",
+   "Left-handed people are creative."
+  ],
+  "answerIndex": 2,
+  "explanation": "右か左かと尋ねているので、方向を指示する2が正解。"
+ },
+ {
+  "prompt": "Thanks so much for your help with the directions!",
+  "situation": "道案内をしてあげた相手からお礼を言われた。",
+  "choices": [
+   "I don't know the way either.",
+   "You're welcome. Have a nice day!",
+   "The directions were wrong.",
+   "I need help too."
+  ],
+  "answerIndex": 1,
+  "explanation": "お礼への返答なので、どういたしましてと返す1が自然。"
+ },
+ {
+  "prompt": "Good evening, do you have a reservation with us?",
+  "situation": "ホテルのフロントでチェックインしようとしている。",
+  "choices": [
+   "Yes, it's under the name Tanaka.",
+   "No, the elevator is over there.",
+   "Yes, I'd like the chicken, please.",
+   "No, I already checked out yesterday."
+  ],
+  "answerIndex": 0,
+  "explanation": "予約の有無を尋ねられているので、「はい、田中の名前で取っています」と予約名を伝える返答が自然。"
+ },
+ {
+  "prompt": "May I see your passport, please?",
+  "situation": "チェックイン時に本人確認を求められている。",
+  "choices": [
+   "Sure, here you are.",
+   "No thanks, I'm just looking.",
+   "It's raining outside.",
+   "I'd like a wake-up call."
+  ],
+  "answerIndex": 0,
+  "explanation": "パスポートの提示を求められているので、「はい、どうぞ」と差し出す返答が適切。"
+ },
+ {
+  "prompt": "How many nights will you be staying?",
+  "situation": "宿泊日数を確認されている。",
+  "choices": [
+   "Three nights, please.",
+   "Two people, please.",
+   "On the third floor.",
+   "By credit card."
+  ],
+  "answerIndex": 0,
+  "explanation": "何泊するかを聞かれているので、「3泊です」と泊数で答えるのが正しい。"
+ },
+ {
+  "prompt": "Would you like a room with a city view or an ocean view?",
+  "situation": "部屋の眺めの希望を尋ねられている。",
+  "choices": [
+   "An ocean view, please.",
+   "Yes, two beds, please.",
+   "I'll have a coffee.",
+   "Around 3 p.m. is fine."
+  ],
+  "answerIndex": 0,
+  "explanation": "シティビューかオーシャンビューかの二択なので、「オーシャンビューでお願いします」と選ぶ返答が適切。"
+ },
+ {
+  "prompt": "How would you like to pay, by cash or by card?",
+  "situation": "支払い方法を確認されている。",
+  "choices": [
+   "By credit card, please.",
+   "For three nights.",
+   "A double room, please.",
+   "At seven in the morning."
+  ],
+  "answerIndex": 0,
+  "explanation": "現金かカードかを聞かれているので、「クレジットカードで」と支払い手段を答えるのが正しい。"
+ },
+ {
+  "prompt": "Here's your key card; your room is on the fifth floor.",
+  "situation": "ルームキーを渡され、部屋の階を案内されている。",
+  "choices": [
+   "Thank you. Where are the elevators?",
+   "Yes, I have a reservation.",
+   "No, I don't eat breakfast.",
+   "Sorry, I lost my passport."
+  ],
+  "answerIndex": 0,
+  "explanation": "キーを受け取った場面なので、お礼を言いエレベーターの場所を尋ねる返答が自然。"
+ },
+ {
+  "prompt": "What time would you like your wake-up call?",
+  "situation": "モーニングコールの時刻を尋ねられている。",
+  "choices": [
+   "At six thirty, please.",
+   "Room 502, please.",
+   "Yes, with a card.",
+   "For two guests."
+  ],
+  "answerIndex": 0,
+  "explanation": "モーニングコールの時刻を聞かれているので、「6時半に」と時刻で答えるのが適切。"
+ },
+ {
+  "prompt": "Is breakfast included in your booking?",
+  "situation": "予約に朝食が含まれているか確認している。",
+  "choices": [
+   "Yes, I think so. Could you check, please?",
+   "No, the pool is closed.",
+   "Yes, I'll take the stairs.",
+   "It's the second door on the left."
+  ],
+  "answerIndex": 0,
+  "explanation": "朝食が含まれているか問われているので、「含まれていると思うが確認してほしい」と返すのが自然。"
+ },
+ {
+  "prompt": "I'm sorry, but your room won't be ready until two o'clock.",
+  "situation": "チェックイン時刻前で、部屋がまだ準備できていないと言われている。",
+  "choices": [
+   "That's fine. Can I leave my luggage here?",
+   "Yes, I'd like a city view.",
+   "Three nights, please.",
+   "No, I'll pay by cash."
+  ],
+  "answerIndex": 0,
+  "explanation": "部屋がまだ使えないと伝えられたので、「大丈夫、荷物を預けられるか」と尋ねる返答が適切。"
+ },
+ {
+  "prompt": "Did you enjoy your stay with us?",
+  "situation": "チェックアウト時に滞在の感想を尋ねられている。",
+  "choices": [
+   "Yes, it was wonderful, thank you.",
+   "Yes, for three more nights.",
+   "No, I don't have a reservation.",
+   "Sure, here's my passport."
+  ],
+  "answerIndex": 0,
+  "explanation": "滞在が良かったか尋ねられているので、「素晴らしかった、ありがとう」と感想を述べる返答が正しい。"
+ },
+ {
+  "prompt": "Could you please sign here at the bottom?",
+  "situation": "チェックイン書類への署名を求められている。",
+  "choices": [
+   "Of course. Do you have a pen?",
+   "Yes, two pillows, please.",
+   "No, the room is too small.",
+   "I'd like to check out now."
+  ],
+  "answerIndex": 0,
+  "explanation": "署名を求められているので、「もちろん、ペンはありますか」と応じる返答が自然。"
+ },
+ {
+  "prompt": "Would you like me to call a taxi for you?",
+  "situation": "フロントでタクシーの手配を申し出られている。",
+  "choices": [
+   "Yes, please. For around nine o'clock.",
+   "No, I'd like an ocean view.",
+   "Yes, the Wi-Fi password, please.",
+   "Three nights, by card."
+  ],
+  "answerIndex": 0,
+  "explanation": "タクシーを呼ぼうかと申し出られているので、「はい、9時頃にお願いします」と時刻を添えて頼む返答が適切。"
+ },
+ {
+  "prompt": "Can I get you anything to drink?",
+  "situation": "席に着いた直後、飲み物を聞かれた。",
+  "choices": [
+   "No, the food was great.",
+   "I'll have a glass of water, thanks.",
+   "I paid by card.",
+   "See you tomorrow."
+  ],
+  "answerIndex": 1,
+  "explanation": "飲み物の注文を尋ねている。水を頼む1が適切。"
+ },
+ {
+  "prompt": "Would you like an appetizer to start?",
+  "situation": "前菜はいかがか尋ねられた。",
+  "choices": [
+   "Yes, we'll share the calamari, please.",
+   "No, I'm not driving today.",
+   "Could you turn up the music?",
+   "I'll take the window seat."
+  ],
+  "answerIndex": 0,
+  "explanation": "前菜(appetizer)を勧められている。イカフライをシェアすると答える0が正解。"
+ },
+ {
+  "prompt": "I'm sorry, but the lobster is sold out tonight.",
+  "situation": "注文したロブスターが売り切れだと言われた。",
+  "choices": [
+   "Oh, then I'll have the shrimp instead.",
+   "Yes, please make it spicy.",
+   "No problem, I'll pay cash.",
+   "Thanks, that's my favorite dessert."
+  ],
+  "answerIndex": 0,
+  "explanation": "売り切れと伝えられたので、代わりの料理を選ぶ0が自然。"
+ },
+ {
+  "prompt": "Would you like that with fries or a salad?",
+  "situation": "付け合わせをどちらにするか聞かれた。",
+  "choices": [
+   "Fries, please.",
+   "Yes, it was lovely.",
+   "No reservation, sorry.",
+   "Around eight o'clock."
+  ],
+  "answerIndex": 0,
+  "explanation": "フライドポテトかサラダか選ぶよう聞かれている。Friesを選ぶ0が正解。"
+ },
+ {
+  "prompt": "Can I tell you about today's specials?",
+  "situation": "本日のおすすめを紹介しようと言われた。",
+  "choices": [
+   "Yes, please go ahead.",
+   "No, I already paid.",
+   "It's around the corner.",
+   "Two coffees, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "本日のおすすめを説明してよいか尋ねている。お願いする0が適切。"
+ },
+ {
+  "prompt": "Would you care for any dessert this evening?",
+  "situation": "食後にデザートはいかがか聞かれた。",
+  "choices": [
+   "Yes, I'll have the chocolate cake.",
+   "No, I came by taxi.",
+   "Sure, medium well.",
+   "It's just down the hall."
+  ],
+  "answerIndex": 0,
+  "explanation": "デザートを勧められている。チョコレートケーキを頼む0が自然。"
+ },
+ {
+  "prompt": "How many people will be dining with us tonight?",
+  "situation": "店に入ると人数を尋ねられた。",
+  "choices": [
+   "Just two of us, please.",
+   "Yes, I'll have the pasta.",
+   "No, it's too salty.",
+   "Around nine in the morning."
+  ],
+  "answerIndex": 0,
+  "explanation": "何名で食事するか尋ねている。2名と答える0が正解。"
+ },
+ {
+  "prompt": "Would you like your coffee now or after the meal?",
+  "situation": "コーヒーを出すタイミングを聞かれた。",
+  "choices": [
+   "After the meal, please.",
+   "Yes, with extra cheese.",
+   "No, I walked here.",
+   "The salmon, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "コーヒーを今出すか食後にするか尋ねている。食後にと答える0が正解。"
+ },
+ {
+  "prompt": "Can I get you anything else before I bring the check?",
+  "situation": "会計の前に他に注文がないか聞かれた。",
+  "choices": [
+   "No, that'll be all, thank you.",
+   "Yes, a table by the window.",
+   "Medium rare, please.",
+   "No, I don't eat meat."
+  ],
+  "answerIndex": 0,
+  "explanation": "他に必要なものがあるか尋ねている。これで全部だと答える0が適切。"
+ },
+ {
+  "prompt": "Is there a convenience store near here?",
+  "situation": "近くにコンビニがあるか尋ねられる場面",
+  "choices": [
+   "Yes, there's one just around the corner.",
+   "I usually pay with cash.",
+   "Convenience stores are open all night.",
+   "No, I don't need anything right now."
+  ],
+  "answerIndex": 0,
+  "explanation": "近くにコンビニがあるかという質問なので、場所を教える応答が適切。"
+ },
+ {
+  "prompt": "Could you tell me which way the museum is?",
+  "situation": "博物館の方向を尋ねられる場面",
+  "choices": [
+   "It's that way, past the big bridge.",
+   "The museum has a famous painting.",
+   "I went there last weekend.",
+   "Tickets cost ten dollars."
+  ],
+  "answerIndex": 0,
+  "explanation": "博物館がどちらの方向かを尋ねているので、方向を示す応答が適切。"
+ },
+ {
+  "prompt": "How far is the post office from here?",
+  "situation": "郵便局までの距離を尋ねられる場面",
+  "choices": [
+   "It's about a five-minute walk.",
+   "I need to send a package.",
+   "The post office closes at five.",
+   "Stamps are quite expensive now."
+  ],
+  "answerIndex": 0,
+  "explanation": "どのくらい遠いかを尋ねているので、距離や所要時間を答える応答が適切。"
+ },
+ {
+  "prompt": "Excuse me, where is the nearest restroom?",
+  "situation": "一番近いトイレの場所を尋ねられる場面",
+  "choices": [
+   "It's at the end of the hallway on the left.",
+   "I washed my hands already.",
+   "Restrooms are usually clean here.",
+   "No, thank you, I'm fine."
+  ],
+  "answerIndex": 0,
+  "explanation": "一番近いトイレの場所を尋ねているので、場所を具体的に示す応答が適切。"
+ },
+ {
+  "prompt": "Do I turn left or right at the next corner?",
+  "situation": "次の角で左右どちらに曲がるか尋ねられる場面",
+  "choices": [
+   "Turn right, and you'll see it ahead.",
+   "The corner shop sells flowers.",
+   "I always get lost downtown.",
+   "Yes, corners can be confusing."
+  ],
+  "answerIndex": 0,
+  "explanation": "次の角で左右どちらかを尋ねているので、曲がる方向を答える応答が適切。"
+ },
+ {
+  "prompt": "Can you show me on the map where we are now?",
+  "situation": "地図上で現在地を示してほしいと頼まれる場面",
+  "choices": [
+   "Sure, we're right here by this park.",
+   "I love reading old maps.",
+   "The map is a bit too small.",
+   "No, I've never been here before."
+  ],
+  "answerIndex": 0,
+  "explanation": "地図上で現在地を示してほしいという依頼なので、地図を指して場所を教える応答が適切。"
+ },
+ {
+  "prompt": "Which bus should I take to get downtown?",
+  "situation": "中心街へ行くバスの番号を尋ねられる場面",
+  "choices": [
+   "Take the number 12, it goes straight there.",
+   "The bus was late this morning.",
+   "I prefer taking the subway.",
+   "Buses are cheaper than taxis."
+  ],
+  "answerIndex": 0,
+  "explanation": "どのバスに乗ればよいか尋ねているので、具体的なバスを教える応答が適切。"
+ },
+ {
+  "prompt": "Sorry, I'm a bit lost—is the hospital this way?",
+  "situation": "道に迷い、病院がこの方向か確認される場面",
+  "choices": [
+   "No, you're going the wrong way; it's back that way.",
+   "Hospitals are usually very busy.",
+   "I hope you feel better soon.",
+   "Yes, I work at that hospital."
+  ],
+  "answerIndex": 0,
+  "explanation": "病院がこの方向か確認しているので、方向の正誤を答えて案内する応答が適切。"
+ },
+ {
+  "prompt": "How can I get to the airport from the city center?",
+  "situation": "市の中心から空港への行き方を尋ねられる場面",
+  "choices": [
+   "You can take the express train; it's the fastest.",
+   "My flight leaves at noon.",
+   "Airports are always crowded.",
+   "I forgot my passport once."
+  ],
+  "answerIndex": 0,
+  "explanation": "空港への行き方を尋ねているので、交通手段を案内する応答が適切。"
+ },
+ {
+  "prompt": "Is it within walking distance, or should I take a taxi?",
+  "situation": "歩いて行けるか、タクシーが必要か尋ねられる場面",
+  "choices": [
+   "It's quite far, so I'd take a taxi.",
+   "Taxis are yellow in this city.",
+   "I enjoy walking in the morning.",
+   "Yes, the weather is nice today."
+  ],
+  "answerIndex": 0,
+  "explanation": "徒歩で行けるかタクシーが必要かを尋ねているので、距離をふまえ助言する応答が適切。"
+ },
+ {
+  "prompt": "Excuse me, does this road lead to the beach?",
+  "situation": "この道がビーチに通じているか尋ねられる場面",
+  "choices": [
+   "Yes, just keep going and you'll reach it.",
+   "The beach was lovely yesterday.",
+   "I forgot to bring my towel.",
+   "No, I don't like swimming much."
+  ],
+  "answerIndex": 0,
+  "explanation": "この道がビーチに通じているか尋ねているので、その道で着くか答える応答が適切。"
+ },
+ {
+  "prompt": "Could you tell me where the entrance to the park is?",
+  "situation": "公園の入り口の場所を尋ねられる場面",
+  "choices": [
+   "It's just around this fence on the north side.",
+   "The park has many tall trees.",
+   "I usually jog here in the evening.",
+   "Entrance fees were removed last year."
+  ],
+  "answerIndex": 0,
+  "explanation": "公園の入り口の場所を尋ねているので、入り口の位置を教える応答が適切。"
+ },
+ {
+  "prompt": "Hi there, are you finding everything okay?",
+  "situation": "店に入ると、店員が声をかけてきた。",
+  "choices": [
+   "Yes, I'm just looking for now, thanks.",
+   "No, I don't have any money.",
+   "The weather is really nice today.",
+   "I'd like a table for two, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "店員の「お探しのものは見つかりましたか」という声かけには、見ているだけかどうかを答えるのが自然。"
+ },
+ {
+  "prompt": "What size are you looking for?",
+  "situation": "店員にサイズを尋ねられた。",
+  "choices": [
+   "I usually wear a medium.",
+   "It's about ten dollars.",
+   "Yes, I like blue.",
+   "The fitting room is over there."
+  ],
+  "answerIndex": 0,
+  "explanation": "サイズを聞かれているので、自分のサイズ（medium など）を答える。"
+ },
+ {
+  "prompt": "Would you like to try that on?",
+  "situation": "気になる服を手に取っていると店員に試着をすすめられた。",
+  "choices": [
+   "Yes, please. Where's the fitting room?",
+   "No, I already ate lunch.",
+   "I'll pay by cash.",
+   "It comes in three colors."
+  ],
+  "answerIndex": 0,
+  "explanation": "試着をすすめられたので、試着室の場所を尋ねるのが自然な応答。"
+ },
+ {
+  "prompt": "Do you have this shirt in a larger size?",
+  "situation": "客として、店員に大きいサイズがあるか尋ねたい。",
+  "choices": [
+   "Let me check the back for you.",
+   "I think it will rain tomorrow.",
+   "No, the store closes at nine.",
+   "You can park outside."
+  ],
+  "answerIndex": 0,
+  "explanation": "大きいサイズがあるか聞かれた店員の応答として、在庫を確認するのが適切。"
+ },
+ {
+  "prompt": "How does that jacket fit?",
+  "situation": "試着室から出てきたところで店員に着心地を聞かれた。",
+  "choices": [
+   "It's a little tight around the shoulders.",
+   "I bought it last year.",
+   "The bus was late this morning.",
+   "Two coffees, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "着心地（フィット感）を聞かれているので、サイズ感の感想を答える。"
+ },
+ {
+  "prompt": "This dress is on sale, by the way.",
+  "situation": "店員がそのワンピースがセール中だと教えてくれた。",
+  "choices": [
+   "Oh great, how much is it now?",
+   "No, I don't speak French.",
+   "I'll have the soup, please.",
+   "The library is closed today."
+  ],
+  "answerIndex": 0,
+  "explanation": "セール中だと言われたので、割引後の値段を尋ねるのが自然。"
+ },
+ {
+  "prompt": "Would you like to pay by cash or card?",
+  "situation": "レジで支払い方法を聞かれた。",
+  "choices": [
+   "By card, please.",
+   "Yes, it's very comfortable.",
+   "I'm a size eight.",
+   "The mirror is over there."
+  ],
+  "answerIndex": 0,
+  "explanation": "支払い方法を聞かれているので、現金かカードかを答える。"
+ },
+ {
+  "prompt": "Do you need a bag for that?",
+  "situation": "会計時に袋が必要か聞かれた。",
+  "choices": [
+   "No thanks, I have my own.",
+   "Yes, I'd love some dessert.",
+   "It's on the second floor.",
+   "I prefer the red one."
+  ],
+  "answerIndex": 0,
+  "explanation": "袋が必要か聞かれたので、要・不要を答えるのが自然。"
+ },
+ {
+  "prompt": "Can I return this if it doesn't fit?",
+  "situation": "客として返品が可能か店員に確認したい。",
+  "choices": [
+   "Yes, within thirty days with the receipt.",
+   "No, the train leaves at noon.",
+   "I'll take a window seat.",
+   "It's made of cotton."
+  ],
+  "answerIndex": 0,
+  "explanation": "返品の可否を聞かれた店員の応答として、返品条件を伝えるのが適切。"
+ },
+ {
+  "prompt": "What do you think of these jeans?",
+  "situation": "一緒に来た友人に、このジーンズの感想を聞かれた。",
+  "choices": [
+   "They look really good on you!",
+   "I have a meeting at three.",
+   "The soup is too salty.",
+   "No, I've never been there."
+  ],
+  "answerIndex": 0,
+  "explanation": "ジーンズの感想を求められているので、似合っているかどうかを答える。"
+ },
+ {
+  "prompt": "Sorry, we're out of that color in your size.",
+  "situation": "店員から、希望のサイズのその色は在庫切れだと言われた。",
+  "choices": [
+   "That's okay, do you have it in black?",
+   "Yes, I'd like to check out now.",
+   "No, the elevator is broken.",
+   "I'll take the bus instead."
+  ],
+  "answerIndex": 0,
+  "explanation": "希望の色が在庫切れと言われたので、別の色を尋ねるのが自然な応答。"
+ },
+ {
+  "prompt": "These shoes come with a ten percent discount today.",
+  "situation": "店員がその靴は今日10%割引だと案内してくれた。",
+  "choices": [
+   "Nice, I'll take them then.",
+   "No, I'm allergic to peanuts.",
+   "The movie starts at eight.",
+   "Yes, turn left at the corner."
+  ],
+  "answerIndex": 0,
+  "explanation": "割引があると言われたので、買うことにするのが自然な反応。"
+ },
+ {
+  "prompt": "Is there anything else I can help you with?",
+  "situation": "会計後、店員が他に手伝うことはないか尋ねた。",
+  "choices": [
+   "No, that's all for today. Thank you.",
+   "Yes, I'd like the chicken, please.",
+   "It's raining outside.",
+   "The hotel is fully booked."
+  ],
+  "answerIndex": 0,
+  "explanation": "他に用はないか聞かれたので、これで全部だと伝えて礼を述べるのが自然。"
+ },
+ {
+  "prompt": "May I see your passport and ticket, please?",
+  "situation": "チェックインカウンターで係員が話しかけてくる",
+  "choices": [
+   "Here you are.",
+   "I'm just looking, thanks.",
+   "No, I haven't eaten yet.",
+   "Yes, it's raining outside."
+  ],
+  "answerIndex": 0,
+  "explanation": "パスポートと航空券の提示を求められています。手渡すときの定番表現「Here you are.(はい、どうぞ)」が適切です。"
+ },
+ {
+  "prompt": "How many bags will you be checking in today?",
+  "situation": "預ける荷物の数を尋ねられる",
+  "choices": [
+   "Just one, please.",
+   "I'll pay by card.",
+   "No, I'm not hungry.",
+   "Around three o'clock."
+  ],
+  "answerIndex": 0,
+  "explanation": "預け荷物の個数を聞かれています。「Just one, please.(1つだけお願いします)」と数を答えるのが正解です。"
+ },
+ {
+  "prompt": "Would you prefer a window or an aisle seat?",
+  "situation": "窓側か通路側の座席の希望を聞かれる",
+  "choices": [
+   "A window seat, please.",
+   "Yes, please.",
+   "I'd like some water.",
+   "No, it's too far."
+  ],
+  "answerIndex": 0,
+  "explanation": "窓側(window)か通路側(aisle)かを選ぶ質問です。どちらかを選んで答える「A window seat, please.」が適切です。"
+ },
+ {
+  "prompt": "Did you pack your bags yourself?",
+  "situation": "荷物を自分で詰めたか確認される",
+  "choices": [
+   "Yes, I did.",
+   "It's a black suitcase.",
+   "At the hotel, I think.",
+   "No, I don't have a pen."
+  ],
+  "answerIndex": 0,
+  "explanation": "保安上の確認質問です。自分で荷造りしたかを問われているので「Yes, I did.(はい、自分で詰めました)」と答えます。"
+ },
+ {
+  "prompt": "I'm afraid your bag is a little overweight.",
+  "situation": "荷物の重量超過を指摘される",
+  "choices": [
+   "Oh, how much extra do I need to pay?",
+   "Yes, I'd love a window seat.",
+   "No, I came here by taxi.",
+   "Thank you, it was delicious."
+  ],
+  "answerIndex": 0,
+  "explanation": "荷物が重量オーバーだと言われています。超過料金について尋ねる「How much extra do I need to pay?」が自然な応答です。"
+ },
+ {
+  "prompt": "Are you carrying any liquids or sharp objects in your hand luggage?",
+  "situation": "手荷物の中身を確認される",
+  "choices": [
+   "No, I don't think so.",
+   "Yes, two suitcases.",
+   "I'm flying to Paris.",
+   "It's gate number five."
+  ],
+  "answerIndex": 0,
+  "explanation": "手荷物に液体や鋭利なものがあるか確認されています。「No, I don't think so.(ないと思います)」と中身について答えます。"
+ },
+ {
+  "prompt": "Here's your boarding pass; your gate is number 24.",
+  "situation": "搭乗券を渡されゲート番号を伝えられる",
+  "choices": [
+   "Thank you. What time does boarding start?",
+   "No, I'd like an aisle seat.",
+   "Yes, I packed it myself.",
+   "I'll have the chicken, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "搭乗券とゲート番号を伝えられています。お礼を言い搭乗開始時刻を尋ねる応答が自然です。"
+ },
+ {
+  "prompt": "Do you have any carry-on luggage with you?",
+  "situation": "機内持ち込み手荷物の有無を聞かれる",
+  "choices": [
+   "Yes, just this backpack.",
+   "No, I haven't been there.",
+   "It leaves at noon.",
+   "I'd like to upgrade, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "持ち込み手荷物があるか尋ねられています。「Yes, just this backpack.(はい、このリュックだけです)」と答えるのが適切です。"
+ },
+ {
+  "prompt": "Could you place your suitcase on the scale, please?",
+  "situation": "スーツケースを計量器に乗せるよう頼まれる",
+  "choices": [
+   "Sure, here it is.",
+   "No, I'm not thirsty.",
+   "It's my first time flying.",
+   "Yes, by the window."
+  ],
+  "answerIndex": 0,
+  "explanation": "スーツケースを計りに乗せるよう依頼されています。応じる「Sure, here it is.(はい、これです)」が正解です。"
+ },
+ {
+  "prompt": "Your flight has been delayed by about an hour.",
+  "situation": "フライトの遅延を知らされる",
+  "choices": [
+   "Oh no, what's the new departure time?",
+   "Yes, I'll check two bags.",
+   "No, I made it myself.",
+   "I'd prefer the aisle, thanks."
+  ],
+  "answerIndex": 0,
+  "explanation": "フライトが約1時間遅れると伝えられています。新しい出発時刻を尋ねる応答が自然です。"
+ },
+ {
+  "prompt": "Is this your final destination, or are you connecting to another flight?",
+  "situation": "最終目的地か乗り継ぎかを尋ねられる",
+  "choices": [
+   "I'm connecting to a flight to Rome.",
+   "Yes, it's quite heavy.",
+   "No, I don't have a visa problem.",
+   "About two hours ago."
+  ],
+  "answerIndex": 0,
+  "explanation": "最終目的地か乗り継ぎかを問われています。「I'm connecting to a flight to Rome.(ローマ行きに乗り継ぎます)」が適切です。"
+ },
+ {
+  "prompt": "Would you like to check this bag or carry it on?",
+  "situation": "荷物を預けるか持ち込むか聞かれる",
+  "choices": [
+   "I'll carry it on, thanks.",
+   "Yes, please show me.",
+   "No, the food was great.",
+   "It's gate 12, I think."
+  ],
+  "answerIndex": 0,
+  "explanation": "荷物を預けるか機内に持ち込むか選ぶ質問です。「I'll carry it on, thanks.(持ち込みます)」と答えます。"
+ },
+ {
+  "prompt": "Please make sure you're at the gate at least 30 minutes before boarding.",
+  "situation": "搭乗時刻についての注意を受ける",
+  "choices": [
+   "Okay, I will. Thank you.",
+   "No, I packed it myself.",
+   "Yes, two suitcases, please.",
+   "I'd like a window seat."
+  ],
+  "answerIndex": 0,
+  "explanation": "搭乗30分前にはゲートにいるよう注意されています。了解を示す「Okay, I will. Thank you.」が適切な応答です。"
+ },
+ {
+  "prompt": "May I see your passport or ID, please?",
+  "situation": "チェックイン手続きで本人確認をされている",
+  "choices": [
+   "Here you are.",
+   "No, I'm not hungry.",
+   "The pool is closed.",
+   "I'll call a taxi."
+  ],
+  "answerIndex": 0,
+  "explanation": "身分証の提示を求められているので、「どうぞ」と差し出す表現が正解です。"
+ },
+ {
+  "prompt": "How would you like to pay for your stay?",
+  "situation": "支払い方法を確認されている",
+  "choices": [
+   "By credit card, please.",
+   "For three guests.",
+   "On the top floor.",
+   "Yes, with breakfast."
+  ],
+  "answerIndex": 0,
+  "explanation": "支払い方法を尋ねられているので、決済手段を答えるのが正解です。"
+ },
+ {
+  "prompt": "Breakfast is served from seven to ten in the main dining room.",
+  "situation": "朝食の時間と場所を案内されている",
+  "choices": [
+   "Great, thank you for letting me know.",
+   "No, I don't have a car.",
+   "Could you carry my bags?",
+   "I'd like a refund."
+  ],
+  "answerIndex": 0,
+  "explanation": "案内に対しては、お礼を述べる応答が自然です。"
+ },
+ {
+  "prompt": "Here's your key card; your room is on the eighth floor.",
+  "situation": "キーカードを渡され部屋を案内されている",
+  "choices": [
+   "Thank you. Where are the elevators?",
+   "No, I'll pay in cash.",
+   "Yes, I have a reservation.",
+   "Two nights, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "鍵を受け取った場面なので、お礼を言いエレベーターの場所を尋ねる応答が適切です。"
+ },
+ {
+  "prompt": "Do you need any help with your luggage?",
+  "situation": "荷物を運ぶ手伝いを申し出られている",
+  "choices": [
+   "Yes, that would be great, thank you.",
+   "No, the room has a great view.",
+   "I'd like to check out now.",
+   "Breakfast was excellent."
+  ],
+  "answerIndex": 0,
+  "explanation": "手伝いの申し出への返答なので、お願いし感謝する応答が適切です。"
+ },
+ {
+  "prompt": "I'm sorry, but check-in isn't until three o'clock.",
+  "situation": "チェックイン時刻前に到着した",
+  "choices": [
+   "That's fine. Can I leave my bags here until then?",
+   "Yes, I'll have the ocean view.",
+   "No, I don't need a receipt.",
+   "Sure, I paid already."
+  ],
+  "answerIndex": 0,
+  "explanation": "まだチェックインできない状況なので、荷物を預けられるか尋ねる応答が自然です。"
+ },
+ {
+  "prompt": "How was your stay with us?",
+  "situation": "チェックアウト時に滞在の感想を聞かれている",
+  "choices": [
+   "It was wonderful, thank you.",
+   "Yes, I have a reservation.",
+   "Two adults, please.",
+   "On the fifth floor."
+  ],
+  "answerIndex": 0,
+  "explanation": "滞在の感想を尋ねられているので、感想を述べる応答が適切です。"
+ },
+ {
+  "prompt": "Would you like me to call a taxi to the airport for you?",
+  "situation": "チェックアウト時に空港までのタクシー手配を提案されている",
+  "choices": [
+   "Yes, please. That would be very helpful.",
+   "No, I haven't checked in yet.",
+   "I'd like a room with a view.",
+   "Breakfast starts at seven."
+  ],
+  "answerIndex": 0,
+  "explanation": "タクシー手配の申し出への返答なので、お願いする応答が正解です。"
+ },
+ {
+  "prompt": "Hello, this is Mike. May I speak to Sarah, please?",
+  "situation": "電話で相手を呼び出してもらう",
+  "choices": [
+   "Just a moment, I'll get her.",
+   "No, I don't have one.",
+   "Yes, I'd like a table for two.",
+   "It was delicious, thank you."
+  ],
+  "answerIndex": 0,
+  "explanation": "「サラさんをお願いします」への応答。「少々お待ちください、呼んできます」が自然。"
+ },
+ {
+  "prompt": "I'm sorry, she's not in right now. Would you like to leave a message?",
+  "situation": "相手が不在で伝言を尋ねられる",
+  "choices": [
+   "Yes, please tell her Mike called.",
+   "No, the line is busy.",
+   "I'll take the window seat.",
+   "She's standing over there."
+  ],
+  "answerIndex": 0,
+  "explanation": "「伝言を残しますか」への返答。「マイクから電話があったと伝えてください」が適切。"
+ },
+ {
+  "prompt": "Could you tell me who's calling, please?",
+  "situation": "電話の相手の名前を尋ねられる",
+  "choices": [
+   "This is Tom Brown from ABC Company.",
+   "I called you yesterday morning.",
+   "The phone is on the table.",
+   "Sorry, I'm busy now."
+  ],
+  "answerIndex": 0,
+  "explanation": "「どちら様ですか」への応答は名前を名乗る。「ABC社のトム・ブラウンです」が正解。"
+ },
+ {
+  "prompt": "Sorry, I think you have the wrong number.",
+  "situation": "間違い電話だと言われる",
+  "choices": [
+   "Oh, I'm sorry to have bothered you.",
+   "Yes, I'll have the soup.",
+   "Thank you for the invitation.",
+   "Turn left at the corner."
+  ],
+  "answerIndex": 0,
+  "explanation": "間違い電話を指摘されたら謝るのが自然。「失礼しました」が適切。"
+ },
+ {
+  "prompt": "Hold on a second, I'll put you through to the manager.",
+  "situation": "担当者に電話をつないでもらう",
+  "choices": [
+   "Thank you, I'll wait.",
+   "No, I can't swim.",
+   "The movie starts at eight.",
+   "I'd like to return this shirt."
+  ],
+  "answerIndex": 0,
+  "explanation": "「おつなぎします」への応答。「ありがとう、待ちます」が自然。"
+ },
+ {
+  "prompt": "The line is a little unclear. Could you speak up, please?",
+  "situation": "声が聞き取りにくいと言われる",
+  "choices": [
+   "Sure, is this better now?",
+   "No, I don't like coffee.",
+   "The store closes at nine.",
+   "I went there last week."
+  ],
+  "answerIndex": 0,
+  "explanation": "「もっと大きな声で」への返答。「これでよく聞こえますか」が適切。"
+ },
+ {
+  "prompt": "Can I call you back in about ten minutes?",
+  "situation": "折り返しの電話を提案される",
+  "choices": [
+   "Sure, that's fine with me.",
+   "No, the bus is late.",
+   "I'll have two coffees.",
+   "It's raining outside."
+  ],
+  "answerIndex": 0,
+  "explanation": "「かけ直してもいい?」への返答。「はい、大丈夫です」が自然。"
+ },
+ {
+  "prompt": "I'm afraid he's on another line at the moment.",
+  "situation": "相手が別の電話中だと言われる",
+  "choices": [
+   "I see. I'll call again later.",
+   "Yes, please pass the salt.",
+   "The library is closed today.",
+   "I bought a new phone yesterday."
+  ],
+  "answerIndex": 0,
+  "explanation": "「他の電話に出ています」への応答。「では後でかけ直します」が適切。"
+ },
+ {
+  "prompt": "Hi, is this a good time to talk?",
+  "situation": "今話して大丈夫か確認される",
+  "choices": [
+   "Yes, go ahead, I'm free now.",
+   "No, I haven't eaten lunch.",
+   "The train leaves at noon.",
+   "I prefer the blue one."
+  ],
+  "answerIndex": 0,
+  "explanation": "「今話せますか」への返答。「はい、どうぞ、今は空いています」が自然。"
+ },
+ {
+  "prompt": "Could you spell your last name for me, please?",
+  "situation": "名字のつづりを尋ねられる",
+  "choices": [
+   "Sure, it's S-M-I-T-H.",
+   "No, I live near the park.",
+   "I'll see you tomorrow.",
+   "The soup is too hot."
+  ],
+  "answerIndex": 0,
+  "explanation": "「つづりを教えて」への返答。アルファベットでつづる「S-M-I-T-H です」が正解。"
+ },
+ {
+  "prompt": "Sorry, could you say that again? I didn't catch it.",
+  "situation": "聞き取れず聞き返される",
+  "choices": [
+   "Sure, my number is 555-1234.",
+   "No, the door is locked.",
+   "I had a great weekend.",
+   "The cat is sleeping."
+  ],
+  "answerIndex": 0,
+  "explanation": "「もう一度言って」への応答。情報を繰り返すのが自然で、電話番号を伝え直す選択肢が適切。"
+ },
+ {
+  "prompt": "Thanks for calling. I'll let her know you rang.",
+  "situation": "電話の最後に相手が伝言を約束する",
+  "choices": [
+   "Thank you very much. Goodbye.",
+   "No, I'm not hungry.",
+   "Please open the window.",
+   "I lost my umbrella."
+  ],
+  "answerIndex": 0,
+  "explanation": "電話を締めくくる場面。「ありがとうございます、さようなら」が自然。"
+ },
+ {
+  "prompt": "Would it be okay if I took your number and called you back?",
+  "situation": "番号を聞いて折り返したいと言われる",
+  "choices": [
+   "Of course, it's 090-1234-5678.",
+   "No, I don't like tea.",
+   "The park is very big.",
+   "I watched a movie last night."
+  ],
+  "answerIndex": 0,
+  "explanation": "「番号を聞いて折り返しても?」への返答。電話番号を伝える選択肢が適切。"
+ },
+ {
+  "prompt": "What seems to be the problem today?",
+  "situation": "診察室で医師が来院理由をたずねる",
+  "choices": [
+   "I've had a sore throat for three days.",
+   "I'll take two of those, please.",
+   "The pharmacy closes at six.",
+   "Yes, I paid at the front desk."
+  ],
+  "answerIndex": 0,
+  "explanation": "「今日はどうされましたか」と症状をたずねている。症状を答える1が適切。"
+ },
+ {
+  "prompt": "How long have you been feeling this way?",
+  "situation": "医師が症状の続いている期間を確認する",
+  "choices": [
+   "About a week now.",
+   "It's on the second floor.",
+   "I prefer tablets, thanks.",
+   "No, I'm not allergic to anything."
+  ],
+  "answerIndex": 0,
+  "explanation": "「いつからこの状態ですか」と期間を聞いている。「1週間ほど」と答える1が正解。"
+ },
+ {
+  "prompt": "Are you allergic to any medications?",
+  "situation": "薬剤師が薬のアレルギーの有無を確認する",
+  "choices": [
+   "Yes, I'm allergic to penicillin.",
+   "I walked here this morning.",
+   "The waiting room was crowded.",
+   "My appointment is at three."
+  ],
+  "answerIndex": 0,
+  "explanation": "薬のアレルギーの有無を聞いている。「ペニシリンにアレルギーがある」と答える1が適切。"
+ },
+ {
+  "prompt": "Have you taken anything for the pain so far?",
+  "situation": "医師がこれまでの痛み止め使用を確認する",
+  "choices": [
+   "Just some ibuprofen this morning.",
+   "I'd like to see a specialist next year.",
+   "The receptionist was very kind.",
+   "It's about a ten-minute drive."
+  ],
+  "answerIndex": 0,
+  "explanation": "痛みに何か薬を飲んだか聞いている。「朝にイブプロフェンを少し」と答える1が正解。"
+ },
+ {
+  "prompt": "Could you roll up your sleeve so I can check your blood pressure?",
+  "situation": "看護師が血圧測定のため袖をまくるよう頼む",
+  "choices": [
+   "Sure, this arm or the other one?",
+   "No, I don't have a prescription.",
+   "I'll pick it up tomorrow.",
+   "The medicine tastes terrible."
+  ],
+  "answerIndex": 0,
+  "explanation": "血圧を測るため袖をまくってと頼んでいる。「どちらの腕ですか」と応じる1が自然。"
+ },
+ {
+  "prompt": "Do you have a prescription you'd like to fill?",
+  "situation": "薬局で薬剤師が処方箋の有無をたずねる",
+  "choices": [
+   "Yes, here it is from my doctor.",
+   "I usually go jogging in the park.",
+   "The flu shot was free last time.",
+   "My temperature feels normal now."
+  ],
+  "answerIndex": 0,
+  "explanation": "調剤したい処方箋があるか聞いている。「医師からのものがここにあります」と渡す1が適切。"
+ },
+ {
+  "prompt": "Are you currently taking any other medications?",
+  "situation": "薬剤師が併用薬の有無を確認する",
+  "choices": [
+   "Yes, I take a daily blood pressure pill.",
+   "I'd love a cup of coffee.",
+   "The clinic is closed on Sundays.",
+   "I came in by bus."
+  ],
+  "answerIndex": 0,
+  "explanation": "他に服用中の薬があるか聞いている。「毎日血圧の薬を飲んでいる」と答える1が正解。"
+ },
+ {
+  "prompt": "Take one tablet twice a day with food, okay?",
+  "situation": "薬剤師が薬の飲み方を説明する",
+  "choices": [
+   "Got it, one in the morning and one at night.",
+   "No, I haven't booked a flight yet.",
+   "The X-ray machine was loud.",
+   "I'd like to change my dentist."
+  ],
+  "answerIndex": 0,
+  "explanation": "食後に1錠を1日2回と説明している。「朝晩1錠ずつですね」と確認する1が適切。"
+ },
+ {
+  "prompt": "Have you had any side effects from this medicine before?",
+  "situation": "薬剤師が過去の副作用の有無を確認する",
+  "choices": [
+   "It made me a bit drowsy last time.",
+   "The parking lot was full today.",
+   "I'd like a window seat, please.",
+   "My insurance card is blue."
+  ],
+  "answerIndex": 0,
+  "explanation": "この薬で副作用があったか聞いている。「前回は少し眠くなった」と答える1が正解。"
+ },
+ {
+  "prompt": "Would you like a generic version to save some money?",
+  "situation": "薬剤師がジェネリック医薬品を提案する",
+  "choices": [
+   "Yes, the generic would be great.",
+   "I jog every other morning.",
+   "The doctor's name is hard to spell.",
+   "It rained all weekend."
+  ],
+  "answerIndex": 0,
+  "explanation": "節約のためジェネリックにするか聞いている。「はい、ジェネリックで」と答える1が適切。"
+ },
+ {
+  "prompt": "Can you describe exactly where it hurts?",
+  "situation": "医師が痛む場所を具体的にたずねる",
+  "choices": [
+   "Right here, on the lower right side.",
+   "I drank plenty of water today.",
+   "The nurse gave me a sticker.",
+   "My next visit is in a month."
+  ],
+  "answerIndex": 0,
+  "explanation": "どこが痛むか具体的に聞いている。「ここ、右下のあたり」と示す1が正解。"
+ },
+ {
+  "prompt": "Do you need a doctor's note for work?",
+  "situation": "診察後に医師が診断書の要否をたずねる",
+  "choices": [
+   "Yes, my employer asked for one.",
+   "I'll have the soup, please.",
+   "The bus was ten minutes late.",
+   "I lost my umbrella yesterday."
+  ],
+  "answerIndex": 0,
+  "explanation": "仕事用の診断書が必要か聞いている。「はい、会社に求められた」と答える1が適切。"
+ },
+ {
+  "prompt": "If the symptoms don't improve, come back in a few days, all right?",
+  "situation": "医師が再受診の目安を伝える",
+  "choices": [
+   "Okay, I'll make another appointment if needed.",
+   "No, I've never been to Spain.",
+   "The pills are bright yellow.",
+   "I paid by credit card last time."
+  ],
+  "answerIndex": 0,
+  "explanation": "良くならなければ数日後に再受診をと伝えている。「必要なら予約します」と応じる1が正解。"
+ },
+ {
+  "prompt": "So, did you do anything fun over the weekend?",
+  "situation": "月曜日の朝、同僚が週末の話を振ってきた。",
+  "choices": [
+   "Yes, I went hiking with some friends.",
+   "No, I don't have time tomorrow.",
+   "It's nice to meet you too.",
+   "I usually take the train to work."
+  ],
+  "answerIndex": 0,
+  "explanation": "週末に何をしたか尋ねられているので、具体的な活動を答える0が適切。他は時制や話題がかみ合わない。"
+ },
+ {
+  "prompt": "It's really coming down out there, isn't it?",
+  "situation": "窓の外で激しく雨が降っている時に同僚が話しかけてきた。",
+  "choices": [
+   "Yeah, I forgot my umbrella today.",
+   "No, I haven't been there yet.",
+   "Sure, I'll have the salad.",
+   "I think it starts at nine."
+  ],
+  "answerIndex": 0,
+  "explanation": "\"coming down\"は雨が激しく降る意味。傘を忘れたと天気に絡めて答える0が自然。"
+ },
+ {
+  "prompt": "Got any plans for the weekend?",
+  "situation": "金曜の午後、同僚が週末の予定を尋ねてきた。",
+  "choices": [
+   "I'm thinking of visiting my parents.",
+   "I went there last year.",
+   "Because it was too expensive.",
+   "No, the meeting is on Monday."
+  ],
+  "answerIndex": 0,
+  "explanation": "これからの週末の予定を聞かれているので、未来の予定を答える0が正解。1は過去で不適切。"
+ },
+ {
+  "prompt": "Can you believe how cold it is for June?",
+  "situation": "6月なのに肌寒い日、エレベーターで一緒になった人が話しかけてきた。",
+  "choices": [
+   "I know, I had to wear a jacket today.",
+   "Yes, summer is my favorite season.",
+   "No, I didn't bring my lunch.",
+   "It costs about ten dollars."
+  ],
+  "answerIndex": 0,
+  "explanation": "6月にしては寒いという驚きに共感し、上着を着たと続ける0が自然な相づち。"
+ },
+ {
+  "prompt": "How was your weekend?",
+  "situation": "週明け、上司が軽くあいさつ代わりに尋ねてきた。",
+  "choices": [
+   "It was pretty relaxing, thanks.",
+   "Yes, I can do that for you.",
+   "I'll be there at noon.",
+   "No, I haven't met him."
+  ],
+  "answerIndex": 0,
+  "explanation": "週末はどうだったか聞かれており、感想を述べる0が適切。yes/noで答える質問ではない。"
+ },
+ {
+  "prompt": "Looks like it's finally clearing up.",
+  "situation": "雨上がりに空が晴れてきたのを見て、隣の人がつぶやいた。",
+  "choices": [
+   "Yeah, maybe we'll get some sun this afternoon.",
+   "No, I prefer tea to coffee.",
+   "Sorry, I'm running a bit late.",
+   "She lives near the station."
+  ],
+  "answerIndex": 0,
+  "explanation": "天気が回復してきたという発言に、午後は晴れるかもと天気で応じる0が自然。"
+ },
+ {
+  "prompt": "Did you catch the game on Saturday?",
+  "situation": "週末にあったスポーツの試合について同僚が尋ねてきた。",
+  "choices": [
+   "Yeah, it was an amazing match!",
+   "No, I'll send it to you later.",
+   "I usually walk to the office.",
+   "It's on the third floor."
+  ],
+  "answerIndex": 0,
+  "explanation": "土曜の試合を見たか聞かれているので、見た感想を述べる0が適切。"
+ },
+ {
+  "prompt": "They're saying it might snow later this week.",
+  "situation": "休憩室で同僚が天気予報の話をしている。",
+  "choices": [
+   "Really? I'd better get my boots ready.",
+   "Yes, I finished the report already.",
+   "No, the printer isn't working.",
+   "I had pasta for dinner."
+  ],
+  "answerIndex": 0,
+  "explanation": "週後半に雪かもという予報に対し、ブーツを準備しようと反応する0が自然な会話。"
+ },
+ {
+  "prompt": "Any big plans this weekend, or just taking it easy?",
+  "situation": "金曜の帰り際、同僚が気軽に声をかけてきた。",
+  "choices": [
+   "Just relaxing at home, I think.",
+   "Yes, I sent the email this morning.",
+   "No, the store closes at eight.",
+   "She's from Canada."
+  ],
+  "answerIndex": 0,
+  "explanation": "特別な予定があるか、のんびりするかを聞かれており、家でくつろぐと答える0が合う。"
+ },
+ {
+  "prompt": "What a beautiful day, right?",
+  "situation": "よく晴れた朝、出社時に同僚が明るく話しかけてきた。",
+  "choices": [
+   "It is! Perfect weather for a walk.",
+   "No, I don't think so.",
+   "I'll have the meeting rescheduled.",
+   "Yes, it's room 204."
+  ],
+  "answerIndex": 0,
+  "explanation": "いい天気だねという同意を求める発言に、共感して散歩日和だと返す0が自然。"
+ },
+ {
+  "prompt": "Did you stay in or go out over the weekend?",
+  "situation": "週明けに同僚が週末の過ごし方を尋ねてきた。",
+  "choices": [
+   "I mostly stayed in and watched movies.",
+   "Yes, please, with milk.",
+   "No, the bus was late.",
+   "I'll check the schedule."
+  ],
+  "answerIndex": 0,
+  "explanation": "家にいたか外出したか聞かれているので、家で映画を見たと具体的に答える0が正解。"
+ },
+ {
+  "prompt": "It's been so humid lately, hasn't it?",
+  "situation": "蒸し暑い日が続く中、同僚が天気の話を始めた。",
+  "choices": [
+   "Definitely. I can barely sleep at night.",
+   "No, I haven't read it yet.",
+   "Sure, the meeting is fine.",
+   "It's about two kilometers away."
+  ],
+  "answerIndex": 0,
+  "explanation": "最近蒸し暑いという同意を求める発言に、夜眠れないと共感する0が自然な返答。"
+ },
+ {
+  "prompt": "So, how did your weekend trip go?",
+  "situation": "週末に旅行へ行った同僚に、月曜日に様子を尋ねた。",
+  "choices": [
+   "It went great, the hotel was lovely.",
+   "Yes, I'll book it tomorrow.",
+   "No, I don't like spicy food.",
+   "The elevator is over there."
+  ],
+  "answerIndex": 0,
+  "explanation": "週末の旅行がどうだったか聞かれているので、よかったと感想を述べる0が適切。"
+ },
+ {
+  "prompt": "Nice to meet you!",
+  "situation": "初対面のあいさつ",
+  "choices": [
+   "Nice to meet you too.",
+   "You're welcome.",
+   "See you tomorrow.",
+   "Not bad, thanks."
+  ],
+  "answerIndex": 0,
+  "explanation": "「はじめまして」には「Nice to meet you too.(こちらこそ)」と返すのが自然です。"
+ },
+ {
+  "prompt": "Hi, I'm David. What's your name?",
+  "situation": "名前を尋ねられて",
+  "choices": [
+   "I'm fine, thanks.",
+   "My name is Yuki.",
+   "It's over there.",
+   "No, thank you."
+  ],
+  "answerIndex": 1,
+  "explanation": "名前を聞かれているので「My name is ~」と答えます。"
+ },
+ {
+  "prompt": "Where are you from?",
+  "situation": "出身地を聞かれて",
+  "choices": [
+   "I'm twenty years old.",
+   "I'm a teacher.",
+   "I'm from Japan.",
+   "I'm here on business."
+  ],
+  "answerIndex": 2,
+  "explanation": "出身を尋ねる質問には「I'm from ~」で答えます。"
+ },
+ {
+  "prompt": "What do you do?",
+  "situation": "職業を尋ねられて",
+  "choices": [
+   "I do my homework.",
+   "I work as an engineer.",
+   "I'm doing fine.",
+   "I do it every day."
+  ],
+  "answerIndex": 1,
+  "explanation": "「What do you do?」は職業を尋ねる表現で、仕事内容を答えます。"
+ },
+ {
+  "prompt": "It's a pleasure to meet you.",
+  "situation": "丁寧な初対面のあいさつ",
+  "choices": [
+   "The pleasure is mine.",
+   "Yes, it is raining.",
+   "I have no idea.",
+   "That's too bad."
+  ],
+  "answerIndex": 0,
+  "explanation": "丁寧なあいさつには「The pleasure is mine.(こちらこそ)」と返します。"
+ },
+ {
+  "prompt": "How was your trip here?",
+  "situation": "会場までの道のりを聞かれて",
+  "choices": [
+   "It was quite smooth, thanks.",
+   "I'm three years old.",
+   "Yes, I like coffee.",
+   "She is my sister."
+  ],
+  "answerIndex": 0,
+  "explanation": "道中の様子を聞かれているので、移動の感想を答えます。"
+ },
+ {
+  "prompt": "Have we met before?",
+  "situation": "以前会ったか確認されて",
+  "choices": [
+   "No, I don't think so.",
+   "Yes, please sit down.",
+   "It costs ten dollars.",
+   "I'll have the salad."
+  ],
+  "answerIndex": 0,
+  "explanation": "会ったことがあるか尋ねられているので、Yes/Noで答えます。"
+ },
+ {
+  "prompt": "Let me introduce myself—I'm Sarah from the Tokyo office.",
+  "situation": "自己紹介をされて",
+  "choices": [
+   "Good to meet you, Sarah.",
+   "No, you can't.",
+   "It's already closed.",
+   "Turn left at the corner."
+  ],
+  "answerIndex": 0,
+  "explanation": "自己紹介に対しては「Good to meet you」などと返すのが自然です。"
+ },
+ {
+  "prompt": "So, how do you know the host?",
+  "situation": "主催者との関係を聞かれて",
+  "choices": [
+   "We used to work together.",
+   "It's on the table.",
+   "I don't have time now.",
+   "The weather is nice."
+  ],
+  "answerIndex": 0,
+  "explanation": "主催者とのつながりを聞かれているので、関係を説明します。"
+ },
+ {
+  "prompt": "Can I get you something to drink?",
+  "situation": "飲み物を勧められて",
+  "choices": [
+   "Some water would be great, thanks.",
+   "I'm from Osaka.",
+   "He is very tall.",
+   "It starts at noon."
+  ],
+  "answerIndex": 0,
+  "explanation": "飲み物の申し出には、希望を伝えるか断る返答をします。"
+ },
+ {
+  "prompt": "What brings you here today?",
+  "situation": "来た目的を聞かれて",
+  "choices": [
+   "I came for the conference.",
+   "My name is Ken.",
+   "It's five o'clock.",
+   "I'm sorry to hear that."
+  ],
+  "answerIndex": 0,
+  "explanation": "「何でここに?」と目的を聞かれているので、理由を答えます。"
+ },
+ {
+  "prompt": "Here's my business card.",
+  "situation": "名刺を渡されて",
+  "choices": [
+   "Thank you. Here's mine.",
+   "No, I'm not hungry.",
+   "It's raining outside.",
+   "See you later."
+  ],
+  "answerIndex": 0,
+  "explanation": "名刺を渡されたら、お礼を言い自分の名刺を差し出すのが自然です。"
+ },
+ {
+  "prompt": "It was really nice talking with you.",
+  "situation": "別れ際のあいさつ",
+  "choices": [
+   "Likewise. Let's keep in touch.",
+   "Yes, it's mine.",
+   "I don't know him.",
+   "Please open the window."
+  ],
+  "answerIndex": 0,
+  "explanation": "別れ際の言葉には「Likewise.(こちらこそ)」と応じます。"
+ },
+ {
+  "prompt": "Shall we get started, or are we still waiting on a few people?",
+  "situation": "会議の開始時に司会者が確認する",
+  "choices": [
+   "Let's wait a couple more minutes for everyone to join.",
+   "I'll take mine with milk, please.",
+   "The printer is out of paper again.",
+   "No thanks, I already had lunch."
+  ],
+  "answerIndex": 0,
+  "explanation": "開始するか待つかを尋ねているので、数分待とうと提案する0が適切。"
+ },
+ {
+  "prompt": "Could you walk us through the latest sales figures?",
+  "situation": "会議で数字の説明を求められる",
+  "choices": [
+   "Sure, let me share my screen and go over them.",
+   "I walked here this morning.",
+   "The figures are on the seventh floor.",
+   "Maybe we should order more chairs."
+  ],
+  "answerIndex": 0,
+  "explanation": "説明を求められているので、画面を共有して説明すると応じる0が適切。"
+ },
+ {
+  "prompt": "Do you have any thoughts on the proposed timeline?",
+  "situation": "提案された日程について意見を聞かれる",
+  "choices": [
+   "Yes, I think it's a bit too tight for the design phase.",
+   "No, I don't think about time much.",
+   "The timeline is a kind of fruit.",
+   "I'll buy a new calendar tomorrow."
+  ],
+  "answerIndex": 0,
+  "explanation": "日程への意見を求められているので、設計工程には少しきついと答える0が適切。"
+ },
+ {
+  "prompt": "Sorry, could you repeat that last point? You cut out for a second.",
+  "situation": "オンライン会議で音声が途切れた",
+  "choices": [
+   "Of course. I was saying we should push the deadline to Friday.",
+   "Yes, I cut the cake earlier.",
+   "The point is very sharp, be careful.",
+   "I'd love a second helping, thanks."
+  ],
+  "answerIndex": 0,
+  "explanation": "聞き取れなかったので繰り返しを求めている。もう一度言い直す0が適切。"
+ },
+ {
+  "prompt": "Who's going to take the lead on the marketing side?",
+  "situation": "担当者を決める場面",
+  "choices": [
+   "I'm happy to take that on if no one else has.",
+   "The lead is made of metal.",
+   "I take the bus to work.",
+   "That side of the room is colder."
+  ],
+  "answerIndex": 0,
+  "explanation": "誰が担当するか尋ねている。自分が引き受けると申し出る0が適切。"
+ },
+ {
+  "prompt": "Can we circle back to the budget question later?",
+  "situation": "議題を後回しにする提案",
+  "choices": [
+   "Sure, let's park it and move on for now.",
+   "Yes, the circle is perfectly round.",
+   "I'll back the car out of the garage.",
+   "No, I don't have any cash on me."
+  ],
+  "answerIndex": 0,
+  "explanation": "後で戻ろうという提案。一旦保留して進めようと同意する0が適切。"
+ },
+ {
+  "prompt": "Does everyone agree with the revised plan?",
+  "situation": "修正案への合意を確認する",
+  "choices": [
+   "It works for me, though I'd like one small change.",
+   "Everyone left the building already.",
+   "I agree the weather is nice today.",
+   "The plan is on the second shelf."
+  ],
+  "answerIndex": 0,
+  "explanation": "合意を確認している。賛成しつつ小さな変更を希望する0が適切な応答。"
+ },
+ {
+  "prompt": "Could you send me the slides after the meeting?",
+  "situation": "会議後の資料送付を頼まれる",
+  "choices": [
+   "No problem, I'll email them to you this afternoon.",
+   "Yes, the slide at the park is fun.",
+   "I sent the meeting to a friend.",
+   "The slides are too slippery."
+  ],
+  "answerIndex": 0,
+  "explanation": "資料を送ってほしいという依頼。午後に送ると応じる0が適切。"
+ },
+ {
+  "prompt": "What's our main priority for the next quarter?",
+  "situation": "次の四半期の優先事項を問われる",
+  "choices": [
+   "I'd say improving customer retention should come first.",
+   "A quarter is twenty-five cents.",
+   "The next room is bigger.",
+   "I prioritize sleeping on weekends."
+  ],
+  "answerIndex": 0,
+  "explanation": "優先事項を尋ねている。顧客維持を最優先にと答える0が適切。"
+ },
+ {
+  "prompt": "I'm not sure I follow your reasoning here.",
+  "situation": "発言者の論理が伝わらなかった",
+  "choices": [
+   "Let me explain it differently with an example.",
+   "Please follow me to the exit.",
+   "I'm not sure where the restroom is.",
+   "Reasoning is my favorite subject."
+  ],
+  "answerIndex": 0,
+  "explanation": "論理が理解できないと言われた。例を挙げて言い換えると応じる0が適切。"
+ },
+ {
+  "prompt": "Are we on track to hit the deadline this month?",
+  "situation": "進捗が期限に間に合うか確認する",
+  "choices": [
+   "We're slightly behind, but we can still make it.",
+   "The track is near the stadium.",
+   "I hit the ball quite far.",
+   "This month has thirty-one days."
+  ],
+  "answerIndex": 0,
+  "explanation": "期限に間に合うか尋ねている。少し遅れているが間に合うと答える0が適切。"
+ },
+ {
+  "prompt": "Would it help if I followed up with the client directly?",
+  "situation": "顧客対応の申し出を受ける",
+  "choices": [
+   "That would be great, thanks for offering.",
+   "Yes, the client is very tall.",
+   "I followed the recipe exactly.",
+   "Please help me carry these boxes."
+  ],
+  "answerIndex": 0,
+  "explanation": "顧客対応を申し出てくれている。助かると感謝する0が適切。"
+ },
+ {
+  "prompt": "Let's wrap up here unless anyone has anything to add.",
+  "situation": "会議を締めくくる場面",
+  "choices": [
+   "Nothing from me, thanks everyone.",
+   "I'll wrap the gift later.",
+   "The here is over there.",
+   "Yes, please add more sugar."
+  ],
+  "answerIndex": 0,
+  "explanation": "追加がなければ終了するという締め。特にないと答える0が適切。"
+ },
+ {
+  "prompt": "Hi, I'd like to make an appointment to see Dr. Carter, please.",
+  "situation": "病院に電話して予約を取ろうとしている。",
+  "choices": [
+   "Sure, when would be convenient for you?",
+   "Yes, I already saw him.",
+   "No, the doctor is fine.",
+   "Thanks for coming in today."
+  ],
+  "answerIndex": 0,
+  "explanation": "予約希望に対し、都合の良い日時を尋ねる応答が自然。他は予約を取る流れに合わない。"
+ },
+ {
+  "prompt": "Could we move our meeting from Tuesday to Thursday?",
+  "situation": "打ち合わせの日程変更をお願いしている。",
+  "choices": [
+   "Yes, Thursday works for me too.",
+   "No, I don't have a meeting.",
+   "Tuesday is a nice day.",
+   "I moved to a new house."
+  ],
+  "answerIndex": 0,
+  "explanation": "日程変更の依頼に対し、木曜で問題ないと答える応答が適切。"
+ },
+ {
+  "prompt": "What time would suit you best for the dentist appointment?",
+  "situation": "歯医者の予約時間を尋ねられている。",
+  "choices": [
+   "How about three in the afternoon?",
+   "Yes, I have a toothache.",
+   "The dentist is very kind.",
+   "I brush twice a day."
+  ],
+  "answerIndex": 0,
+  "explanation": "都合の良い時間を聞かれているので、具体的な時刻を提案する応答が正しい。"
+ },
+ {
+  "prompt": "I'm afraid I have to cancel our lunch tomorrow.",
+  "situation": "明日のランチの予定をキャンセルすると言われた。",
+  "choices": [
+   "No problem, let's reschedule for another day.",
+   "Yes, I love lunch.",
+   "The restaurant is closed forever.",
+   "I'll cook it for you."
+  ],
+  "answerIndex": 0,
+  "explanation": "キャンセルの申し出に対し、別日への調整を提案する応答が自然。"
+ },
+ {
+  "prompt": "Are you free to meet sometime next week?",
+  "situation": "来週会えるか都合を聞かれている。",
+  "choices": [
+   "Yes, Monday or Wednesday would be great.",
+   "No, I was free last year.",
+   "Yes, the week has seven days.",
+   "I'm not feeling well now."
+  ],
+  "answerIndex": 0,
+  "explanation": "来週の都合を尋ねられているので、空いている曜日を答える応答が適切。"
+ },
+ {
+  "prompt": "Sorry, but could we push our call back by an hour?",
+  "situation": "電話の時間を1時間遅らせてほしいと頼まれた。",
+  "choices": [
+   "Sure, that's fine with me.",
+   "Yes, I pushed the door.",
+   "No, the call was loud.",
+   "I'll call you yesterday."
+  ],
+  "answerIndex": 0,
+  "explanation": "時間を遅らせる依頼への了承の返事が正しい。他は意味が通らない。"
+ },
+ {
+  "prompt": "Would Friday morning work for our appointment?",
+  "situation": "金曜の午前で予約が大丈夫か確認されている。",
+  "choices": [
+   "Actually, the afternoon would be better for me.",
+   "Yes, I work on weekends.",
+   "Friday is the worst day ever.",
+   "I had a big breakfast."
+  ],
+  "answerIndex": 0,
+  "explanation": "金曜午前の可否を聞かれ、午後の方が良いと丁寧に代案を出す応答が自然。"
+ },
+ {
+  "prompt": "I need to reschedule my haircut for later this week.",
+  "situation": "美容院の予約を今週後半に変更したいと伝えている。",
+  "choices": [
+   "Of course. Which day did you have in mind?",
+   "Yes, your hair looks nice.",
+   "No, scissors are expensive.",
+   "I cut my own hair too."
+  ],
+  "answerIndex": 0,
+  "explanation": "予約変更の希望に対し、希望日を確認する応答が適切。"
+ },
+ {
+  "prompt": "Can you confirm whether we're still on for dinner at seven?",
+  "situation": "7時の食事の予定が変わっていないか確認されている。",
+  "choices": [
+   "Yes, seven o'clock still works perfectly.",
+   "No, I never eat dinner.",
+   "Yes, the chair is comfortable.",
+   "I confirmed my flight already."
+  ],
+  "answerIndex": 0,
+  "explanation": "予定の確認に対し、7時で問題ないと答える応答が正しい。"
+ },
+ {
+  "prompt": "Something came up, so I won't be able to make our two o'clock.",
+  "situation": "用事ができて2時の予定に行けなくなったと連絡された。",
+  "choices": [
+   "That's okay, shall we find another time?",
+   "Yes, two is a small number.",
+   "No, I love that movie.",
+   "The clock is broken again."
+  ],
+  "answerIndex": 0,
+  "explanation": "予定に来られない連絡に対し、別の時間を探そうと提案する応答が自然。"
+ },
+ {
+  "prompt": "Do you have any openings for a check-up next Monday?",
+  "situation": "来週月曜の健診の空き状況を尋ねている。",
+  "choices": [
+   "Let me check, we have a slot at ten.",
+   "Yes, I opened the window.",
+   "No, you look very healthy.",
+   "Mondays are always rainy."
+  ],
+  "answerIndex": 0,
+  "explanation": "空き状況の問い合わせに対し、確認して空き時間を伝える応答が適切。"
+ },
+ {
+  "prompt": "Shall we set up a time to discuss the project?",
+  "situation": "プロジェクトについて話す時間を決めようと提案された。",
+  "choices": [
+   "Sure, does Wednesday afternoon work for you?",
+   "Yes, the project is over there.",
+   "No, I set the table already.",
+   "I discussed it with my dog."
+  ],
+  "answerIndex": 0,
+  "explanation": "時間設定の提案に対し、具体的な候補日を尋ねて返す応答が自然。"
+ },
+ {
+  "prompt": "I'm running a bit late, so can we start ten minutes later?",
+  "situation": "少し遅れるので開始を10分遅らせてほしいと言われた。",
+  "choices": [
+   "No worries, take your time.",
+   "Yes, I run every morning.",
+   "No, ten is my lucky number.",
+   "The race already finished."
+  ],
+  "answerIndex": 0,
+  "explanation": "遅刻して開始を遅らせたい相手に、気にしないでと配慮する応答が適切。"
+ },
+ {
+  "prompt": "Thanks for coming in today—could you tell me a little about yourself?",
+  "situation": "面接の冒頭で自己紹介を求められる",
+  "choices": [
+   "Sure, I'd be happy to. I have five years of experience in marketing.",
+   "No, I don't think so.",
+   "You're welcome, see you later.",
+   "I came here by train this morning."
+  ],
+  "answerIndex": 0,
+  "explanation": "自己紹介を促す質問。経歴を簡潔に話し始める0が適切。1は否定、2は別れの挨拶、4は来た手段で文脈に合わない。"
+ },
+ {
+  "prompt": "What made you decide to apply for this position?",
+  "situation": "応募の動機を尋ねられる",
+  "choices": [
+   "I applied last Tuesday by email.",
+   "I was really drawn to your company's focus on innovation.",
+   "No particular reason, I guess.",
+   "I don't know much about your company."
+  ],
+  "answerIndex": 1,
+  "explanation": "志望動機を問う質問。会社の魅力を挙げて答える1が適切。0は応募方法、3・4は意欲を欠き面接では不適切。"
+ },
+ {
+  "prompt": "Can you tell me about a challenge you faced at your last job and how you handled it?",
+  "situation": "前職での困難な経験について聞かれる",
+  "choices": [
+   "I never had any challenges at all.",
+   "My last job was very far from home.",
+   "Once we lost a key client, so I led a plan to win them back.",
+   "I'd rather not talk about my last job."
+  ],
+  "answerIndex": 2,
+  "explanation": "困難とその対処法を具体的に語る2が適切。0は非現実的、1は距離の話、4は回答拒否で印象が悪い。"
+ },
+ {
+  "prompt": "What would you say is your greatest strength?",
+  "situation": "自分の強みを尋ねられる",
+  "choices": [
+   "I'm not really good at anything.",
+   "I think my biggest strength is staying calm under pressure.",
+   "My greatest weakness is being late.",
+   "I don't like talking about myself."
+  ],
+  "answerIndex": 1,
+  "explanation": "強みを問う質問。具体的な長所を述べる1が適切。0は自己卑下、3は弱みの話、4は回避で不適切。"
+ },
+ {
+  "prompt": "How do you usually handle working under tight deadlines?",
+  "situation": "締め切りが厳しい状況への対応を聞かれる",
+  "choices": [
+   "I prioritize tasks and stay focused until they're done.",
+   "I usually just give up when it's hard.",
+   "Deadlines are not my problem.",
+   "I never finish anything on time."
+  ],
+  "answerIndex": 0,
+  "explanation": "締め切りへの対処法を問う質問。優先順位をつけ集中すると答える0が適切。他は無責任・否定的で不可。"
+ },
+ {
+  "prompt": "Where do you see yourself in five years?",
+  "situation": "5年後のキャリア像を尋ねられる",
+  "choices": [
+   "I have no idea, honestly.",
+   "I'd like to grow into a leadership role within the team.",
+   "Probably at a different company.",
+   "Five years is too long to think about."
+  ],
+  "answerIndex": 1,
+  "explanation": "将来の展望を問う質問。成長意欲を示す1が適切。0・3・4は意欲や定着への不安を与え不適切。"
+ },
+ {
+  "prompt": "Do you have any experience working in a team?",
+  "situation": "チームでの業務経験について聞かれる",
+  "choices": [
+   "No, I prefer to work completely alone.",
+   "Yes, I led a team of five on several projects.",
+   "I don't really like other people.",
+   "Teams are usually a waste of time."
+  ],
+  "answerIndex": 1,
+  "explanation": "チーム経験を問う質問。具体的な経験を挙げる1が適切。0・2・3は協調性を欠き面接では避けるべき。"
+ },
+ {
+  "prompt": "Why are you looking to leave your current job?",
+  "situation": "現職を離れる理由を尋ねられる",
+  "choices": [
+   "I hate my boss and everyone there.",
+   "I'm looking for new challenges and room to grow.",
+   "I got fired for being lazy.",
+   "No real reason, I'm just bored."
+  ],
+  "answerIndex": 1,
+  "explanation": "転職理由を問う質問。前向きに成長を求める1が適切。0は不満、2は印象が悪く、3も誠実だが消極的で不適切。"
+ },
+ {
+  "prompt": "How did you hear about this opening?",
+  "situation": "求人を知ったきっかけを聞かれる",
+  "choices": [
+   "I saw the posting on your company's website.",
+   "I don't remember at all.",
+   "Someone told me to apply, I forget who.",
+   "Why does that matter to you?"
+  ],
+  "answerIndex": 0,
+  "explanation": "応募経路を問う質問。具体的に答える0が適切。1・2は曖昧、3は失礼な反応で不適切。"
+ },
+ {
+  "prompt": "What do you know about our company?",
+  "situation": "応募先企業についての知識を問われる",
+  "choices": [
+   "Honestly, nothing at all.",
+   "I know you're a leader in renewable energy with global offices.",
+   "I just need a job, so it doesn't matter.",
+   "I forgot to look you up."
+  ],
+  "answerIndex": 1,
+  "explanation": "企業研究の度合いを問う質問。具体的に知識を示す1が適切。他は準備不足を露呈し不適切。"
+ },
+ {
+  "prompt": "Are you comfortable working occasional weekends if needed?",
+  "situation": "週末勤務の可否について聞かれる",
+  "choices": [
+   "Never, I won't do that.",
+   "Yes, I'm flexible and can adjust when the team needs me.",
+   "Weekends are sacred to me.",
+   "Only if you pay me triple."
+  ],
+  "answerIndex": 1,
+  "explanation": "柔軟性を問う質問。前向きに応じる1が適切。0・2は拒否、3は条件を突きつける態度で印象が悪い。"
+ },
+ {
+  "prompt": "Do you have any questions for us?",
+  "situation": "面接の終盤で逆質問を求められる",
+  "choices": [
+   "No, I just want to know about the salary.",
+   "Yes, could you tell me more about the team I'd be working with?",
+   "No, I think we're done here.",
+   "Are you almost finished? I'm in a hurry."
+  ],
+  "answerIndex": 1,
+  "explanation": "逆質問を促す場面。職場への関心を示す1が適切。0は給与のみ、2は無関心、4は失礼で不適切。"
+ },
+ {
+  "prompt": "Great, we'll be in touch soon about the next steps.",
+  "situation": "面接の終わりに次の連絡について告げられる",
+  "choices": [
+   "Thank you, I look forward to hearing from you.",
+   "No, call me right now.",
+   "I doubt you'll actually call.",
+   "Whatever you say."
+  ],
+  "answerIndex": 0,
+  "explanation": "締めくくりの言葉への返答。丁寧に感謝し連絡を待つ0が適切。他は失礼・無礼で印象を損なう。"
+ },
+ {
+  "prompt": "How would you like the cash, in twenties or fifties?",
+  "situation": "銀行の窓口で現金を引き出している",
+  "choices": [
+   "Twenties are fine, please.",
+   "I'd like to open an account.",
+   "No, I don't have cash.",
+   "Yes, the bank is closed."
+  ],
+  "answerIndex": 0,
+  "explanation": "紙幣の種類を尋ねられているので、希望の額面を答えるのが適切。"
+ },
+ {
+  "prompt": "Could I see some photo ID, please?",
+  "situation": "窓口で本人確認を求められている",
+  "choices": [
+   "Sure, here's my passport.",
+   "I'd like some stamps.",
+   "The line is too long.",
+   "No, I prefer cash."
+  ],
+  "answerIndex": 0,
+  "explanation": "写真付き身分証の提示を求められているので、パスポートなどを差し出すのが適切。"
+ },
+ {
+  "prompt": "Would you like to send this letter by regular or express mail?",
+  "situation": "郵便局で手紙を出している",
+  "choices": [
+   "Express, please. It's urgent.",
+   "I'd like to withdraw money.",
+   "No, I don't have a stamp.",
+   "Yes, it's a package."
+  ],
+  "answerIndex": 0,
+  "explanation": "普通便か速達かを尋ねられているので、どちらかを選んで答える。"
+ },
+ {
+  "prompt": "Do you have an account with us?",
+  "situation": "銀行の窓口で手続きを始めている",
+  "choices": [
+   "Yes, I've banked here for years.",
+   "No, the mail hasn't arrived.",
+   "I'd like a window seat.",
+   "Two stamps, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "その銀行に口座があるか尋ねられているので、有無を答えるのが適切。"
+ },
+ {
+  "prompt": "How much would you like to deposit today?",
+  "situation": "銀行で入金をしようとしている",
+  "choices": [
+   "Five hundred dollars, please.",
+   "I'd like to mail this box.",
+   "No, it's not insured.",
+   "The ATM is over there."
+  ],
+  "answerIndex": 0,
+  "explanation": "入金額を尋ねられているので、具体的な金額を答える。"
+ },
+ {
+  "prompt": "What's inside the package?",
+  "situation": "郵便局で小包を発送している",
+  "choices": [
+   "Just some books and clothes.",
+   "Yes, I have an account.",
+   "I'd like to cash a check.",
+   "No, the bank is closed."
+  ],
+  "answerIndex": 0,
+  "explanation": "小包の中身を尋ねられているので、内容物を説明するのが適切。"
+ },
+ {
+  "prompt": "Would you like to add tracking to your shipment?",
+  "situation": "郵便局で発送方法を相談している",
+  "choices": [
+   "Yes, please. I want to track it.",
+   "No, I don't have an account.",
+   "I'd like to deposit a check.",
+   "The teller is on break."
+  ],
+  "answerIndex": 0,
+  "explanation": "追跡サービスを付けるか尋ねられているので、要否を答える。"
+ },
+ {
+  "prompt": "I'm sorry, but this check needs an endorsement on the back.",
+  "situation": "銀行で小切手を換金しようとしている",
+  "choices": [
+   "Oh, let me sign it right now.",
+   "Yes, I'd like express mail.",
+   "No, I don't have a passport.",
+   "Two books of stamps, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "小切手の裏に署名(裏書)が必要と指摘されているので、署名すると応じる。"
+ },
+ {
+  "prompt": "That'll be twelve dollars for postage.",
+  "situation": "郵便局で送料を告げられている",
+  "choices": [
+   "Here you go, twelve dollars.",
+   "I'd like to open a savings account.",
+   "No, I prefer twenties.",
+   "The package is empty."
+  ],
+  "answerIndex": 0,
+  "explanation": "送料の金額を告げられているので、支払うのが自然な応答。"
+ },
+ {
+  "prompt": "Have you filled out the deposit slip?",
+  "situation": "銀行で入金伝票について尋ねられている",
+  "choices": [
+   "Yes, I've already completed it.",
+   "No, I'd like express delivery.",
+   "Two stamps, please.",
+   "The mailbox is full."
+  ],
+  "answerIndex": 0,
+  "explanation": "入金伝票を記入したか尋ねられているので、済んだかどうかを答える。"
+ },
+ {
+  "prompt": "Would you like to buy a book of stamps while you're here?",
+  "situation": "郵便局で会計をしている",
+  "choices": [
+   "Sure, I'll take a book.",
+   "No, I don't have an account.",
+   "Yes, in fifties please.",
+   "The vault is locked."
+  ],
+  "answerIndex": 0,
+  "explanation": "切手のシートを買うか勧められているので、買うか断るかを答える。"
+ },
+ {
+  "prompt": "What's the current interest rate on a savings account?",
+  "situation": "銀行で口座開設の相談をしている",
+  "choices": [
+   "It's currently about two percent.",
+   "Yes, I'd like to mail this.",
+   "No, the post office is closed.",
+   "Three stamps, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "普通預金の金利を尋ねられているので、利率を答えるのが適切。ここでは行員が答える側。"
+ },
+ {
+  "prompt": "Could you confirm the mailing address for me?",
+  "situation": "郵便局で宛先の確認を求められている",
+  "choices": [
+   "Sure, it's 25 Oak Street, Boston.",
+   "No, I'd like small bills.",
+   "Yes, I have a bank account.",
+   "The check has bounced."
+  ],
+  "answerIndex": 0,
+  "explanation": "宛先の住所確認を求められているので、住所を伝えるのが適切。"
+ },
+ {
+  "prompt": "Could you give me a hand carrying these boxes upstairs?",
+  "situation": "同僚が重い箱を二階に運ぶのを手伝ってほしいと頼んでいる。",
+  "choices": [
+   "Sure, I'd be happy to help.",
+   "No, you're welcome.",
+   "Yes, it's over there.",
+   "I'm carrying my own boxes already, thanks."
+  ],
+  "answerIndex": 0,
+  "explanation": "give someone a hand は「手伝う」の意味。快く引き受ける Sure, I'd be happy to help. が適切。"
+ },
+ {
+  "prompt": "Would you mind watching my bag for a moment while I use the restroom?",
+  "situation": "見知らぬ人がトイレに行く間、カバンを見ていてほしいと頼んでいる。",
+  "choices": [
+   "No, not at all. Go ahead.",
+   "Yes, I mind a lot of things.",
+   "No, I don't have a bag.",
+   "Sorry, the restroom is closed."
+  ],
+  "answerIndex": 0,
+  "explanation": "Would you mind ...? に対し、引き受ける時は No, not at all.（全く構いません）と答える。"
+ },
+ {
+  "prompt": "Can you help me move this weekend?",
+  "situation": "友人が今週末の引っ越しを手伝ってほしいと頼んでいる。",
+  "choices": [
+   "Of course, what time should I come over?",
+   "Yes, I moved last year.",
+   "No problem, the weather is nice.",
+   "Sure, I love this weekend."
+  ],
+  "answerIndex": 0,
+  "explanation": "依頼に応じ、何時に行けばいいか具体的に尋ねる返答が自然。"
+ },
+ {
+  "prompt": "Do you think you could lend me your charger for a bit?",
+  "situation": "同僚が少しの間、充電器を貸してほしいと頼んでいる。",
+  "choices": [
+   "Sure, here you go.",
+   "No, I lent it yesterday.",
+   "Yes, my phone is dead too.",
+   "Thanks for the charger."
+  ],
+  "answerIndex": 0,
+  "explanation": "貸してほしいという依頼に、Sure, here you go.（どうぞ）と渡すのが適切。"
+ },
+ {
+  "prompt": "I hate to ask, but could you cover my shift tomorrow?",
+  "situation": "同僚が明日のシフトを代わってほしいと申し訳なさそうに頼んでいる。",
+  "choices": [
+   "Let me check my schedule and get back to you.",
+   "Yes, the shift is covered in snow.",
+   "No, I hate asking too.",
+   "Sure, tomorrow was yesterday."
+  ],
+  "answerIndex": 0,
+  "explanation": "シフト交代の依頼に、予定を確認して後で返事すると答えるのが自然で適切。"
+ },
+ {
+  "prompt": "Would it be possible for you to proofread my essay before Friday?",
+  "situation": "友人が金曜までにエッセイの校正をしてほしいと丁寧に頼んでいる。",
+  "choices": [
+   "Sure, just send it over whenever you're ready.",
+   "Yes, I proofread on Saturdays only.",
+   "No, the essay is impossible.",
+   "Thanks, it was a great read."
+  ],
+  "answerIndex": 0,
+  "explanation": "校正の依頼に応じ、準備ができたら送ってと答えるのが適切。"
+ },
+ {
+  "prompt": "Can I ask you a quick favor?",
+  "situation": "同僚がちょっとした頼みごとがあると切り出している。",
+  "choices": [
+   "Sure, what do you need?",
+   "Yes, it was very quick.",
+   "No, favors are expensive.",
+   "You're welcome anytime."
+  ],
+  "answerIndex": 0,
+  "explanation": "頼みごとを切り出されたら、Sure, what do you need?（何が必要？）と応じるのが自然。"
+ },
+ {
+  "prompt": "Could you pick me up from the airport on Sunday?",
+  "situation": "友人が日曜に空港まで車で迎えに来てほしいと頼んでいる。",
+  "choices": [
+   "No problem, just text me your flight number.",
+   "Yes, the airport is far.",
+   "Sorry, I picked it up already.",
+   "Sure, Sunday is my favorite day."
+  ],
+  "answerIndex": 0,
+  "explanation": "迎えの依頼に応じ、フライト番号を送ってと具体的に答えるのが適切。"
+ },
+ {
+  "prompt": "Would you be able to explain this part again? I didn't quite get it.",
+  "situation": "クラスメイトが分からない部分をもう一度説明してほしいと頼んでいる。",
+  "choices": [
+   "Of course, let me go over it once more.",
+   "Yes, I got it from the store.",
+   "No, you explained it well.",
+   "Thanks for the great explanation."
+  ],
+  "answerIndex": 0,
+  "explanation": "再説明の依頼に、もう一度説明すると応じる返答が適切。"
+ },
+ {
+  "prompt": "Is there any way you could finish this report by tonight?",
+  "situation": "上司が今夜までにレポートを仕上げてほしいと頼んでいる。",
+  "choices": [
+   "I'll do my best to get it done.",
+   "Yes, there is no way out.",
+   "No, the report finished me.",
+   "Sure, tonight was a long time ago."
+  ],
+  "answerIndex": 0,
+  "explanation": "急な依頼に対し、できる限り頑張ると前向きに答えるのが適切。"
+ },
+ {
+  "prompt": "Sorry to bother you, but could you show me how to use this machine?",
+  "situation": "新人がこの機械の使い方を教えてほしいと頼んでいる。",
+  "choices": [
+   "No bother at all. Let me walk you through it.",
+   "Yes, you bothered me a lot.",
+   "No, the machine is sorry.",
+   "Thanks, I already know how."
+  ],
+  "answerIndex": 0,
+  "explanation": "Sorry to bother you には No bother at all.（迷惑じゃない）と応じ、手順を案内するのが適切。"
+ },
+ {
+  "prompt": "Do you mind if I borrow your notes from yesterday's class?",
+  "situation": "クラスメイトが昨日の授業のノートを借りたいと頼んでいる。",
+  "choices": [
+   "Not at all, I'll bring them tomorrow.",
+   "Yes, I mind borrowing things.",
+   "No, the notes borrowed me.",
+   "Sure, the class was yesterday."
+  ],
+  "answerIndex": 0,
+  "explanation": "Do you mind if ...? に許可する時は Not at all.（構わない）と答える。明日持ってくると続けるのが自然。"
+ },
+ {
+  "prompt": "Could you do me a favor and water my plants while I'm away?",
+  "situation": "隣人が留守中に植物への水やりを頼んでいる。",
+  "choices": [
+   "Sure, just leave me a key.",
+   "Yes, the plants are thirsty for you.",
+   "No, water is wet.",
+   "Thanks, I watered them already."
+  ],
+  "answerIndex": 0,
+  "explanation": "水やりの依頼に応じ、鍵を預けてと実際的に答えるのが適切。"
+ },
+ {
+  "prompt": "I'm really sorry I'm late for the meeting.",
+  "situation": "会議に遅刻した同僚が謝っている。",
+  "choices": [
+   "No problem, we just got started.",
+   "You're welcome, see you later.",
+   "Congratulations on being late.",
+   "I'm sorry too, but why?"
+  ],
+  "answerIndex": 0,
+  "explanation": "遅刻の謝罪には「気にしないで、ちょうど始まったところ」と受け流すのが自然。No problemは謝罪を受け入れる定番表現。"
+ },
+ {
+  "prompt": "I apologize for breaking your favorite mug.",
+  "situation": "友人があなたのお気に入りのマグカップを割って謝っている。",
+  "choices": [
+   "Thanks for the mug.",
+   "Don't worry about it, accidents happen.",
+   "No, you can't break it.",
+   "I apologize for the meeting."
+  ],
+  "answerIndex": 1,
+  "explanation": "謝罪を受け入れて相手を安心させる「気にしないで、事故はつきもの」が適切。Accidents happenは慰めの決まり文句。"
+ },
+ {
+  "prompt": "Sorry, I think I gave you the wrong directions.",
+  "situation": "道案内を間違えた人が謝っている。",
+  "choices": [
+   "That's okay, I found it anyway.",
+   "No, you are very wrong person.",
+   "Sorry, I have no directions.",
+   "Thank you for breaking it."
+  ],
+  "answerIndex": 0,
+  "explanation": "「大丈夫、結局見つかったから」と相手の謝罪を軽く受け流すのが自然な応答。"
+ },
+ {
+  "prompt": "I'm sorry for forgetting your birthday.",
+  "situation": "友人があなたの誕生日を忘れていたことを謝っている。",
+  "choices": [
+   "Happy birthday to you too.",
+   "It's fine, really, don't worry.",
+   "Yes, you should be ashamed forever.",
+   "Sorry, I forgot my own birthday."
+  ],
+  "answerIndex": 1,
+  "explanation": "「本当に大丈夫、気にしないで」と相手を許す穏やかな返答が適切。It's fineは謝罪を受け入れる定番。"
+ },
+ {
+  "prompt": "I owe you an apology for what I said yesterday.",
+  "situation": "昨日きつい事を言った相手が改めて謝ろうとしている。",
+  "choices": [
+   "I appreciate you saying that.",
+   "You owe me money too.",
+   "I said nothing yesterday.",
+   "Apology is on the table."
+  ],
+  "answerIndex": 0,
+  "explanation": "きちんとした謝罪には「そう言ってくれてありがとう」と感謝で受け止めるのが大人の対応。"
+ },
+ {
+  "prompt": "Sorry, I didn't mean to interrupt you.",
+  "situation": "話している最中に割り込んでしまった人が謝っている。",
+  "choices": [
+   "You did mean it, liar.",
+   "No worries, go ahead.",
+   "Sorry, I can't hear you.",
+   "Interrupt is not allowed here."
+  ],
+  "answerIndex": 1,
+  "explanation": "「気にしないで、どうぞ」と相手に発言を促すのが自然。No worriesは軽い謝罪への定番返答。"
+ },
+ {
+  "prompt": "I'm afraid I spilled some coffee on your report.",
+  "situation": "あなたの報告書にコーヒーをこぼした人が申し訳なさそうに言う。",
+  "choices": [
+   "These things happen, I'll print another one.",
+   "Great, I love coffee stains.",
+   "You are afraid of coffee?",
+   "Spill it all, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "「よくあることだから、もう一部印刷するよ」と寛容に対応するのが適切。These things happenは慰めの表現。"
+ },
+ {
+  "prompt": "My apologies for the confusion in my email.",
+  "situation": "分かりにくいメールを送った相手が謝っている。",
+  "choices": [
+   "Confusion is my hobby.",
+   "Don't mention it, it's all clear now.",
+   "Yes, your email confused me forever.",
+   "Apologies are not accepted, ever."
+  ],
+  "answerIndex": 1,
+  "explanation": "「気にしないで、もう全部はっきりしたよ」と丁寧に受け流すのが自然。Don't mention itは定番表現。"
+ },
+ {
+  "prompt": "I'm sorry, I completely forgot to call you back.",
+  "situation": "折り返し電話を忘れた相手が謝っている。",
+  "choices": [
+   "That's alright, I figured you were busy.",
+   "You forgot your phone again?",
+   "Sorry, I never call anyone.",
+   "Call me back never, then."
+  ],
+  "answerIndex": 0,
+  "explanation": "「大丈夫、忙しいんだろうと思ってた」と相手を気遣いつつ許すのが自然な応答。"
+ },
+ {
+  "prompt": "Please forgive me for missing your party.",
+  "situation": "あなたのパーティーに来られなかった友人が謝っている。",
+  "choices": [
+   "There's nothing to forgive, you were sick.",
+   "I forgive nothing and no one.",
+   "Your party was missing too.",
+   "Please miss it again next time."
+  ],
+  "answerIndex": 0,
+  "explanation": "「許すも何も、病気だったんだから」と相手を安心させる温かい返答が適切。"
+ },
+ {
+  "prompt": "Sorry about the noise from our apartment last night.",
+  "situation": "隣人が昨夜の騒音を謝りに来ている。",
+  "choices": [
+   "It's okay, I didn't even notice.",
+   "Yes, you ruined my entire life.",
+   "Sorry, my apartment is silent.",
+   "Make more noise next time, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "近所付き合いでは「大丈夫、全然気づかなかった」と穏便に済ませるのが自然。"
+ },
+ {
+  "prompt": "I feel terrible about losing the book you lent me.",
+  "situation": "あなたが貸した本をなくした友人がひどく落ち込んで謝っている。",
+  "choices": [
+   "Please don't worry, it wasn't expensive.",
+   "You should feel terrible forever.",
+   "I lost your book too.",
+   "Terrible is the right word for you."
+  ],
+  "answerIndex": 0,
+  "explanation": "落ち込む相手には「気にしないで、高い本じゃなかったから」と慰めるのが優しい対応。"
+ },
+ {
+  "prompt": "I'm sorry for the long wait, your table is ready now.",
+  "situation": "レストランで店員が長く待たせたことを謝り、席に案内する。",
+  "choices": [
+   "No problem at all, thank you.",
+   "The wait was your fault entirely.",
+   "Sorry, I have no table.",
+   "Wait longer, I insist."
+  ],
+  "answerIndex": 0,
+  "explanation": "店員の丁寧な謝罪には「全く問題ありません、ありがとう」と礼儀正しく応じるのが自然。"
+ },
+ {
+  "prompt": "Why don't we grab some coffee after the meeting?",
+  "situation": "会議のあとに同僚を誘う場面。",
+  "choices": [
+   "Sure, that sounds great.",
+   "No, I didn't grab it.",
+   "Because I like coffee.",
+   "The meeting was very long."
+  ],
+  "answerIndex": 0,
+  "explanation": "Why don't we...?は「~しませんか」という誘いの表現。Sureで快く応じる0が正解。"
+ },
+ {
+  "prompt": "How about going to the new Italian restaurant tonight?",
+  "situation": "友人を夕食に誘う場面。",
+  "choices": [
+   "It's about an hour away.",
+   "Sounds good, I'd love to.",
+   "No, it isn't Italian.",
+   "I went there yesterday too."
+  ],
+  "answerIndex": 1,
+  "explanation": "How about ...ing?は提案の表現。喜んで応じるI'd love toの1が自然な返答。"
+ },
+ {
+  "prompt": "Let's take a short break, shall we?",
+  "situation": "作業中に休憩を提案する場面。",
+  "choices": [
+   "Yes, let's. I need one.",
+   "No, I don't have a break.",
+   "It's a very short street.",
+   "Let's not take the bus."
+  ],
+  "answerIndex": 0,
+  "explanation": "Let's ...は勧誘表現で、応じるときはYes, let's。休憩したい気持ちを示す0が正解。"
+ },
+ {
+  "prompt": "Would you like to join us for lunch?",
+  "situation": "同僚をランチに誘う場面。",
+  "choices": [
+   "No, I don't like you.",
+   "I'd love to, thanks.",
+   "Yes, I joined yesterday.",
+   "Lunch is on the table."
+  ],
+  "answerIndex": 1,
+  "explanation": "Would you like to ...?は丁寧な誘い。I'd love to, thanksと感謝して応じる1が適切。"
+ },
+ {
+  "prompt": "Shall we go for a walk this evening?",
+  "situation": "夕方に散歩に誘う場面。",
+  "choices": [
+   "That would be nice.",
+   "No, I can't walk at all.",
+   "The walk is over there.",
+   "Yes, I went this morning."
+  ],
+  "answerIndex": 0,
+  "explanation": "Shall we ...?は誘いの定型。That would be niceと前向きに応じる0が正解。"
+ },
+ {
+  "prompt": "Do you want to come over and watch a movie this weekend?",
+  "situation": "週末に家へ映画を見に誘う場面。",
+  "choices": [
+   "Yes, I watched it already.",
+   "Sure, what time should I come?",
+   "No, the movie is too long.",
+   "I came over last year."
+  ],
+  "answerIndex": 1,
+  "explanation": "come over=家に来る、への誘い。応じて時間を尋ねる1が会話として自然。"
+ },
+ {
+  "prompt": "Why not try the new café around the corner?",
+  "situation": "近くの新しいカフェを勧める場面。",
+  "choices": [
+   "Good idea, let's go.",
+   "No, I can't try it on.",
+   "Because it's closed today.",
+   "I cornered the café."
+  ],
+  "answerIndex": 0,
+  "explanation": "Why not ...?は「~したら?」という提案。Good ideaと賛同する0が正解。"
+ },
+ {
+  "prompt": "How about we split the bill this time?",
+  "situation": "食事の支払いを割り勘にしようと提案する場面。",
+  "choices": [
+   "Sounds fair to me.",
+   "No, the bill is too heavy.",
+   "I split my pants.",
+   "Yes, the time is over."
+  ],
+  "answerIndex": 0,
+  "explanation": "How about we ...?で提案。割り勘に納得するSounds fairの0が適切。"
+ },
+ {
+  "prompt": "Let's meet at the station at seven, okay?",
+  "situation": "待ち合わせ時間を提案する場面。",
+  "choices": [
+   "No, the station is closed.",
+   "Sure, see you then.",
+   "Yes, I met him before.",
+   "Seven stations are too many."
+  ],
+  "answerIndex": 1,
+  "explanation": "待ち合わせの提案に対し、Sure, see you thenと了承する1が自然な応答。"
+ },
+ {
+  "prompt": "Would you care to dance?",
+  "situation": "パーティーでダンスに誘う場面。",
+  "choices": [
+   "No, I don't care about it.",
+   "I'd be delighted to.",
+   "Yes, I danced last week.",
+   "The dance is on Friday."
+  ],
+  "answerIndex": 1,
+  "explanation": "Would you care to ...?は丁寧な誘い。I'd be delighted toと快諾する1が正解。"
+ },
+ {
+  "prompt": "We could go hiking on Sunday if you're free.",
+  "situation": "日曜のハイキングに誘う場面。",
+  "choices": [
+   "Yes, I went hiking last Sunday.",
+   "That sounds like fun, count me in.",
+   "No, I'm not free of charge.",
+   "The hike was very steep."
+  ],
+  "answerIndex": 1,
+  "explanation": "We could ...は控えめな提案。count me in(参加するよ)で応じる1が適切。"
+ },
+ {
+  "prompt": "What do you say we order a pizza tonight?",
+  "situation": "今夜ピザを頼もうと提案する場面。",
+  "choices": [
+   "I say good morning.",
+   "Great, I'm starving.",
+   "No, I didn't order it.",
+   "The pizza was cold."
+  ],
+  "answerIndex": 1,
+  "explanation": "What do you say we ...?は「~しない?」の提案。賛成しI'm starvingと応じる1が自然。"
+ },
+ {
+  "prompt": "Why don't you come to my birthday party on Saturday?",
+  "situation": "土曜の誕生日パーティーに招待する場面。",
+  "choices": [
+   "I'd love to, thanks for inviting me.",
+   "No, my birthday is in May.",
+   "Yes, I came last Saturday.",
+   "The party was really fun."
+  ],
+  "answerIndex": 0,
+  "explanation": "Why don't you ...?は招待の表現。招待への礼を述べて応じる0が最も適切。"
+ },
+ {
+  "prompt": "Hi there, what can I get started for you today?",
+  "situation": "カフェのカウンターで店員に話しかけられる",
+  "choices": [
+   "I'll have a medium latte, please.",
+   "No, I haven't been here before.",
+   "Yes, the weather is nice today.",
+   "I work just around the corner."
+  ],
+  "answerIndex": 0,
+  "explanation": "「何にしますか」と注文を尋ねる定番表現。注文内容を答える(a)が適切。"
+ },
+ {
+  "prompt": "What size would you like?",
+  "situation": "ドリンクのサイズを聞かれる",
+  "choices": [
+   "A small, please.",
+   "With oat milk, thanks.",
+   "For here, please.",
+   "I'll pay by card."
+  ],
+  "answerIndex": 0,
+  "explanation": "サイズを尋ねる質問なので、Small(小)と答える(a)が適切。"
+ },
+ {
+  "prompt": "Can I get your name for the order?",
+  "situation": "注文用に名前を聞かれる",
+  "choices": [
+   "It's Kenji.",
+   "I'd like a cappuccino.",
+   "About five minutes.",
+   "Yes, it's over there."
+  ],
+  "answerIndex": 0,
+  "explanation": "名前を尋ねているので、自分の名前を答える(a)が適切。"
+ },
+ {
+  "prompt": "Would you like any milk in your coffee?",
+  "situation": "コーヒーにミルクを入れるか聞かれる",
+  "choices": [
+   "Yes, just a little, please.",
+   "No, I'll have it here.",
+   "A large, please.",
+   "It's on the counter."
+  ],
+  "answerIndex": 0,
+  "explanation": "ミルクを入れるかどうかの質問。少しだけ、と答える(a)が適切。"
+ },
+ {
+  "prompt": "That'll be four dollars fifty.",
+  "situation": "会計金額を伝えられる",
+  "choices": [
+   "Here you go.",
+   "To go, please.",
+   "A medium, thanks.",
+   "No milk for me."
+  ],
+  "answerIndex": 0,
+  "explanation": "金額を告げられた場面。「どうぞ(お金/カードを渡す)」の(a)が適切。"
+ },
+ {
+  "prompt": "Sorry, we're all out of blueberry muffins.",
+  "situation": "頼んだマフィンが売り切れと言われる",
+  "choices": [
+   "Oh, that's okay. I'll have a croissant instead.",
+   "Yes, two muffins, please.",
+   "No, I don't like coffee.",
+   "It's for here."
+  ],
+  "answerIndex": 0,
+  "explanation": "売り切れと言われた場面。別の物にすると応じる(a)が自然。"
+ },
+ {
+  "prompt": "Would you like to try our new pumpkin spice latte?",
+  "situation": "新作ラテをすすめられる",
+  "choices": [
+   "Sure, I'll give it a try.",
+   "No, the line is too long.",
+   "Yes, my name is Anna.",
+   "It's around three o'clock."
+  ],
+  "answerIndex": 0,
+  "explanation": "新作をすすめる質問。「試してみます」と答える(a)が適切。"
+ },
+ {
+  "prompt": "Do you want room for cream?",
+  "situation": "クリーム用にカップに余白を残すか聞かれる",
+  "choices": [
+   "Yes, please, just a bit.",
+   "No, it's to go.",
+   "A small coffee, thanks.",
+   "My name is Tom."
+  ],
+  "answerIndex": 0,
+  "explanation": "余白を残すかの質問。少しお願いします、と答える(a)が適切。"
+ },
+ {
+  "prompt": "How would you like your coffee?",
+  "situation": "コーヒーの好みを聞かれる",
+  "choices": [
+   "Black, no sugar, please.",
+   "Yes, for here.",
+   "It's five dollars.",
+   "I came by bus."
+  ],
+  "answerIndex": 0,
+  "explanation": "好みを尋ねる質問。「ブラックで砂糖なし」と答える(a)が適切。"
+ },
+ {
+  "prompt": "Your order will be ready in just a moment.",
+  "situation": "注文がもうすぐできると言われる",
+  "choices": [
+   "Great, thank you.",
+   "No, a large one.",
+   "Yes, my name is Lee.",
+   "With milk, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "「すぐできます」と言われた場面。お礼を述べる(a)が自然。"
+ },
+ {
+  "prompt": "Is there anything else I can get for you?",
+  "situation": "他に注文がないか聞かれる",
+  "choices": [
+   "No, that's all, thanks.",
+   "Yes, it's to go.",
+   "A medium, please.",
+   "I'll pay cash."
+  ],
+  "answerIndex": 0,
+  "explanation": "他に注文があるか尋ねる質問。「以上です」と答える(a)が適切。"
+ },
+ {
+  "prompt": "Would you like a receipt?",
+  "situation": "レシートが要るか聞かれる",
+  "choices": [
+   "No, thanks, I'm fine.",
+   "Yes, a large latte.",
+   "For here, please.",
+   "It's by the door."
+  ],
+  "answerIndex": 0,
+  "explanation": "レシートが必要か尋ねる質問。「いりません」と断る(a)が適切。"
+ },
+ {
+  "prompt": "Excuse me, does this train stop at Central Station?",
+  "situation": "駅のホームで、隣に立っている人に電車の停車駅を尋ねる",
+  "choices": [
+   "Yes, it's the third stop from here.",
+   "No, I don't have any change.",
+   "Sorry, the station is closed today.",
+   "I'd like a window seat, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "電車がその駅に停まるか尋ねているので、停車するかどうかと駅の情報を答えるのが自然。「ここから3つ目の駅です」が適切。"
+ },
+ {
+  "prompt": "Which platform does the bus to the airport leave from?",
+  "situation": "バスターミナルで、空港行きのバスの乗り場を聞く",
+  "choices": [
+   "It departs from platform 5, over there.",
+   "The flight was delayed by an hour.",
+   "I usually walk to work.",
+   "You can pay with a credit card."
+  ],
+  "answerIndex": 0,
+  "explanation": "どの乗り場から出発するかを聞いているので、乗り場の番号を答える「5番乗り場です」が正解。他は乗り場の質問への答えになっていない。"
+ },
+ {
+  "prompt": "Could you tell me how much the fare to downtown is?",
+  "situation": "バスの運賃を運転手に尋ねる",
+  "choices": [
+   "It's two dollars and fifty cents.",
+   "The bus is always crowded at night.",
+   "I left my umbrella at home.",
+   "Turn left at the next corner."
+  ],
+  "answerIndex": 0,
+  "explanation": "運賃(料金)を聞いているので、金額を答える「2ドル50セントです」が適切。"
+ },
+ {
+  "prompt": "Is this seat taken?",
+  "situation": "電車内で空いていそうな席が空いているか確認する",
+  "choices": [
+   "No, go ahead and sit down.",
+   "I take the subway every day.",
+   "The ticket office is upstairs.",
+   "It leaves at nine o'clock."
+  ],
+  "answerIndex": 0,
+  "explanation": "席が使われているか尋ねているので、「いいえ、どうぞ座ってください」と答えるのが自然。"
+ },
+ {
+  "prompt": "Do you know when the next train arrives?",
+  "situation": "ホームで次の電車の到着時刻を知っているか聞く",
+  "choices": [
+   "In about five minutes, I think.",
+   "The doors open on the right side.",
+   "I bought a monthly pass yesterday.",
+   "This car is for first class only."
+  ],
+  "answerIndex": 0,
+  "explanation": "次の電車がいつ来るかを尋ねているので、時間を答える「5分くらいで来ると思います」が正解。"
+ },
+ {
+  "prompt": "Should I get off at the next stop for the museum?",
+  "situation": "博物館へ行くために次の停留所で降りるべきか確認する",
+  "choices": [
+   "Yes, that's the closest stop.",
+   "No, I don't like museums.",
+   "The bus driver is very kind.",
+   "My ticket expired last week."
+  ],
+  "answerIndex": 0,
+  "explanation": "博物館に行くのに次で降りるべきか尋ねているので、「はい、そこが一番近い停留所です」と案内するのが適切。"
+ },
+ {
+  "prompt": "Excuse me, is this the right line for the city center?",
+  "situation": "自分が乗っている路線が市の中心部行きか確認する",
+  "choices": [
+   "Yes, but you'll need to change at the next station.",
+   "I prefer traveling by car.",
+   "The weather is nice today.",
+   "Please keep your bag with you."
+  ],
+  "answerIndex": 0,
+  "explanation": "この路線で合っているか尋ねているので、合っているかどうかと乗り換え情報を答える選択肢が自然。"
+ },
+ {
+  "prompt": "Can I use this card to pay for the bus?",
+  "situation": "このカードでバス料金を払えるか運転手に尋ねる",
+  "choices": [
+   "Sorry, we only accept cash.",
+   "The next stop is the library.",
+   "I've never been to this city.",
+   "The bus is painted blue."
+  ],
+  "answerIndex": 0,
+  "explanation": "カードで支払えるか尋ねているので、支払い方法について答える「すみません、現金のみです」が適切。"
+ },
+ {
+  "prompt": "How many stops is it to the stadium?",
+  "situation": "スタジアムまであと何駅かを尋ねる",
+  "choices": [
+   "It's four stops from here.",
+   "I lost my wallet yesterday.",
+   "The game starts at seven.",
+   "You can sit anywhere you like."
+  ],
+  "answerIndex": 0,
+  "explanation": "スタジアムまで何駅か尋ねているので、駅の数を答える「ここから4駅です」が正解。"
+ },
+ {
+  "prompt": "Do I need to transfer to get to the harbor?",
+  "situation": "港へ行くのに乗り換えが必要か確認する",
+  "choices": [
+   "Yes, change to the blue line at Park Station.",
+   "No, the harbor is very beautiful.",
+   "I take a taxi to the office.",
+   "The fare went up last month."
+  ],
+  "answerIndex": 0,
+  "explanation": "乗り換えが必要か尋ねているので、乗り換えの有無と方法を答える選択肢が自然。「パーク駅で青い路線に乗り換えてください」が適切。"
+ },
+ {
+  "prompt": "Where can I buy a ticket for the express train?",
+  "situation": "特急列車の切符をどこで買えるか尋ねる",
+  "choices": [
+   "There's a machine just past the entrance.",
+   "The express train is very fast.",
+   "I usually sit by the window.",
+   "It's raining outside right now."
+  ],
+  "answerIndex": 0,
+  "explanation": "切符をどこで買えるか尋ねているので、場所を答える「入口を過ぎたところに券売機があります」が正解。"
+ },
+ {
+  "prompt": "Is the last bus already gone?",
+  "situation": "最終バスがもう出てしまったか確認する",
+  "choices": [
+   "No, there's one more in ten minutes.",
+   "Yes, I enjoy riding the bus.",
+   "The seats are quite comfortable.",
+   "You should wear a seatbelt."
+  ],
+  "answerIndex": 0,
+  "explanation": "最終バスが行ってしまったか尋ねているので、まだあるかどうかを答える「いいえ、あと10分で1本あります」が適切。"
+ },
+ {
+  "prompt": "Could you let me know when we reach the hospital stop?",
+  "situation": "病院の停留所に着いたら教えてほしいと頼む",
+  "choices": [
+   "Sure, I'll tell you when we get there.",
+   "I went to the doctor last week.",
+   "The bus number is twenty-two.",
+   "Tickets are sold at the counter."
+  ],
+  "answerIndex": 0,
+  "explanation": "着いたら教えてほしいと頼んでいるので、「もちろん、着いたら教えます」と引き受ける返答が自然。"
+ },
+ {
+  "prompt": "Could you give me a hand with this report later?",
+  "situation": "同僚があなたに手伝いを頼んでいる場面",
+  "choices": [
+   "Sure, just let me know when you're ready.",
+   "No, my hands are clean.",
+   "I gave it to him yesterday.",
+   "The report reads itself."
+  ],
+  "answerIndex": 0,
+  "explanation": "give me a hand は「手伝って」の意味。手伝いの依頼に快諾する0が自然。"
+ },
+ {
+  "prompt": "Do you know if the meeting got moved to three?",
+  "situation": "会議の時間変更について同僚に尋ねる場面",
+  "choices": [
+   "I never move at work.",
+   "Yes, I heard it was pushed back an hour.",
+   "The meeting is a chair.",
+   "Three is my lucky number, thanks."
+  ],
+  "answerIndex": 1,
+  "explanation": "会議が3時に移動したか確認している。pushed back(後ろにずらす)で答える1が適切。"
+ },
+ {
+  "prompt": "I'm heading out for coffee—want anything?",
+  "situation": "同僚がコーヒーを買いに行く前に声をかける場面",
+  "choices": [
+   "No, you can't head out.",
+   "Coffee is a vegetable.",
+   "A latte would be great, thanks!",
+   "I already drank your coffee."
+  ],
+  "answerIndex": 2,
+  "explanation": "何か要るか聞かれている。注文を頼みつつ礼を言う2が自然な応答。"
+ },
+ {
+  "prompt": "Have you had a chance to look over my draft?",
+  "situation": "同僚が自分の原稿を確認してくれたか尋ねる場面",
+  "choices": [
+   "Not yet, but I'll get to it this afternoon.",
+   "I have no chances left.",
+   "Your draft drank my coffee.",
+   "Look over there, it's raining."
+  ],
+  "answerIndex": 0,
+  "explanation": "原稿を確認したか聞かれている。まだだが午後に対応すると答える0が自然。"
+ },
+ {
+  "prompt": "Sorry, do you mind if I take this desk for now?",
+  "situation": "同僚が空いている机を使ってよいか尋ねる場面",
+  "choices": [
+   "Yes, I mind everything.",
+   "Not at all, go ahead.",
+   "The desk minds you.",
+   "Take it to the airport."
+  ],
+  "answerIndex": 1,
+  "explanation": "Do you mind? には許可なら Not at all(構いません)で返す。1が正しい。"
+ },
+ {
+  "prompt": "Can you cover for me while I step out for lunch?",
+  "situation": "同僚が昼食の間、代わりを頼む場面",
+  "choices": [
+   "No problem, I've got it covered.",
+   "Lunch covers the sky.",
+   "I can't step on you.",
+   "The blanket is over there."
+  ],
+  "answerIndex": 0,
+  "explanation": "cover for me は「代わりを務める」。引き受ける0が適切な応答。"
+ },
+ {
+  "prompt": "How was your weekend, by the way?",
+  "situation": "同僚が週末の様子を尋ねる雑談の場面",
+  "choices": [
+   "The weekend is a printer.",
+   "By the way is over there.",
+   "It was pretty relaxing, thanks. How about yours?",
+   "No, I weekend on Mondays."
+  ],
+  "answerIndex": 2,
+  "explanation": "週末どうだったか聞かれている。感想を述べ相手にも聞き返す2が自然。"
+ },
+ {
+  "prompt": "Do you happen to know where the stapler went?",
+  "situation": "同僚がホチキスの場所を尋ねる場面",
+  "choices": [
+   "The stapler is happy today.",
+   "I think it's by the printer.",
+   "Yes, I happen all the time.",
+   "Staplers can't walk away."
+  ],
+  "answerIndex": 1,
+  "explanation": "ホチキスの場所を聞かれている。具体的な場所を答える1が適切。"
+ },
+ {
+  "prompt": "I think there's a typo in the email you sent.",
+  "situation": "同僚が送ったメールの誤字を指摘する場面",
+  "choices": [
+   "Emails don't have typos.",
+   "A typo is a kind of fruit.",
+   "Oh, thanks for catching that—I'll fix it.",
+   "I sent it to the moon."
+  ],
+  "answerIndex": 2,
+  "explanation": "誤字を指摘されている。指摘に感謝し修正すると答える2が自然な反応。"
+ },
+ {
+  "prompt": "Are you free to grab lunch around noon?",
+  "situation": "同僚が昼食に誘う場面",
+  "choices": [
+   "I'm not free, I cost money.",
+   "Noon grabbed my lunch.",
+   "Lunch is not a person.",
+   "Sounds good—let's meet at the lobby."
+  ],
+  "answerIndex": 3,
+  "explanation": "昼食の誘い。応じて待ち合わせ場所を提案する3が自然な返答。"
+ },
+ {
+  "prompt": "Did the client ever get back to you about the proposal?",
+  "situation": "同僚が顧客からの返信があったか尋ねる場面",
+  "choices": [
+   "Clients never have backs.",
+   "Not yet, but I'm expecting an email today.",
+   "I got back from vacation.",
+   "The proposal proposed to me."
+  ],
+  "answerIndex": 1,
+  "explanation": "顧客から返事が来たか確認している。まだだが今日来る見込みと答える1が適切。"
+ },
+ {
+  "prompt": "Mind passing me that folder on your right?",
+  "situation": "同僚が右側のフォルダを取ってほしいと頼む場面",
+  "choices": [
+   "Sure, here you go.",
+   "No, the folder is left-handed.",
+   "I passed the exam already.",
+   "Right is the opposite of wrong."
+  ],
+  "answerIndex": 0,
+  "explanation": "フォルダを渡してと頼まれている。Sure, here you go と手渡す0が自然。"
+ },
+ {
+  "prompt": "You look swamped—need me to take some of that off your plate?",
+  "situation": "忙しそうな同僚に仕事の分担を申し出る場面",
+  "choices": [
+   "My plate is in the kitchen.",
+   "Swamps are full of water.",
+   "That would be a huge help, actually.",
+   "No, I never eat at my desk."
+  ],
+  "answerIndex": 2,
+  "explanation": "take off your plate は「負担を引き受ける」。助けの申し出に感謝する2が適切。"
+ },
+ {
+  "prompt": "Excuse me, I ordered the soup about twenty minutes ago, but it still hasn't arrived.",
+  "situation": "レストランで注文した料理がなかなか来ない時、店員に丁寧に伝える場面。",
+  "choices": [
+   "I'm so sorry about that. Let me check with the kitchen right away.",
+   "Then why did you order it?",
+   "You should have come earlier.",
+   "We don't have any soup today."
+  ],
+  "answerIndex": 0,
+  "explanation": "丁寧な苦情に対し、謝罪して状況を確認する0が適切。他は相手を責めたり話がかみ合わない。"
+ },
+ {
+  "prompt": "I'm sorry to bring this up, but the room next to mine has been quite noisy all night.",
+  "situation": "ホテルで隣室がうるさく、フロントに控えめに苦情を伝える場面。",
+  "choices": [
+   "That's not my problem.",
+   "I do apologize. We'll ask them to keep it down, or move you to another room.",
+   "You should sleep with earplugs.",
+   "Everyone enjoys a little noise."
+  ],
+  "answerIndex": 1,
+  "explanation": "謝罪し、注意か部屋移動という解決策を示す1が適切。他は冷淡または無責任な対応。"
+ },
+ {
+  "prompt": "I don't mean to complain, but this coffee is actually cold.",
+  "situation": "カフェで出された飲み物が冷めていた時、やわらかく指摘する場面。",
+  "choices": [
+   "Cold coffee is healthier, you know.",
+   "Are you sure you didn't let it sit?",
+   "Oh, I'm sorry! I'll bring you a fresh hot one right away.",
+   "We always serve it like that."
+  ],
+  "answerIndex": 2,
+  "explanation": "謝って淹れ直すと申し出る2が適切。他は言い訳や客を責める対応で不適切。"
+ },
+ {
+  "prompt": "Would it be possible to fix the air conditioning? It's been a bit too warm in here.",
+  "situation": "オフィスや部屋で空調の不調を、相手に配慮しつつ頼む場面。",
+  "choices": [
+   "Just open a window then.",
+   "Of course. I'll send someone to take a look at it shortly.",
+   "It feels fine to me.",
+   "There's nothing wrong with it."
+  ],
+  "answerIndex": 1,
+  "explanation": "依頼を受け入れて対応を約束する1が適切。他は要望を退けたり突き放す返答。"
+ },
+ {
+  "prompt": "I hate to be a bother, but I think there's a mistake on my bill.",
+  "situation": "会計時に請求額の誤りに気づき、遠慮しながら申し出る場面。",
+  "choices": [
+   "Our bills are never wrong.",
+   "You probably just can't add.",
+   "Let me have a look — you're right, I'll correct that for you.",
+   "Just pay it anyway."
+  ],
+  "answerIndex": 2,
+  "explanation": "確認して誤りを認め訂正する2が適切。他は確認を拒否したり客を侮辱している。"
+ },
+ {
+  "prompt": "Sorry, but the package I received seems to have a small crack on the side.",
+  "situation": "届いた商品に傷があり、店やサポートに丁寧に連絡する場面。",
+  "choices": [
+   "That happens to everyone.",
+   "You must have dropped it.",
+   "We don't accept complaints.",
+   "I'm very sorry about that. We'll send you a replacement at no charge."
+  ],
+  "answerIndex": 3,
+  "explanation": "謝罪し無償交換を申し出る3が適切。他は責任転嫁や苦情拒否で不適切。"
+ },
+ {
+  "prompt": "I understand you're busy, but I've been waiting in this line for nearly an hour.",
+  "situation": "窓口やサービスで長く待たされ、相手をいたわりつつ不満を伝える場面。",
+  "choices": [
+   "I'm really sorry for the wait. Let me help you right now.",
+   "An hour isn't that long.",
+   "You should have come another day.",
+   "Waiting is part of life."
+  ],
+  "answerIndex": 0,
+  "explanation": "待たせたことを謝り、すぐ対応する0が適切。他は不満を軽視している。"
+ },
+ {
+  "prompt": "I don't want to make a fuss, but the Wi-Fi in my room hasn't been working since I checked in.",
+  "situation": "宿泊先でWi-Fiが使えず、大げさにせず伝える場面。",
+  "choices": [
+   "Use your phone data instead.",
+   "Oh no, I apologize. I'll have our technician reset it for you immediately.",
+   "The Wi-Fi is fine everywhere else.",
+   "Maybe your laptop is broken."
+  ],
+  "answerIndex": 1,
+  "explanation": "謝罪し技術者にすぐ対応させる1が適切。他は突き放したり客のせいにしている。"
+ },
+ {
+  "prompt": "Excuse me, I asked for no onions, but it looks like there are some in here.",
+  "situation": "注文と違う料理が出てきた時、店員に穏やかに指摘する場面。",
+  "choices": [
+   "Just pick them out.",
+   "You didn't say that clearly.",
+   "I'm sorry for the mix-up. I'll have the kitchen remake it for you.",
+   "Onions are good for you."
+  ],
+  "answerIndex": 2,
+  "explanation": "間違いを謝り作り直すと申し出る2が適切。他は責任転嫁や軽視の返答。"
+ },
+ {
+  "prompt": "I'm a little disappointed — the tour started almost thirty minutes late today.",
+  "situation": "ツアーやイベントの開始が遅れ、丁寧に残念な気持ちを伝える場面。",
+  "choices": [
+   "Delays are normal.",
+   "You should be grateful it started at all.",
+   "It wasn't that late.",
+   "I completely understand, and I'm sorry. We'll add extra time at the end to make up for it."
+  ],
+  "answerIndex": 3,
+  "explanation": "遅延を認め謝り、埋め合わせを提案する3が適切。他は不満を退けている。"
+ },
+ {
+  "prompt": "Sorry to mention it, but the heater in my apartment doesn't seem to be working properly.",
+  "situation": "賃貸の設備不良を大家や管理会社に控えめに伝える場面。",
+  "choices": [
+   "Just wear more clothes.",
+   "Thanks for letting me know. I'll arrange for a repair as soon as possible.",
+   "It worked for the last tenant.",
+   "Heaters break all the time."
+  ],
+  "answerIndex": 1,
+  "explanation": "連絡に感謝し早急に修理を手配する1が適切。他は問題を放置・軽視している。"
+ },
+ {
+  "prompt": "I hope you don't mind me saying, but the music in here is a bit loud for talking.",
+  "situation": "店内の音楽が大きく、会話しづらいことをやんわり伝える場面。",
+  "choices": [
+   "Then go somewhere else.",
+   "Of course, I'll turn it down a little for you.",
+   "Music is supposed to be loud.",
+   "You can talk louder."
+  ],
+  "answerIndex": 1,
+  "explanation": "要望を受け入れ音量を下げる1が適切。他は突き放したり要望を無視している。"
+ },
+ {
+  "prompt": "I'm afraid the report I received has a few errors in the figures.",
+  "situation": "職場で受け取った資料の数値に誤りがあり、相手に配慮して指摘する場面。",
+  "choices": [
+   "The numbers are fine.",
+   "You must have misread them.",
+   "That's not my job to check.",
+   "Thank you for catching that. I'll double-check the figures and send you a corrected version."
+  ],
+  "answerIndex": 3,
+  "explanation": "指摘に感謝し確認・修正版を送る3が適切。他は誤りを否定したり責任を回避している。"
+ },
+ {
+  "prompt": "I just heard you passed the bar exam — congratulations!",
+  "situation": "司法試験に合格したあなたを、相手が祝福している。",
+  "choices": [
+   "Thank you so much, I really appreciate it.",
+   "No, I don't have the time.",
+   "Sorry, that's not my fault.",
+   "Yes, the exam is next week."
+  ],
+  "answerIndex": 0,
+  "explanation": "祝福には感謝で応じる。「Thank you so much」が自然。他は話がかみ合わない。"
+ },
+ {
+  "prompt": "Thanks a lot for helping me move this weekend.",
+  "situation": "週末の引っ越しを手伝ったあなたに、相手がお礼を言っている。",
+  "choices": [
+   "I'm afraid I can't make it.",
+   "No problem, I was happy to help.",
+   "Congratulations on your new house.",
+   "I didn't do anything at all, sorry."
+  ],
+  "answerIndex": 1,
+  "explanation": "お礼への返しは「No problem」「どういたしまして」が定番。手伝った事実を打ち消す選択肢は不適切。"
+ },
+ {
+  "prompt": "Congratulations on your promotion! You really earned it.",
+  "situation": "昇進したあなたを相手が祝っている。",
+  "choices": [
+   "That's too bad, I'm sorry.",
+   "Thanks! It means a lot coming from you.",
+   "Maybe next time I'll try harder.",
+   "I don't think I deserve a raise."
+  ],
+  "answerIndex": 1,
+  "explanation": "昇進祝いには感謝で返す。「あなたに言われると嬉しい」と添えると自然。"
+ },
+ {
+  "prompt": "I wanted to thank you for the lovely birthday gift.",
+  "situation": "誕生日プレゼントを贈ったあなたに、相手がお礼を述べている。",
+  "choices": [
+   "You're very welcome, I'm glad you liked it.",
+   "I'm sorry, I forgot your birthday.",
+   "Happy birthday to you too.",
+   "I'll buy you one someday."
+  ],
+  "answerIndex": 0,
+  "explanation": "贈り物のお礼には「You're welcome」と「気に入ってくれて嬉しい」が自然な返し。"
+ },
+ {
+  "prompt": "Congrats on the new baby! How are you all doing?",
+  "situation": "赤ちゃんが生まれたあなたを相手が祝っている。",
+  "choices": [
+   "No thanks, I'm full.",
+   "Thank you! We're tired but so happy.",
+   "Sorry, we're not interested.",
+   "Yes, please send it back."
+  ],
+  "answerIndex": 1,
+  "explanation": "出産祝いには感謝し、近況を添えると会話が続く。他は文脈に合わない。"
+ },
+ {
+  "prompt": "Thank you so much for covering my shift yesterday.",
+  "situation": "昨日あなたが相手のシフトを代わってあげ、お礼を言われている。",
+  "choices": [
+   "Anytime — just let me know if you need me again.",
+   "Congratulations on your new job.",
+   "I'm sorry I couldn't come.",
+   "No, I won't do it for you."
+  ],
+  "answerIndex": 0,
+  "explanation": "お礼には「Anytime（いつでもどうぞ）」が自然で快い返し。断る選択肢は不適切。"
+ },
+ {
+  "prompt": "Well done on winning first place in the competition!",
+  "situation": "大会で優勝したあなたを相手が称えている。",
+  "choices": [
+   "I'm sorry I lost.",
+   "Thanks — I couldn't have done it without my team.",
+   "That's none of your business.",
+   "No, you can have it."
+  ],
+  "answerIndex": 1,
+  "explanation": "称賛には感謝で応じ、謙遜してチームに触れると好印象。「負けてごめん」は事実と矛盾。"
+ },
+ {
+  "prompt": "I really appreciate everything you did for us this year.",
+  "situation": "一年間の働きに対し、相手が深く感謝を伝えている。",
+  "choices": [
+   "It was nothing, I'm just glad I could help.",
+   "Sorry for the inconvenience.",
+   "Congratulations, you won.",
+   "I don't remember doing that."
+  ],
+  "answerIndex": 0,
+  "explanation": "丁寧な感謝には「It was nothing（大したことないですよ）」と謙遜して返すのが自然。"
+ },
+ {
+  "prompt": "Congratulations on your wedding — I'm so happy for you two!",
+  "situation": "結婚したあなたを相手が祝福している。",
+  "choices": [
+   "Thank you! It means so much to have you here.",
+   "Sorry, the wedding is canceled.",
+   "No, I'd rather not get married.",
+   "That's a shame, really."
+  ],
+  "answerIndex": 0,
+  "explanation": "結婚祝いには感謝し、来てくれた喜びを添えると温かい返しになる。"
+ },
+ {
+  "prompt": "Thanks for the great advice — it really helped me out.",
+  "situation": "あなたの助言が役立ち、相手がお礼を言っている。",
+  "choices": [
+   "I'm glad it worked out for you.",
+   "Congratulations on the bad news.",
+   "Sorry, my advice was wrong.",
+   "No, you should ignore it."
+  ],
+  "answerIndex": 0,
+  "explanation": "助言へのお礼には「うまくいって良かった」と返すのが自然。自分の助言を否定する選択肢は不適切。"
+ },
+ {
+  "prompt": "Congratulations on graduating! What are your plans now?",
+  "situation": "卒業したあなたを相手が祝い、今後の予定を尋ねている。",
+  "choices": [
+   "Thanks! I'm starting a job in Tokyo next month.",
+   "I'm sorry I failed the class.",
+   "No, I dropped out last year.",
+   "Congratulations to you as well, sorry."
+  ],
+  "answerIndex": 0,
+  "explanation": "卒業祝いには感謝し、質問された予定を答えると会話が続く。「落第した」は矛盾。"
+ },
+ {
+  "prompt": "Thank you for staying late to finish the report.",
+  "situation": "残業して報告書を仕上げたあなたに、相手が感謝している。",
+  "choices": [
+   "My pleasure — I wanted to get it done right.",
+   "Sorry, I went home early.",
+   "Congratulations on the report.",
+   "No, I refuse to help you."
+  ],
+  "answerIndex": 0,
+  "explanation": "お礼には「My pleasure（喜んで）」が丁寧で自然。早く帰った、という返しは事実と矛盾。"
+ },
+ {
+  "prompt": "Happy anniversary — congratulations on ten years together!",
+  "situation": "結婚10周年を迎えたあなたを相手が祝っている。",
+  "choices": [
+   "Thank you! It's been a wonderful ten years.",
+   "Sorry, we broke up last month.",
+   "No, we just met yesterday.",
+   "I'm afraid I can't attend."
+  ],
+  "answerIndex": 0,
+  "explanation": "記念日の祝いには感謝し、年月を肯定的に振り返ると自然。他は状況と矛盾する。"
+ },
+ {
+  "prompt": "So, what do you usually do in your free time?",
+  "situation": "友人が休日の過ごし方を尋ねる",
+  "choices": [
+   "I mostly enjoy hiking and taking photos.",
+   "Yes, I have a lot of free time.",
+   "It costs about twenty dollars.",
+   "No, the store is closed today."
+  ],
+  "answerIndex": 0,
+  "explanation": "趣味を尋ねる質問。具体的な活動を答える選択肢が適切。"
+ },
+ {
+  "prompt": "How long have you been playing the guitar?",
+  "situation": "相手の趣味歴を聞く",
+  "choices": [
+   "About five years now.",
+   "It's made of wood.",
+   "Yes, I really like it.",
+   "Maybe next weekend."
+  ],
+  "answerIndex": 0,
+  "explanation": "「どのくらいの期間」を問う質問なので、期間を答えるのが正解。"
+ },
+ {
+  "prompt": "What got you interested in painting?",
+  "situation": "絵を描く趣味のきっかけを尋ねる",
+  "choices": [
+   "My grandmother was an artist, so I picked it up from her.",
+   "I paint twice a week.",
+   "The paint is quite expensive.",
+   "No, I don't paint at all."
+  ],
+  "answerIndex": 0,
+  "explanation": "きっかけ(理由)を尋ねているので、始めた経緯を語る選択肢が適切。"
+ },
+ {
+  "prompt": "Do you collect anything?",
+  "situation": "コレクションの趣味があるか尋ねる",
+  "choices": [
+   "Yes, I collect vintage postcards.",
+   "No, I'm not very tall.",
+   "It happened last year.",
+   "I'll meet you at six."
+  ],
+  "answerIndex": 0,
+  "explanation": "何かを集めているかという質問。集めている物を答えるのが正解。"
+ },
+ {
+  "prompt": "That sounds like a fun hobby!",
+  "situation": "相手の趣味に感想を述べる",
+  "choices": [
+   "Thanks, it really helps me relax.",
+   "No, I haven't eaten yet.",
+   "The weather is cold today.",
+   "It's down the street on the left."
+  ],
+  "answerIndex": 0,
+  "explanation": "趣味への好意的なコメントへの返答。礼を述べて補足する選択肢が自然。"
+ },
+ {
+  "prompt": "Are you into any sports?",
+  "situation": "スポーツに興味があるか尋ねる",
+  "choices": [
+   "Yeah, I play tennis every weekend.",
+   "No, the bus already left.",
+   "It tastes a bit salty.",
+   "She lives in Osaka now."
+  ],
+  "answerIndex": 0,
+  "explanation": "スポーツをするか尋ねる質問。やっているスポーツを答えるのが適切。"
+ },
+ {
+  "prompt": "What kind of music do you like to listen to?",
+  "situation": "好きな音楽のジャンルを尋ねる",
+  "choices": [
+   "I'm really into jazz and old rock.",
+   "Yes, the concert was loud.",
+   "It opens at nine in the morning.",
+   "No, I forgot my umbrella."
+  ],
+  "answerIndex": 0,
+  "explanation": "好きな音楽の種類を問う質問。ジャンルを答える選択肢が正解。"
+ },
+ {
+  "prompt": "Have you read any good books lately?",
+  "situation": "最近読んだ本について尋ねる",
+  "choices": [
+   "Yes, I just finished a great mystery novel.",
+   "No, the train was delayed.",
+   "It's about ten kilometers away.",
+   "I'd like a coffee, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "最近良い本を読んだか尋ねる質問。読んだ本について答えるのが適切。"
+ },
+ {
+  "prompt": "Maybe we could go cycling together sometime.",
+  "situation": "一緒にサイクリングに誘う",
+  "choices": [
+   "Sure, that sounds great!",
+   "No, my shoes are too small.",
+   "It rained all night long.",
+   "The meeting starts at noon."
+  ],
+  "answerIndex": 0,
+  "explanation": "一緒に何かしようという誘い。快く承諾する返答が自然。"
+ },
+ {
+  "prompt": "Do you prefer cooking or baking?",
+  "situation": "料理と製菓どちらが好きか尋ねる",
+  "choices": [
+   "I think I prefer baking, actually.",
+   "Yes, the oven is hot.",
+   "No, I live alone.",
+   "It costs fifty dollars."
+  ],
+  "answerIndex": 0,
+  "explanation": "二択の好みを尋ねる質問。どちらかを選んで答えるのが正解。"
+ },
+ {
+  "prompt": "Where do you usually go hiking?",
+  "situation": "よく行くハイキング場所を尋ねる",
+  "choices": [
+   "Usually in the mountains north of the city.",
+   "Yes, I love walking.",
+   "It was a long time ago.",
+   "No, the trail is closed."
+  ],
+  "answerIndex": 0,
+  "explanation": "場所を問う質問なので、行く場所を答える選択肢が適切。"
+ },
+ {
+  "prompt": "I've never tried photography before.",
+  "situation": "写真撮影をしたことがないと話す",
+  "choices": [
+   "You should give it a try sometime!",
+   "No, the camera is broken.",
+   "Yes, I ate lunch already.",
+   "It's raining outside now."
+  ],
+  "answerIndex": 0,
+  "explanation": "未経験だという発言への応答。挑戦を勧める返答が会話として自然。"
+ },
+ {
+  "prompt": "What's the best part about your hobby?",
+  "situation": "趣味の一番良い点を尋ねる",
+  "choices": [
+   "I love how it lets me forget my stress.",
+   "Yes, it starts at eight.",
+   "No, I don't have a car.",
+   "It's next to the library."
+  ],
+  "answerIndex": 0,
+  "explanation": "趣味の良い点を尋ねる質問。魅力を具体的に語る選択肢が正解。"
+ },
+ {
+  "prompt": "How long is the lease for this apartment?",
+  "situation": "不動産屋でアパートの賃貸契約について尋ねられる場面",
+  "choices": [
+   "It's a two-year contract.",
+   "I painted the walls last week.",
+   "The bus stops right outside.",
+   "I prefer tea, thank you."
+  ],
+  "answerIndex": 0,
+  "explanation": "leaseは賃貸契約の期間を指すので、契約期間を答える0が適切です。"
+ },
+ {
+  "prompt": "Does the rent include utilities like water and electricity?",
+  "situation": "家賃に光熱費が含まれるか確認する場面",
+  "choices": [
+   "No, those are paid separately.",
+   "I usually wake up at seven.",
+   "The garden is very large.",
+   "Yes, I like the neighborhood."
+  ],
+  "answerIndex": 0,
+  "explanation": "utilities(光熱費)が家賃に含まれるかの質問なので、別払いだと答える0が正解です。"
+ },
+ {
+  "prompt": "When can I move in?",
+  "situation": "いつ入居できるか尋ねる場面",
+  "choices": [
+   "The room is painted blue.",
+   "You can move in next Monday.",
+   "I have two cats at home.",
+   "The rent is quite high."
+  ],
+  "answerIndex": 1,
+  "explanation": "move in(入居する)時期を聞かれているので、来週の月曜と答える1が適切です。"
+ },
+ {
+  "prompt": "Is the apartment furnished?",
+  "situation": "家具付きかどうか確認する場面",
+  "choices": [
+   "Yes, it comes with a bed and sofa.",
+   "I take the train to work.",
+   "The weather is nice today.",
+   "No, I don't have any pets."
+  ],
+  "answerIndex": 0,
+  "explanation": "furnished(家具付き)かの質問なので、ベッドやソファ付きと答える0が正解です。"
+ },
+ {
+  "prompt": "How much is the security deposit?",
+  "situation": "敷金の金額を尋ねる場面",
+  "choices": [
+   "It's one month's rent.",
+   "The kitchen is downstairs.",
+   "I moved here in spring.",
+   "The walls are white."
+  ],
+  "answerIndex": 0,
+  "explanation": "security deposit(敷金)の金額を聞かれているので、家賃1か月分と答える0が適切です。"
+ },
+ {
+  "prompt": "Are pets allowed in the building?",
+  "situation": "建物内でペット可かどうか尋ねる場面",
+  "choices": [
+   "Sorry, no pets are allowed.",
+   "The elevator is on the left.",
+   "I paid the rent yesterday.",
+   "Breakfast is included."
+  ],
+  "answerIndex": 0,
+  "explanation": "ペット可否の質問なので、禁止だと答える0が正解です。"
+ },
+ {
+  "prompt": "Could you show me around the apartment?",
+  "situation": "部屋を内見させてほしいと頼む場面",
+  "choices": [
+   "Of course, follow me this way.",
+   "I sold my car last year.",
+   "The price went up again.",
+   "No, I already had lunch."
+  ],
+  "answerIndex": 0,
+  "explanation": "部屋を案内してほしいという依頼なので、こちらへどうぞと応じる0が適切です。"
+ },
+ {
+  "prompt": "Is there a parking space available?",
+  "situation": "駐車場があるか確認する場面",
+  "choices": [
+   "Yes, there's one spot per unit.",
+   "I usually read before bed.",
+   "The soup was too salty.",
+   "She lives in Tokyo now."
+  ],
+  "answerIndex": 0,
+  "explanation": "parking space(駐車場)の有無を聞かれているので、各戸に1台分あると答える0が正解です。"
+ },
+ {
+  "prompt": "Who do I contact if something breaks?",
+  "situation": "設備が壊れた時の連絡先を尋ねる場面",
+  "choices": [
+   "Just call the building manager.",
+   "The party starts at eight.",
+   "I like this color a lot.",
+   "The store closes early today."
+  ],
+  "answerIndex": 0,
+  "explanation": "故障時の連絡先を聞かれているので、管理人に電話してと答える0が適切です。"
+ },
+ {
+  "prompt": "Can I see the apartment one more time before signing?",
+  "situation": "契約前にもう一度内見できるか尋ねる場面",
+  "choices": [
+   "Sure, how about tomorrow afternoon?",
+   "I prefer coffee in the morning.",
+   "The train was very crowded.",
+   "My sister is a teacher."
+  ],
+  "answerIndex": 0,
+  "explanation": "契約前の再内見の希望なので、明日の午後はどうかと提案する0が正解です。"
+ },
+ {
+  "prompt": "Is the neighborhood safe at night?",
+  "situation": "周辺の治安について尋ねる場面",
+  "choices": [
+   "Yes, it's very quiet and safe.",
+   "I bought a new phone today.",
+   "The cake was delicious.",
+   "He works at a bank."
+  ],
+  "answerIndex": 0,
+  "explanation": "夜間の治安を聞かれているので、静かで安全だと答える0が適切です。"
+ },
+ {
+  "prompt": "Do I need a guarantor to rent this place?",
+  "situation": "賃貸に保証人が必要か尋ねる場面",
+  "choices": [
+   "Yes, you'll need one to sign the contract.",
+   "I went jogging this morning.",
+   "The movie was too long.",
+   "She has three brothers."
+  ],
+  "answerIndex": 0,
+  "explanation": "guarantor(保証人)が必要かの質問なので、契約に必要だと答える0が正解です。"
+ },
+ {
+  "prompt": "When is the rent due each month?",
+  "situation": "毎月の家賃の支払期日を尋ねる場面",
+  "choices": [
+   "It's due on the first of each month.",
+   "I enjoy hiking on weekends.",
+   "The flowers smell wonderful.",
+   "He forgot his umbrella again."
+  ],
+  "answerIndex": 0,
+  "explanation": "家賃の支払期日を聞かれているので、毎月1日と答える0が適切です。"
+ },
+ {
+  "prompt": "There's smoke coming from the kitchen!",
+  "situation": "台所から煙が出ているのを見て",
+  "choices": [
+   "Let's call the fire department right away!",
+   "I love the smell of fresh coffee.",
+   "Sure, I'll have the salad, please.",
+   "The weather is nice today, isn't it?"
+  ],
+  "answerIndex": 0,
+  "explanation": "台所から煙が出ているという緊急事態への返答。すぐに消防に通報しようと提案する0が適切です。"
+ },
+ {
+  "prompt": "I think I've lost my passport.",
+  "situation": "旅行中にパスポートをなくしたと気づいて",
+  "choices": [
+   "Congratulations on your trip!",
+   "Don't worry, let's retrace your steps and check.",
+   "That's a beautiful color.",
+   "I'd like a window seat, please."
+  ],
+  "answerIndex": 1,
+  "explanation": "パスポート紛失という困った状況。落ち着いて来た道を確認しようと寄り添う1が適切です。"
+ },
+ {
+  "prompt": "Someone just fainted over there!",
+  "situation": "近くで人が突然倒れたのを見て",
+  "choices": [
+   "I'll call an ambulance immediately.",
+   "Let's go shopping later.",
+   "The movie was really exciting.",
+   "Can I get the receipt, please?"
+  ],
+  "answerIndex": 0,
+  "explanation": "人が倒れた緊急事態。すぐに救急車を呼ぶと申し出る0が適切な対応です。"
+ },
+ {
+  "prompt": "My car broke down on the highway.",
+  "situation": "高速道路で車が故障してしまったと聞いて",
+  "choices": [
+   "What a lovely garden you have.",
+   "Are you somewhere safe off the road?",
+   "I'll take two tickets, please.",
+   "The cake tastes wonderful."
+  ],
+  "answerIndex": 1,
+  "explanation": "車の故障というトラブル。まず安全な場所にいるか確認する1が適切な気遣いです。"
+ },
+ {
+  "prompt": "I can't find my little daughter anywhere!",
+  "situation": "遊園地で幼い娘が見当たらなくなって",
+  "choices": [
+   "Stay calm, let's ask security to help us look.",
+   "She must be having a great time.",
+   "I prefer tea over coffee.",
+   "Let's book a table for two."
+  ],
+  "answerIndex": 0,
+  "explanation": "子どもが迷子になった緊急事態。落ち着いて警備員に助けを求めようとする0が適切です。"
+ },
+ {
+  "prompt": "The power just went out in the whole building.",
+  "situation": "建物全体が突然停電して",
+  "choices": [
+   "Let's find a flashlight and check the breaker.",
+   "I'll have the chicken, thanks.",
+   "What a sunny afternoon!",
+   "Your dress looks great."
+  ],
+  "answerIndex": 0,
+  "explanation": "停電というトラブルへの対応。懐中電灯を探しブレーカーを確認しようとする0が適切です。"
+ },
+ {
+  "prompt": "I cut my finger and it won't stop bleeding.",
+  "situation": "指を切って血が止まらないと訴えて",
+  "choices": [
+   "Let me get the first aid kit and some bandages.",
+   "That sounds like a fun party.",
+   "I'll meet you at noon.",
+   "The train leaves at six."
+  ],
+  "answerIndex": 0,
+  "explanation": "出血が止まらないという困りごと。救急箱と包帯を取ってこようとする0が適切な手助けです。"
+ },
+ {
+  "prompt": "There's water leaking all over the bathroom floor!",
+  "situation": "浴室の床が水浸しになっているのを見て",
+  "choices": [
+   "Let's turn off the main water valve quickly.",
+   "I'd like to order dessert.",
+   "The concert was amazing last night.",
+   "See you next weekend!"
+  ],
+  "answerIndex": 0,
+  "explanation": "水漏れというトラブル。すぐに元栓を閉めようと提案する0が適切な対応です。"
+ },
+ {
+  "prompt": "I just got a call that my flight is cancelled.",
+  "situation": "乗る予定の便が欠航になったと聞いて",
+  "choices": [
+   "Let's check with the airline for the next option.",
+   "Have a safe and pleasant flight!",
+   "I love airports in summer.",
+   "That's a nice suitcase."
+  ],
+  "answerIndex": 0,
+  "explanation": "欠航という困った状況。航空会社に次の便を確認しようと提案する0が適切です。"
+ },
+ {
+  "prompt": "Help, someone stole my wallet!",
+  "situation": "財布を盗まれたと叫んでいる人に",
+  "choices": [
+   "Let's call the police and report it now.",
+   "What a great deal that was!",
+   "I'll pay by credit card.",
+   "The shop closes at nine."
+  ],
+  "answerIndex": 0,
+  "explanation": "財布の盗難という緊急事態。すぐに警察に通報しようとする0が適切な対応です。"
+ },
+ {
+  "prompt": "I smell gas in the apartment.",
+  "situation": "部屋でガスのにおいがすると気づいて",
+  "choices": [
+   "Open the windows and don't turn on any lights.",
+   "Let's bake some cookies together.",
+   "The flowers smell so nice.",
+   "I'll take the stairs, thanks."
+  ],
+  "answerIndex": 0,
+  "explanation": "ガス漏れの危険な状況。窓を開け、火気や電気をつけないよう促す0が適切です。"
+ },
+ {
+  "prompt": "My phone died and I'm completely lost.",
+  "situation": "知らない街でスマホの電池が切れて道に迷って",
+  "choices": [
+   "Let's ask that shop for directions together.",
+   "I love getting lost in good books.",
+   "The battery lasts all day.",
+   "Nice to meet you too."
+  ],
+  "answerIndex": 0,
+  "explanation": "道に迷ったという困りごと。一緒に店で道を尋ねようと助ける0が適切です。"
+ },
+ {
+  "prompt": "I think someone is following me.",
+  "situation": "誰かに後をつけられている気がすると不安そうに言って",
+  "choices": [
+   "Stay on the phone with me and walk to a busy place.",
+   "That's a beautiful sunset.",
+   "I'll order the same as you.",
+   "Let's watch a movie tonight."
+  ],
+  "answerIndex": 0,
+  "explanation": "つけられているかもという不安な状況。電話を切らず人の多い場所へ行くよう促す0が適切です。"
+ },
+ {
+  "prompt": "Hi, do you have the receipt for the item you'd like to return?",
+  "situation": "返品しようと店のカウンターに来た客に、店員がレシートの有無を尋ねている。",
+  "choices": [
+   "Yes, here it is.",
+   "No, I'd like to buy it.",
+   "Sorry, the store is closed.",
+   "I'll have the soup, please."
+  ],
+  "answerIndex": 0,
+  "explanation": "レシートを持っているか尋ねられているので、「はい、これです」と差し出す応答が自然。返品とは関係ない他の選択肢は不適切。"
+ },
+ {
+  "prompt": "What seems to be the problem with the product?",
+  "situation": "客が持ってきた商品について、店員が不具合の内容を尋ねている。",
+  "choices": [
+   "It's on the second floor.",
+   "It stopped working after one day.",
+   "I'd like a window seat.",
+   "The weather is nice today."
+  ],
+  "answerIndex": 1,
+  "explanation": "商品の問題点を尋ねられているので、「一日で動かなくなった」と具体的な不具合を答える応答が適切。"
+ },
+ {
+  "prompt": "Would you like a refund or an exchange?",
+  "situation": "返品を受け付けた店員が、返金と交換のどちらを希望するか客に尋ねている。",
+  "choices": [
+   "I'd prefer a refund, please.",
+   "It's about five dollars.",
+   "Yes, I love this store.",
+   "No, thank you for calling."
+  ],
+  "answerIndex": 0,
+  "explanation": "返金か交換かの二択を尋ねられているので、「返金をお願いします」と選ぶ応答が正しい。"
+ },
+ {
+  "prompt": "I'm sorry, but this item is past the 30-day return window.",
+  "situation": "店員が、返品期限の30日を過ぎているため返品できないと客に伝えている。",
+  "choices": [
+   "Great, I'll take two then.",
+   "Oh, I didn't realize that. Is there anything you can do?",
+   "Yes, the elevator is over there.",
+   "I'd like to order a coffee."
+  ],
+  "answerIndex": 1,
+  "explanation": "期限切れで返品できないと言われた状況なので、「気づかなかった、何か対応できるか」と尋ねる応答が自然。"
+ },
+ {
+  "prompt": "Could I have your order number, please?",
+  "situation": "電話での問い合わせ対応中、店員が客に注文番号を尋ねている。",
+  "choices": [
+   "It's 4-7-2-9-1.",
+   "I'm doing well, thanks.",
+   "The train leaves at noon.",
+   "No, I don't have a car."
+  ],
+  "answerIndex": 0,
+  "explanation": "注文番号を尋ねられているので、番号を答える応答が適切。他は質問と無関係。"
+ },
+ {
+  "prompt": "Unfortunately, we can only offer store credit for this return.",
+  "situation": "店員が、この返品にはストアクレジットのみ対応可能だと客に説明している。",
+  "choices": [
+   "I'd like a glass of water.",
+   "That's fine, store credit works for me.",
+   "The movie was great.",
+   "No, I'll pay by cash."
+  ],
+  "answerIndex": 1,
+  "explanation": "ストアクレジットのみと言われた状況で、「それで構いません」と受け入れる応答が自然。"
+ },
+ {
+  "prompt": "Did you want to return the whole order or just one item?",
+  "situation": "店員が、注文全体を返品するのか一部だけかを客に確認している。",
+  "choices": [
+   "Just this one item, please.",
+   "Yes, it's raining outside.",
+   "I'll see you next week.",
+   "The price went up."
+  ],
+  "answerIndex": 0,
+  "explanation": "全部か一部かを尋ねられているので、「この一点だけ」と答える応答が適切。"
+ },
+ {
+  "prompt": "It looks like the item has been used, so I'm afraid we can't accept it.",
+  "situation": "店員が、商品が使用済みのため返品を受け付けられないと客に伝えている。",
+  "choices": [
+   "Perfect, here's my card.",
+   "But I only opened the box to check it.",
+   "Yes, two tickets please.",
+   "The bus is late again."
+  ],
+  "answerIndex": 1,
+  "explanation": "使用済みで返品できないと言われたので、「中身を確認するために箱を開けただけ」と事情を説明する応答が自然。"
+ },
+ {
+  "prompt": "Your refund should appear on your card within five business days.",
+  "situation": "返金手続きを終えた店員が、返金がカードに反映される時期を客に説明している。",
+  "choices": [
+   "Okay, thank you for letting me know.",
+   "No, I'd like the chicken.",
+   "The store opens at nine.",
+   "Yes, I'll take the stairs."
+  ],
+  "answerIndex": 0,
+  "explanation": "返金時期を案内されたので、「知らせてくれてありがとう」と礼を述べる応答が適切。"
+ },
+ {
+  "prompt": "Do you have the original packaging with you?",
+  "situation": "店員が、返品の際に元の梱包があるか客に尋ねている。",
+  "choices": [
+   "Yes, I kept the box and everything.",
+   "No, I prefer tea.",
+   "It's around the corner.",
+   "I'll meet you at five."
+  ],
+  "answerIndex": 0,
+  "explanation": "元の梱包があるか尋ねられているので、「箱も全部取ってある」と答える応答が自然。"
+ },
+ {
+  "prompt": "I'm really sorry for the inconvenience this has caused you.",
+  "situation": "トラブルについて、店員が客に丁寧に謝罪している。",
+  "choices": [
+   "That's alright, thanks for sorting it out.",
+   "No, the size is too small.",
+   "Yes, I'd like to upgrade my seat.",
+   "The line is busy right now."
+  ],
+  "answerIndex": 0,
+  "explanation": "店員の謝罪に対して、「大丈夫、対応してくれてありがとう」と受け答える応答が適切。"
+ },
+ {
+  "prompt": "Would you like us to send a replacement to the same address?",
+  "situation": "店員が、交換品を同じ住所に送ってよいか客に確認している。",
+  "choices": [
+   "Yes, the same address is fine.",
+   "No, I had breakfast already.",
+   "The book is on sale.",
+   "I'll take a taxi instead."
+  ],
+  "answerIndex": 0,
+  "explanation": "同じ住所に交換品を送ってよいか尋ねられているので、「同じ住所で結構」と答える応答が自然。"
+ },
+ {
+  "prompt": "Can I help you find anything else today?",
+  "situation": "返品対応を終えた店員が、他に何か手伝えることがあるか客に尋ねている。",
+  "choices": [
+   "No, that's all. Thank you for your help.",
+   "Yes, the soup was delicious.",
+   "It's about ten kilometers away.",
+   "No, I don't speak French."
+  ],
+  "answerIndex": 0,
+  "explanation": "他に用件があるか尋ねられているので、「いいえ、それで全部。手伝ってくれてありがとう」と答える応答が適切。"
+ },
+ {
+  "prompt": "So where do you guys want to go for our trip this summer?",
+  "situation": "夏の旅行の行き先を友達に相談されている場面。",
+  "choices": [
+   "How about Okinawa? I've always wanted to see the beaches there.",
+   "Yes, I went there last year.",
+   "No, I don't have a trip.",
+   "Because it was raining all day."
+  ],
+  "answerIndex": 0,
+  "explanation": "行き先を尋ねられているので、提案を返すのが自然。他は質問とかみ合わない。"
+ },
+ {
+  "prompt": "Should we go by train or rent a car?",
+  "situation": "移動手段をどうするか相談されている場面。",
+  "choices": [
+   "Let's rent a car so we can stop wherever we want.",
+   "I think the weather is nice.",
+   "The hotel was fully booked.",
+   "I already ate lunch."
+  ],
+  "answerIndex": 0,
+  "explanation": "電車か車かを問われているので、車を選ぶ理由を述べる返答が適切。"
+ },
+ {
+  "prompt": "How many days do you think we should stay?",
+  "situation": "旅行の宿泊日数について意見を求められている場面。",
+  "choices": [
+   "Maybe three days and two nights would be perfect.",
+   "I love that restaurant.",
+   "No, I can't drive.",
+   "It costs ten dollars."
+  ],
+  "answerIndex": 0,
+  "explanation": "何日滞在するかを聞かれているので、具体的な日数を答えるのが正しい。"
+ },
+ {
+  "prompt": "What's your budget for this trip?",
+  "situation": "旅行の予算について確認されている場面。",
+  "choices": [
+   "I can spend around five hundred dollars.",
+   "I went to the museum.",
+   "Yes, the train was late.",
+   "Because I like swimming."
+  ],
+  "answerIndex": 0,
+  "explanation": "予算を尋ねられているので、使える金額を答えるのが自然。"
+ },
+ {
+  "prompt": "Do you want to book a hotel or stay at a guesthouse?",
+  "situation": "宿泊先のタイプを相談されている場面。",
+  "choices": [
+   "Let's try a guesthouse; it'll be cheaper and more fun.",
+   "I forgot my passport at home.",
+   "The movie starts at eight.",
+   "No, I haven't seen him today."
+  ],
+  "answerIndex": 0,
+  "explanation": "ホテルかゲストハウスかを問われているので、どちらかを選ぶ返答が適切。"
+ },
+ {
+  "prompt": "Can you check the train schedule for Saturday morning?",
+  "situation": "友達に土曜の朝の電車を調べるよう頼まれている場面。",
+  "choices": [
+   "Sure, I'll look it up right now.",
+   "I had a great time yesterday.",
+   "The beach was really crowded.",
+   "No, I don't like coffee."
+  ],
+  "answerIndex": 0,
+  "explanation": "調べてほしいという依頼なので、引き受ける返答が正しい。"
+ },
+ {
+  "prompt": "What time should we meet at the station?",
+  "situation": "駅での集合時間を決めようとしている場面。",
+  "choices": [
+   "How about nine o'clock so we don't miss the train?",
+   "I think it's a good idea to swim.",
+   "Yes, I packed my bag.",
+   "Because the food was delicious."
+  ],
+  "answerIndex": 0,
+  "explanation": "集合時間を聞かれているので、具体的な時刻を提案するのが自然。"
+ },
+ {
+  "prompt": "Is there anything you really want to do while we're there?",
+  "situation": "旅行先でやりたいことを尋ねられている場面。",
+  "choices": [
+   "I'd love to try the local seafood and visit the old castle.",
+   "No, the bus was full.",
+   "I left my phone at the office.",
+   "Yes, it rained last week."
+  ],
+  "answerIndex": 0,
+  "explanation": "現地でやりたいことを問われているので、希望を述べる返答が適切。"
+ },
+ {
+  "prompt": "Don't forget to bring your raincoat just in case.",
+  "situation": "念のためレインコートを持ってくるよう言われている場面。",
+  "choices": [
+   "Good idea, I'll pack it tonight.",
+   "No, I don't have any brothers.",
+   "The store closes at nine.",
+   "Because I missed the bus."
+  ],
+  "answerIndex": 0,
+  "explanation": "持ち物の注意に対して、了解する返答が自然。"
+ },
+ {
+  "prompt": "How are we going to split the costs?",
+  "situation": "旅行費用の分担方法について話している場面。",
+  "choices": [
+   "Let's just divide everything equally at the end.",
+   "Yes, I saw that movie too.",
+   "The train leaves from platform two.",
+   "I don't like spicy food."
+  ],
+  "answerIndex": 0,
+  "explanation": "費用の分け方を聞かれているので、分担方法を提案する返答が正しい。"
+ },
+ {
+  "prompt": "Should we invite Mike to come with us too?",
+  "situation": "マイクも誘うかどうか相談されている場面。",
+  "choices": [
+   "Sure, the more the merrier!",
+   "No, I haven't finished my homework.",
+   "The weather was cloudy yesterday.",
+   "Because the hotel was expensive."
+  ],
+  "answerIndex": 0,
+  "explanation": "誘うかどうかを問われているので、賛成する返答が適切。"
+ },
+ {
+  "prompt": "I think we should leave early to beat the traffic.",
+  "situation": "渋滞を避けるため早く出発しようと提案されている場面。",
+  "choices": [
+   "Agreed, let's head out before seven.",
+   "No, I don't have a car.",
+   "I already paid for dinner.",
+   "Because the beach was closed."
+  ],
+  "answerIndex": 0,
+  "explanation": "早く出発する提案に同意する返答が自然。出発時刻に触れる選択肢が正しい。"
+ },
+ {
+  "prompt": "Have you finished packing for tomorrow?",
+  "situation": "明日に向けて荷造りが終わったか確認されている場面。",
+  "choices": [
+   "Almost, I just need to grab my charger.",
+   "Yes, the restaurant was closed.",
+   "No, I don't know the way there.",
+   "Because it's too hot outside."
+  ],
+  "answerIndex": 0,
+  "explanation": "荷造りが済んだか聞かれているので、進み具合を答える返答が正しい。"
+ },
+ {
+  "prompt": "Hi, I don't think we've met. I'm Daniel.",
+  "situation": "パーティーで初対面の人が自己紹介してきた",
+  "choices": [
+   "No, we haven't.",
+   "Nice to meet you. I'm Yuki.",
+   "I think we've met before.",
+   "Yes, you have."
+  ],
+  "answerIndex": 1,
+  "explanation": "初対面の自己紹介には名前を名乗って挨拶を返すのが自然。"
+ },
+ {
+  "prompt": "This music is great, isn't it?",
+  "situation": "流れている音楽について感想を求められた",
+  "choices": [
+   "No, it isn't great music.",
+   "Yeah, I love this song!",
+   "I don't play music.",
+   "Yes, you are."
+  ],
+  "answerIndex": 1,
+  "explanation": "音楽への同意を求められたので、共感を示すのが自然な返答。"
+ },
+ {
+  "prompt": "Have you tried the food yet?",
+  "situation": "パーティーの料理を試したか聞かれた",
+  "choices": [
+   "Not yet, but it looks delicious.",
+   "Yes, I'm trying.",
+   "No, I don't cook.",
+   "I'll try you later."
+  ],
+  "answerIndex": 0,
+  "explanation": "料理を試したか聞かれたので、まだだが美味しそうだと答えるのが自然。"
+ },
+ {
+  "prompt": "Do you come to these kinds of events often?",
+  "situation": "こうしたイベントによく来るか尋ねられた",
+  "choices": [
+   "Yes, you come often.",
+   "Not really, this is my first one.",
+   "No, I can't come.",
+   "I came here."
+  ],
+  "answerIndex": 1,
+  "explanation": "頻度を尋ねられているので、自分の経験を答えるのが適切。"
+ },
+ {
+  "prompt": "I love your dress! Where did you get it?",
+  "situation": "服を褒められ、どこで買ったか聞かれた",
+  "choices": [
+   "Thanks! I got it at a little shop downtown.",
+   "No, I don't love it.",
+   "Yes, it's a dress.",
+   "You can get it anywhere."
+  ],
+  "answerIndex": 0,
+  "explanation": "褒められたのでお礼を言い、購入場所を答えるのが自然。"
+ },
+ {
+  "prompt": "Would you like to join us for a game?",
+  "situation": "ゲームに参加しないか誘われた",
+  "choices": [
+   "No, you can join.",
+   "Sure, that sounds fun!",
+   "Yes, I joined.",
+   "I don't like you."
+  ],
+  "answerIndex": 1,
+  "explanation": "誘いに対して快く応じる返答が自然。"
+ },
+ {
+  "prompt": "It's getting pretty late. I should probably head home.",
+  "situation": "相手が帰ろうとしている",
+  "choices": [
+   "Yes, it's a home.",
+   "No, you can't go.",
+   "Okay, it was great talking with you!",
+   "I head home too."
+  ],
+  "answerIndex": 2,
+  "explanation": "帰ろうとする相手には、会話を楽しめたと別れの言葉を返すのが自然。"
+ },
+ {
+  "prompt": "Have you met my friend Sarah?",
+  "situation": "友人を紹介しようとしている",
+  "choices": [
+   "No, I haven't. I'd love to.",
+   "Yes, you met her.",
+   "No, I can't meet.",
+   "She met me yesterday."
+  ],
+  "answerIndex": 0,
+  "explanation": "紹介を申し出られたので、会いたいと前向きに答えるのが自然。"
+ },
+ {
+  "prompt": "What do you do for a living?",
+  "situation": "仕事は何をしているか尋ねられた",
+  "choices": [
+   "I live in Tokyo.",
+   "Yes, I'm working.",
+   "I'm a software engineer.",
+   "I do my best."
+  ],
+  "answerIndex": 2,
+  "explanation": "職業を尋ねる定番表現なので、職業を答えるのが正解。"
+ },
+ {
+  "prompt": "Thanks so much for coming tonight!",
+  "situation": "帰り際にホストからお礼を言われた",
+  "choices": [
+   "No, thank you for having me!",
+   "Yes, I came.",
+   "You're welcome to come.",
+   "I didn't come."
+  ],
+  "answerIndex": 0,
+  "explanation": "招いてくれたお礼を返すのがパーティーでの自然な応答。"
+ },
+ {
+  "prompt": "Want me to introduce you to some people?",
+  "situation": "他の人を紹介しようかと申し出てくれた",
+  "choices": [
+   "No, you introduce them.",
+   "That would be really nice, thanks.",
+   "Yes, I introduced you.",
+   "I don't know people."
+  ],
+  "answerIndex": 1,
+  "explanation": "親切な申し出に感謝して受け入れるのが自然。"
+ }
+]
