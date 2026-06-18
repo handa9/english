@@ -7,9 +7,19 @@
   let selected = $state<number | null>(null);
   const canSpeak = speechSupported();
 
-  const answer = $derived(card.listening ? card.listening.options[card.listening.answerIndex] : '');
+  const listening = $derived(card.listening);
+  const options = $derived(listening?.options ?? []);
+  const homophone = $derived(listening?.homophone === true);
+  const answerIndex = $derived(listening?.answerIndex ?? 0);
+  const answer = $derived(options[answerIndex] ?? '');
+  // 「聴き分けられない（同音）」の選択肢を語の末尾に常設する。index は語数に等しい。
+  const SAME_SOUND = $derived(options.length);
+  // 同音問題なら「聴き分けられない」が正解。聴き取り問題なら再生語が正解。
+  const correctIndex = $derived(homophone ? SAME_SOUND : answerIndex);
+  const answered = $derived(selected !== null);
 
-  // カードが変わったら状態をリセットし、正解の語を自動再生する
+  // カードが変わったら状態をリセットし、正解として再生する語を自動再生する。
+  // 同音問題でも options[answerIndex] の語を実際に再生する（音は全語同じ）。
   $effect(() => {
     card;
     selected = null;
@@ -17,26 +27,25 @@
   });
 
   function choose(i: number) {
-    if (selected !== null) return;
+    if (answered) return;
     selected = i;
   }
 
   function next() {
-    if (selected === null) return;
-    const correct = selected === card.listening?.answerIndex;
-    onGrade(correct ? 'good' : 'again');
+    if (!answered) return;
+    onGrade(selected === correctIndex ? 'good' : 'again');
   }
 
   function classFor(i: number): string {
-    if (selected === null) return '';
-    if (i === card.listening?.answerIndex) return 'correct';
+    if (!answered) return '';
+    if (i === correctIndex) return 'correct';
     if (i === selected) return 'wrong';
     return 'dim';
   }
 </script>
 
 <div class="listening card">
-  <p class="prompt muted">聞こえた単語はどれ？</p>
+  <p class="prompt muted">聞こえた単語はどれ？（同じ発音で区別できないと思ったら「聴き分けられない」）</p>
 
   <button
     class="play primary"
@@ -52,21 +61,22 @@
   {/if}
 
   <div class="choices">
-    {#each card.listening?.options ?? [] as opt, i}
-      <button class={classFor(i)} disabled={selected !== null} onclick={() => choose(i)}>
-        {opt}
-        {#if selected !== null && i === card.listening?.answerIndex && canSpeak}
+    {#each options as opt, i}
+      <button class={classFor(i)} disabled={answered} onclick={() => choose(i)}>
+        <span class="word">{opt}</span>
+        {#if answered && canSpeak}
           <span
             class="repeat"
             role="button"
             tabindex="0"
-            aria-label="この単語を聞く"
+            aria-label={`${opt} を聞く`}
             onclick={(e) => {
               e.stopPropagation();
               speak(opt);
             }}
             onkeydown={(e) => {
-              if (e.key === 'Enter') {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
                 e.stopPropagation();
                 speak(opt);
               }
@@ -75,19 +85,31 @@
         {/if}
       </button>
     {/each}
+
+    <!-- 全問共通の「聴き分けられない（同音）」選択肢 -->
+    <button class="same-sound {classFor(SAME_SOUND)}" disabled={answered} onclick={() => choose(SAME_SOUND)}>
+      🔇 聴き分けられない（同音）
+    </button>
   </div>
 
-  {#if selected !== null}
-    {#if card.listening?.meaning}
-      <p class="meaning">{card.listening.meaning}</p>
+  {#if answered}
+    {#if homophone}
+      <p class="meaning">
+        ✅ これらは<strong>同じ発音（同音）</strong>。再生されたのは <strong>{answer}</strong>{#if listening?.meaning}（{listening.meaning}）{/if}
+      </p>
+    {:else}
+      <p class="meaning">再生されたのは <strong>{answer}</strong></p>
+      {#if listening?.meaning}
+        <p class="meaning sub">{listening.meaning}</p>
+      {/if}
     {/if}
-    {#if card.listening?.hint}
-      <p class="hint muted">💡 {card.listening.hint}</p>
+    {#if listening?.hint}
+      <p class="hint muted">💡 {listening.hint}</p>
     {/if}
   {/if}
 </div>
 
-{#if selected !== null}
+{#if answered}
   <button class="primary next" onclick={next}>次へ</button>
 {/if}
 
@@ -97,7 +119,8 @@
   }
   .prompt {
     margin-top: 0;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
   }
   .play {
     font-size: 1.05rem;
@@ -131,6 +154,17 @@
   .choices button.dim {
     opacity: 0.5;
   }
+  /* 「聴き分けられない」選択肢は語の選択肢と視覚的に区別する */
+  .same-sound {
+    font-size: 0.95rem !important;
+    border: 1px dashed var(--surface-2);
+    background: var(--surface);
+    margin-top: 0.2rem;
+  }
+  .same-sound.correct,
+  .same-sound.wrong {
+    border-style: solid;
+  }
   .repeat {
     font-size: 0.9rem;
     cursor: pointer;
@@ -138,6 +172,11 @@
   .meaning {
     margin-top: 1rem;
     font-weight: 600;
+    line-height: 1.5;
+  }
+  .meaning.sub {
+    margin-top: 0.3rem;
+    font-weight: 500;
   }
   .hint {
     margin-top: 0.5rem;

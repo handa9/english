@@ -5,30 +5,40 @@
   let { card, onGrade }: { card: Card; onGrade: (g: Grade) => void } = $props();
 
   let selected = $state<number | null>(null);
+  let gaveUp = $state(false); // 「分からない」を選んだか
   const canSpeak = speechSupported();
 
   const prompt = $derived(card.conversation?.prompt ?? '');
+  // 選択肢を選んだ、または「分からない」を押したら回答済み
+  const answered = $derived(selected !== null || gaveUp);
 
   // カードが変わったら状態をリセットし、質問を自動再生する
   $effect(() => {
     card;
     selected = null;
+    gaveUp = false;
     if (canSpeak && prompt) speak(prompt);
   });
 
   function choose(i: number) {
-    if (selected !== null) return;
+    if (answered) return;
     selected = i;
   }
 
+  function dontKnow() {
+    if (answered) return;
+    gaveUp = true;
+  }
+
   function next() {
-    if (selected === null) return;
-    const correct = selected === card.conversation?.answerIndex;
+    if (!answered) return;
+    // 「分からない」または不正解は again（苦手として復習対象に）
+    const correct = !gaveUp && selected === card.conversation?.answerIndex;
     onGrade(correct ? 'good' : 'again');
   }
 
   function classFor(i: number): string {
-    if (selected === null) return '';
+    if (!answered) return '';
     if (i === card.conversation?.answerIndex) return 'correct';
     if (i === selected) return 'wrong';
     return 'dim';
@@ -52,7 +62,7 @@
   {#if !canSpeak}
     <p class="muted nospeak">この端末では音声を再生できません。テキストで出題します。</p>
     <p class="prompt-text">{prompt}</p>
-  {:else if selected !== null}
+  {:else if answered}
     <p class="prompt-text muted">「{prompt}」</p>
   {/if}
 
@@ -60,18 +70,24 @@
 
   <div class="choices">
     {#each card.conversation?.choices ?? [] as choice, i}
-      <button class={classFor(i)} disabled={selected !== null} onclick={() => choose(i)}>
+      <button class={classFor(i)} disabled={answered} onclick={() => choose(i)}>
         {choice}
       </button>
     {/each}
   </div>
 
-  {#if selected !== null && card.conversation?.explanation}
+  {#if !answered}
+    <button class="dont-know" onclick={dontKnow}>🤷 分からない</button>
+  {:else if gaveUp}
+    <p class="gaveup muted">正解を確認しましょう（上で緑色の応答が正解です）。</p>
+  {/if}
+
+  {#if answered && card.conversation?.explanation}
     <p class="explanation muted">{card.conversation.explanation}</p>
   {/if}
 </div>
 
-{#if selected !== null}
+{#if answered}
   <button class="primary next" onclick={next}>次へ</button>
 {/if}
 
@@ -116,6 +132,18 @@
   }
   .choices button.dim {
     opacity: 0.5;
+  }
+  .dont-know {
+    width: 100%;
+    margin-top: 0.6rem;
+    background: var(--surface);
+    border: 1px dashed var(--surface-2);
+    color: var(--text, inherit);
+    opacity: 0.85;
+  }
+  .gaveup {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
   }
   .explanation {
     margin-top: 1rem;

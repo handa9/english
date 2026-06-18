@@ -25,6 +25,39 @@ export async function buildQueue(kind?: Card['kind'], level?: Level): Promise<Ca
   return shuffle(pool);
 }
 
+/**
+ * 復習キューを構築する。過去に学習したカードのうち、
+ *  - 直近で again/hard を付けた「苦手」カード、または
+ *  - SRS の期限（due）が到来したカード
+ * を対象にする。苦手を先頭に、その後を due 順（古いものから）で並べる。
+ * 任意で kind を指定すると、その種別（vocab/idiom/...）だけに絞り込める。
+ */
+export async function buildReviewQueue(kind?: Card['kind'], now = Date.now()): Promise<Card[]> {
+  const progressList = await getAllProgress();
+  const progressMap = new Map(progressList.map((p) => [p.cardId, p]));
+
+  const pool = kind ? allCards.filter((c) => c.kind === kind) : allCards;
+
+  type Entry = { card: Card; weak: boolean; due: number };
+  const entries: Entry[] = [];
+  for (const card of pool) {
+    const p = progressMap.get(card.id);
+    if (!p || p.lastReviewed === 0) continue; // 未学習は復習対象外
+    const weak = p.lastGrade === 'again' || p.lastGrade === 'hard';
+    if (weak || isDue(p, now)) {
+      entries.push({ card, weak, due: p.due });
+    }
+  }
+
+  // 苦手を優先し、同区分内は due の古い順。
+  entries.sort((a, b) => {
+    if (a.weak !== b.weak) return a.weak ? -1 : 1;
+    return a.due - b.due;
+  });
+
+  return entries.map((e) => e.card);
+}
+
 /** カードを採点し、SRS で次回スケジュールを更新して保存する。 */
 export async function gradeCard(cardId: string, grade: Grade): Promise<Progress> {
   const existing = (await getProgress(cardId)) ?? initialProgress(cardId);

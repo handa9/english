@@ -35,7 +35,8 @@ export function review(prev: Progress, grade: Grade, now = Date.now()): Progress
       ease,
       intervalDays,
       due: now + 10 * 60 * 1000,
-      lastReviewed: now
+      lastReviewed: now,
+      lastGrade: grade
     };
   }
 
@@ -60,7 +61,8 @@ export function review(prev: Progress, grade: Grade, now = Date.now()): Progress
     ease,
     intervalDays,
     due: now + intervalDays * DAY_MS,
-    lastReviewed: now
+    lastReviewed: now,
+    lastGrade: grade
   };
 }
 

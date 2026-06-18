@@ -33,6 +33,12 @@ export interface ListeningContent {
   answerIndex: number; // 実際に再生する＝正解の単語インデックス
   meaning?: string; // 正解単語の意味（解説用）
   hint?: string; // 聞き分けのヒント（例: 'r は舌を巻く / l は舌先を上の歯茎に付ける'）
+  /**
+   * 選択肢が完全同音（例: night/knight, write/right）で、音声だけでは
+   * どれが再生されたか原理的に区別できない問題。true のときは正誤を問わず、
+   * 「音は同じ」ことを学ぶ問題として扱う（不正解でもペナルティを与えない）。
+   */
+  homophone?: boolean;
 }
 
 /**
@@ -77,6 +83,7 @@ export interface Progress {
   intervalDays: number; // 次回までの間隔（日）
   due: number; // 次回出題予定の epoch ms
   lastReviewed: number; // 最終学習の epoch ms
+  lastGrade?: Grade; // 直近の自己評価。復習で苦手（again/hard）を優先するために使う
 }
 
 /** 復習の自己評価（SM-2 の grade に対応） */

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { base } from '$app/paths';
-  import { buildQueue, gradeCard, shuffle } from '$lib/session';
+  import { buildQueue, buildReviewQueue, gradeCard, shuffle } from '$lib/session';
   import { levels } from '$lib/levels';
   import type { Card, Grade, Level } from '$lib/types';
   import Flashcard from './Flashcard.svelte';
@@ -8,10 +8,13 @@
   import ListeningCard from './ListeningCard.svelte';
   import ConversationCard from './ConversationCard.svelte';
 
-  let { kind }: { kind?: Card['kind'] } = $props();
+  // review=true で復習モード（苦手＋期限到来を優先、尽きたら完了表示）。
+  let { kind, review = false }: { kind?: Card['kind']; review?: boolean } = $props();
 
-  // レベル選択が意味を持つ種別（単語・英熟語・文法）
-  const levelable = $derived(kind === 'vocab' || kind === 'idiom' || kind === 'grammar');
+  // レベル選択が意味を持つ種別（単語・英熟語・文法）。復習モードでは出さない。
+  const levelable = $derived(
+    !review && (kind === 'vocab' || kind === 'idiom' || kind === 'grammar')
+  );
   // 音声を自動再生する種別（開始ボタンを挟んでから出題する）
   const audioFirst = $derived(kind === 'listening' || kind === 'conversation');
   const LS_KEY = 'english-pwa:level';
@@ -31,19 +34,32 @@
   let done = $state(0); // この種別で学習した累計枚数
   let started = $state(false); // 音声系で「開始」が押されたか
 
+  let finished = $state(false); // 復習モードでキューを学習し切ったか
+
   async function load() {
     loading = true;
     started = false;
-    queue = await buildQueue(kind, levelable ? level : undefined);
+    finished = false;
+    queue = review
+      ? await buildReviewQueue(kind)
+      : await buildQueue(kind, levelable ? level : undefined);
     index = 0;
     done = 0;
     loading = false;
   }
 
-  /** キュー末尾まで来たら再シャッフルして繰り返す（完了で止めない）。 */
+  /**
+   * 次のカードへ進む。
+   * 復習モードはキューを 1 周したら完了で止める。
+   * 通常モードは末尾まで来たら再シャッフルして繰り返す（完了で止めない）。
+   */
   function advance() {
     if (index + 1 < queue.length) {
       index += 1;
+      return;
+    }
+    if (review) {
+      finished = true;
       return;
     }
     if (queue.length <= 1) {
@@ -103,12 +119,26 @@
 
 {#if loading}
   <p class="muted">読み込み中…</p>
+{:else if review && finished}
+  <div class="done card">
+    <h2>🎉 復習完了</h2>
+    <p class="muted">期限が来た問題と苦手な問題をすべて復習しました。お疲れさまでした。</p>
+    <button class="btn primary" onclick={load}>もう一度復習する</button>
+    <a class="btn ghost" href={`${base}/`}>ホームへ</a>
+  </div>
 {:else if !current}
   <div class="done card">
-    <h2>準備中</h2>
-    <p class="muted">
-      {levelable ? 'このレベルには' : ''}まだ問題がありません。別のレベルを選んでください。
-    </p>
+    {#if review}
+      <h2>✅ 復習はありません</h2>
+      <p class="muted">
+        いま復習が必要な問題はありません。各テストを進めると、苦手だった問題や期限が来た問題がここに集まります。
+      </p>
+    {:else}
+      <h2>準備中</h2>
+      <p class="muted">
+        {levelable ? 'このレベルには' : ''}まだ問題がありません。別のレベルを選んでください。
+      </p>
+    {/if}
     <a class="btn primary" href={`${base}/`}>ホームへ</a>
   </div>
 {:else if audioFirst && !started}
@@ -116,7 +146,7 @@
     <h2>{kind === 'listening' ? '👂 ヒアリングテスト' : '💬 日常会話テスト'}</h2>
     <p class="muted">
       {kind === 'listening'
-        ? '開始すると単語が音声で流れます。準備ができたら始めてください。'
+        ? '開始すると単語が音声で流れます。聞こえた語を選んでください。同じ発音で区別できないと思ったら「聴き分けられない」を選びます。'
         : '開始すると質問が音声で流れます。準備ができたら始めてください。'}
     </p>
     <button class="primary start-btn" onclick={() => (started = true)}>▶ 開始する</button>
@@ -180,8 +210,16 @@
   .done h2 {
     margin-top: 0;
   }
-  .done .btn {
+  .done .btn,
+  .done button {
     margin-top: 1rem;
+    display: block;
+    width: 100%;
+  }
+  .done .ghost {
+    background: var(--surface);
+    border: 1px solid var(--surface-2);
+    margin-top: 0.6rem;
   }
   .start {
     text-align: center;

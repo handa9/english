@@ -1,151 +1,28 @@
 [
  {
   "options": [
-   "night",
-   "knight"
-  ],
-  "answerIndex": 1,
-  "meaning": "knight = 騎士",
-  "hint": "発音は全く同じ /naɪt/。先頭の k は黙字で読まない。文脈で意味を区別する。"
- },
- {
-  "options": [
-   "right",
-   "write",
-   "rite"
-  ],
-  "answerIndex": 1,
-  "meaning": "write = 書く",
-  "hint": "3語とも /raɪt/ で同音。write の先頭 w は発音しない。l ではなく r で舌を口内のどこにも付けない。"
- },
- {
-  "options": [
-   "hour",
-   "our"
-  ],
-  "answerIndex": 0,
-  "meaning": "hour = 時間",
-  "hint": "hour の h は黙字で /aʊər/。our とほぼ同音。h を息で出さないよう注意。"
- },
- {
-  "options": [
-   "know",
-   "no"
-  ],
-  "answerIndex": 0,
-  "meaning": "know = 知っている",
-  "hint": "know の先頭 k は黙字で /noʊ/。no と同音。日本語の「ノー」のように母音を伸ばしすぎない。"
- },
- {
-  "options": [
-   "whole",
-   "hole"
-  ],
-  "answerIndex": 0,
-  "meaning": "whole = 全体の",
-  "hint": "whole の w は黙字で /hoʊl/。hole と同音。先頭は h の息の音から始める。"
- },
- {
-  "options": [
-   "wear",
-   "where",
-   "ware"
-  ],
-  "answerIndex": 1,
-  "meaning": "where = どこ",
-  "hint": "3語とも /wɛər/ で同音。where の h は発音しない。日本語の「ウェア」より口を横に引いて w を作る。"
- },
- {
-  "options": [
-   "sent",
-   "scent",
-   "cent"
-  ],
-  "answerIndex": 1,
-  "meaning": "scent = 香り",
-  "hint": "3語とも /sɛnt/ で同音。scent の c は黙字。語尾の t をしっかり止める。"
- },
- {
-  "options": [
-   "plum",
-   "plumb"
-  ],
-  "answerIndex": 1,
-  "meaning": "plumb = 鉛直の・配管する",
-  "hint": "plumb の語尾 b は黙字で /plʌm/。plum と同音。l は舌先を上歯茎に付け、r と混同しない。"
- },
- {
-  "options": [
-   "climb",
-   "clime"
-  ],
-  "answerIndex": 0,
-  "meaning": "climb = 登る",
-  "hint": "climb の b は黙字で /klaɪm/。clime(気候帯)と同音。語尾は m で唇を閉じる。"
- },
- {
-  "options": [
-   "lam",
-   "lamb"
-  ],
-  "answerIndex": 1,
-  "meaning": "lamb = 子羊",
-  "hint": "lamb の b は黙字で /læm/。lam と同音。母音は日本語のアより口を横に広く開く /æ/。"
- },
- {
-  "options": [
-   "new",
-   "knew",
-   "gnu"
-  ],
-  "answerIndex": 1,
-  "meaning": "knew = 知っていた(know の過去形)",
-  "hint": "3語とも /nuː/(または /njuː/)で同音。knew の k、gnu の g は黙字。n から始める。"
- },
- {
-  "options": [
-   "wine",
-   "whine"
-  ],
-  "answerIndex": 1,
-  "meaning": "whine = 泣き言を言う・めそめそ鳴く",
-  "hint": "現代米語ではどちらも /waɪn/ で同音。whine の h は基本発音しない。唇を丸めて w で始める。"
- },
- {
-  "options": [
-   "high",
-   "hi"
-  ],
-  "answerIndex": 0,
-  "meaning": "high = 高い",
-  "hint": "high の gh は黙字で /haɪ/。hi と同音。h の息をしっかり出してから二重母音 /aɪ/。"
- },
- {
-  "options": [
-   "wrap",
-   "rap"
-  ],
-  "answerIndex": 0,
-  "meaning": "wrap = 包む",
-  "hint": "wrap の先頭 w は黙字で /ræp/。rap と同音。l と混同せず r は舌をどこにも付けない。"
- },
- {
-  "options": [
-   "doe",
-   "dough"
-  ],
-  "answerIndex": 1,
-  "meaning": "dough = 生地・パン種",
-  "hint": "doe と dough はどちらも /doʊ/ で同音。dough の gh は黙字。語尾は唇を丸めた二重母音 /oʊ/ で終える。"
- },
- {
-  "options": [
    "day",
    "they"
   ],
   "answerIndex": 0,
   "meaning": "day = 日",
   "hint": "dは舌先を上の歯ぐきに当てて息を止めてから出す破裂音。theyのthは舌先を軽く上の前歯に当て、息を流しながら濁らせる音です。"
+ },
+ {
+  "options": [
+   "day",
+   "they"
+  ],
+  "answerIndex": 1,
+  "hint": "dは舌先を上の歯ぐきに当てて息を止めてから出す破裂音。theyのthは舌先を軽く上の前歯に当て、息を流しながら濁らせる音です。"
+ },
+ {
+  "options": [
+   "dough",
+   "though"
+  ],
+  "answerIndex": 0,
+  "hint": "doughのdは舌が歯ぐきで一瞬止まります。thoughのthは舌先を前歯の先に触れさせ、息をこすらせて出すので空気が漏れる感じです。"
  },
  {
   "options": [
@@ -161,9 +38,25 @@
    "dare",
    "there"
   ],
+  "answerIndex": 0,
+  "hint": "dareは破裂のダ、thereは舌を前歯に当てて摩擦させる音。thの時は舌先が歯から少し見えるくらい前に出します。"
+ },
+ {
+  "options": [
+   "dare",
+   "there"
+  ],
   "answerIndex": 1,
   "meaning": "there = そこに",
   "hint": "dareは破裂のダ、thereは舌を前歯に当てて摩擦させる音。thの時は舌先が歯から少し見えるくらい前に出します。"
+ },
+ {
+  "options": [
+   "den",
+   "then"
+  ],
+  "answerIndex": 0,
+  "hint": "denのdは舌が歯ぐきに密着して破裂。thenのthは舌と前歯のすき間から濁った息を流し続けます。舌を止めないのがコツです。"
  },
  {
   "options": [
@@ -179,9 +72,25 @@
    "doze",
    "those"
   ],
+  "answerIndex": 0,
+  "hint": "dozeは破裂のド。thoseは舌先を前歯に当てたまま息をこすらせる音。ザ行ではなく舌を歯に触れさせる点が違います。"
+ },
+ {
+  "options": [
+   "doze",
+   "those"
+  ],
   "answerIndex": 1,
   "meaning": "those = それら",
   "hint": "dozeは破裂のド。thoseは舌先を前歯に当てたまま息をこすらせる音。ザ行ではなく舌を歯に触れさせる点が違います。"
+ },
+ {
+  "options": [
+   "ladder",
+   "lather"
+  ],
+  "answerIndex": 0,
+  "hint": "ladderの真ん中はダ行に近い破裂音。latherは舌先を前歯に当てて空気を流す摩擦音です。舌を歯ぐきまで上げないこと。"
  },
  {
   "options": [
@@ -197,6 +106,14 @@
    "udder",
    "other"
   ],
+  "answerIndex": 0,
+  "hint": "udderのddは歯ぐきで止める破裂音、otherのthは舌を前歯に当て息を漏らす音。otherは舌が歯から少しのぞく感じです。"
+ },
+ {
+  "options": [
+   "udder",
+   "other"
+  ],
   "answerIndex": 1,
   "meaning": "other = 他の",
   "hint": "udderのddは歯ぐきで止める破裂音、otherのthは舌を前歯に当て息を漏らす音。otherは舌が歯から少しのぞく感じです。"
@@ -206,9 +123,25 @@
    "breed",
    "breathe"
   ],
+  "answerIndex": 0,
+  "hint": "breedの語尾dは舌を歯ぐきで止めて終わる音。breatheの語尾は舌を前歯に当てたまま息を流し続けます。最後まで息を漏らすのがコツ。"
+ },
+ {
+  "options": [
+   "breed",
+   "breathe"
+  ],
   "answerIndex": 1,
   "meaning": "breathe = 呼吸する",
   "hint": "breedの語尾dは舌を歯ぐきで止めて終わる音。breatheの語尾は舌を前歯に当てたまま息を流し続けます。最後まで息を漏らすのがコツ。"
+ },
+ {
+  "options": [
+   "fodder",
+   "father"
+  ],
+  "answerIndex": 0,
+  "hint": "fodderの真ん中はダ行の破裂、fatherは舌先を前歯に軽く当てる摩擦音。fatherでは舌を歯ぐきまで上げず前歯で止めます。"
  },
  {
   "options": [
@@ -230,12 +163,46 @@
  },
  {
   "options": [
+   "dine",
+   "thine"
+  ],
+  "answerIndex": 1,
+  "hint": "dineの語頭は舌を歯ぐきに当てて破裂させるダ。thineは舌を前歯に当てる摩擦音。dineは舌がもっと奥(歯ぐき)に触れます。"
+ },
+ {
+  "options": [
+   "wordy",
+   "worthy"
+  ],
+  "answerIndex": 0,
+  "hint": "wordyの真ん中はダ行の破裂、worthyは舌を前歯に当てる摩擦音。worthyでは息を止めず舌と歯のすき間からこすらせて出します。"
+ },
+ {
+  "options": [
    "wordy",
    "worthy"
   ],
   "answerIndex": 1,
   "meaning": "worthy = 価値のある",
   "hint": "wordyの真ん中はダ行の破裂、worthyは舌を前歯に当てる摩擦音。worthyでは息を止めず舌と歯のすき間からこすらせて出します。"
+ },
+ {
+  "options": [
+   "doze",
+   "dose",
+   "those"
+  ],
+  "answerIndex": 0,
+  "hint": "dozeはダ+ズ、doseはダ+ス。thoseは語頭で舌を前歯に当てて濁った摩擦音。舌を歯ぐきまで上げず前歯で出すのがthです。"
+ },
+ {
+  "options": [
+   "doze",
+   "dose",
+   "those"
+  ],
+  "answerIndex": 1,
+  "hint": "dozeはダ+ズ、doseはダ+ス。thoseは語頭で舌を前歯に当てて濁った摩擦音。舌を歯ぐきまで上げず前歯で出すのがthです。"
  },
  {
   "options": [
@@ -253,9 +220,45 @@
    "utter",
    "other"
   ],
+  "answerIndex": 0,
+  "hint": "udderは濁る破裂ダ、utterは清音のタに近い破裂。otherは舌を前歯に当てる濁った摩擦音で、舌が止まらず息が流れます。"
+ },
+ {
+  "options": [
+   "udder",
+   "utter",
+   "other"
+  ],
+  "answerIndex": 1,
+  "hint": "udderは濁る破裂ダ、utterは清音のタに近い破裂。otherは舌を前歯に当てる濁った摩擦音で、舌が止まらず息が流れます。"
+ },
+ {
+  "options": [
+   "udder",
+   "utter",
+   "other"
+  ],
   "answerIndex": 2,
   "meaning": "other = 他の",
   "hint": "udderは濁る破裂ダ、utterは清音のタに近い破裂。otherは舌を前歯に当てる濁った摩擦音で、舌が止まらず息が流れます。"
+ },
+ {
+  "options": [
+   "dough",
+   "doe",
+   "though"
+  ],
+  "answerIndex": 0,
+  "hint": "doughとdoeはどちらもダの破裂音。thoughは舌を前歯に当てる摩擦音。dの仲間は舌先を歯ぐきに当てて一瞬止める点で共通します。"
+ },
+ {
+  "options": [
+   "dough",
+   "doe",
+   "though"
+  ],
+  "answerIndex": 1,
+  "hint": "doughとdoeはどちらもダの破裂音。thoughは舌を前歯に当てる摩擦音。dの仲間は舌先を歯ぐきに当てて一瞬止める点で共通します。"
  },
  {
   "options": [
@@ -278,11 +281,27 @@
  },
  {
   "options": [
+   "seed",
+   "seethe"
+  ],
+  "answerIndex": 1,
+  "hint": "seedの語尾は舌を歯ぐきで止める破裂のド。seetheの語尾は舌を前歯に当て息を流し続ける摩擦音。seedは最後に音をはっきり止めます。"
+ },
+ {
+  "options": [
    "right",
    "light"
   ],
   "answerIndex": 0,
   "meaning": "right = 右、正しい",
+  "hint": "rは舌をどこにもつけず、口の奥で丸める。lは舌先を上の歯ぐきにしっかりつける。"
+ },
+ {
+  "options": [
+   "right",
+   "light"
+  ],
+  "answerIndex": 1,
   "hint": "rは舌をどこにもつけず、口の奥で丸める。lは舌先を上の歯ぐきにしっかりつける。"
  },
  {
@@ -293,6 +312,22 @@
   "answerIndex": 0,
   "meaning": "rice = 米",
   "hint": "riceのrは舌を浮かせる。liceのlは舌先を歯ぐきに当てて発音する。"
+ },
+ {
+  "options": [
+   "rice",
+   "lice"
+  ],
+  "answerIndex": 1,
+  "hint": "riceのrは舌を浮かせる。liceのlは舌先を歯ぐきに当てて発音する。"
+ },
+ {
+  "options": [
+   "road",
+   "load"
+  ],
+  "answerIndex": 0,
+  "hint": "loadは舌先を上の歯ぐきにつけてラ行に近く。roadは舌を引いて丸める。"
  },
  {
   "options": [
@@ -308,9 +343,25 @@
    "fry",
    "fly"
   ],
+  "answerIndex": 0,
+  "hint": "flyは舌先を歯ぐきに当てる。fryは舌を当てずに奥で丸める。"
+ },
+ {
+  "options": [
+   "fry",
+   "fly"
+  ],
   "answerIndex": 1,
   "meaning": "fly = 飛ぶ、ハエ",
   "hint": "flyは舌先を歯ぐきに当てる。fryは舌を当てずに奥で丸める。"
+ },
+ {
+  "options": [
+   "pray",
+   "play"
+  ],
+  "answerIndex": 0,
+  "hint": "playは舌先を歯ぐきにつける。prayは舌をつけずに丸める。"
  },
  {
   "options": [
@@ -326,9 +377,25 @@
    "correct",
    "collect"
   ],
+  "answerIndex": 0,
+  "hint": "collectは真ん中のlで舌先を歯ぐきに当てる。correctは舌を当てない。"
+ },
+ {
+  "options": [
+   "correct",
+   "collect"
+  ],
   "answerIndex": 1,
   "meaning": "collect = 集める",
   "hint": "collectは真ん中のlで舌先を歯ぐきに当てる。correctは舌を当てない。"
+ },
+ {
+  "options": [
+   "grass",
+   "glass"
+  ],
+  "answerIndex": 0,
+  "hint": "glassは舌先を歯ぐきに当てる。grassは舌を引いて丸める。"
  },
  {
   "options": [
@@ -344,9 +411,25 @@
    "arrive",
    "alive"
   ],
+  "answerIndex": 0,
+  "hint": "aliveは舌先を歯ぐきに当てる。arriveは舌を奥で丸める。"
+ },
+ {
+  "options": [
+   "arrive",
+   "alive"
+  ],
   "answerIndex": 1,
   "meaning": "alive = 生きている",
   "hint": "aliveは舌先を歯ぐきに当てる。arriveは舌を奥で丸める。"
+ },
+ {
+  "options": [
+   "berry",
+   "belly"
+  ],
+  "answerIndex": 0,
+  "hint": "bellyは舌先を歯ぐきにしっかり当てる。berryは舌を当てずに丸める。"
  },
  {
   "options": [
@@ -362,9 +445,25 @@
    "crime",
    "climb"
   ],
+  "answerIndex": 0,
+  "hint": "climbは舌先を歯ぐきに当てる。crimeは舌を当てずに丸める。"
+ },
+ {
+  "options": [
+   "crime",
+   "climb"
+  ],
   "answerIndex": 1,
   "meaning": "climb = 登る",
   "hint": "climbは舌先を歯ぐきに当てる。crimeは舌を当てずに丸める。"
+ },
+ {
+  "options": [
+   "pirate",
+   "pilot"
+  ],
+  "answerIndex": 0,
+  "hint": "pilotは舌先を歯ぐきに当てる。pirateは舌を当てずに丸める。"
  },
  {
   "options": [
@@ -380,9 +479,25 @@
    "lock",
    "rock"
   ],
+  "answerIndex": 0,
+  "hint": "rockのrは舌をどこにもつけず奥で丸める。lockは舌先を歯ぐきに当てる。"
+ },
+ {
+  "options": [
+   "lock",
+   "rock"
+  ],
   "answerIndex": 1,
   "meaning": "rock = 岩、ロック",
   "hint": "rockのrは舌をどこにもつけず奥で丸める。lockは舌先を歯ぐきに当てる。"
+ },
+ {
+  "options": [
+   "read",
+   "lead"
+  ],
+  "answerIndex": 0,
+  "hint": "leadは舌先を上の歯ぐきにつける。readは舌を浮かせて丸める。"
  },
  {
   "options": [
@@ -398,6 +513,14 @@
    "wrong",
    "long"
   ],
+  "answerIndex": 0,
+  "hint": "longは舌先を歯ぐきに当てる。wrongは舌を当てずに丸める。"
+ },
+ {
+  "options": [
+   "wrong",
+   "long"
+  ],
   "answerIndex": 1,
   "meaning": "long = 長い",
   "hint": "longは舌先を歯ぐきに当てる。wrongは舌を当てずに丸める。"
@@ -407,9 +530,25 @@
    "raw",
    "law"
   ],
+  "answerIndex": 0,
+  "hint": "lawは舌先を歯ぐきに当てる。rawは舌を浮かせて丸める。"
+ },
+ {
+  "options": [
+   "raw",
+   "law"
+  ],
   "answerIndex": 1,
   "meaning": "law = 法律",
   "hint": "lawは舌先を歯ぐきに当てる。rawは舌を浮かせて丸める。"
+ },
+ {
+  "options": [
+   "river",
+   "liver"
+  ],
+  "answerIndex": 0,
+  "hint": "liverは最初のlで舌先を歯ぐきに当てる。riverは舌を当てずに丸める。"
  },
  {
   "options": [
@@ -431,12 +570,36 @@
  },
  {
   "options": [
+   "best",
+   "vest"
+  ],
+  "answerIndex": 1,
+  "hint": "b は唇を閉じてから破裂させる音。v は上の歯を下唇に軽く当てて出す音です。"
+ },
+ {
+  "options": [
+   "ban",
+   "van"
+  ],
+  "answerIndex": 0,
+  "hint": "v は上の前歯で下唇を噛むように当てて、息を擦らせます。b は唇を完全に閉じます。"
+ },
+ {
+  "options": [
    "ban",
    "van"
   ],
   "answerIndex": 1,
   "meaning": "van = バン（小型トラック）",
   "hint": "v は上の前歯で下唇を噛むように当てて、息を擦らせます。b は唇を完全に閉じます。"
+ },
+ {
+  "options": [
+   "berry",
+   "very"
+  ],
+  "answerIndex": 0,
+  "hint": "very の v は歯と唇の摩擦音。日本語のバ行のように唇を閉じないよう注意。"
  },
  {
   "options": [
@@ -458,12 +621,36 @@
  },
  {
   "options": [
+   "boat",
+   "vote"
+  ],
+  "answerIndex": 1,
+  "hint": "b は両唇を閉じて「ボッ」と破裂。v は歯と唇で「ヴ」と擦る音です。"
+ },
+ {
+  "options": [
    "bat",
    "vat"
   ],
   "answerIndex": 0,
   "meaning": "bat = コウモリ／バット",
   "hint": "b は唇の破裂音。v は息が長く擦れて続く音だと意識しましょう。"
+ },
+ {
+  "options": [
+   "bat",
+   "vat"
+  ],
+  "answerIndex": 1,
+  "hint": "b は唇の破裂音。v は息が長く擦れて続く音だと意識しましょう。"
+ },
+ {
+  "options": [
+   "bow",
+   "vow"
+  ],
+  "answerIndex": 0,
+  "hint": "vow は上の歯を下唇に当てて発音。唇を閉じると bow になってしまいます。"
  },
  {
   "options": [
@@ -479,6 +666,14 @@
    "base",
    "vase"
   ],
+  "answerIndex": 0,
+  "hint": "v は前歯を下唇に当てる摩擦音。b は唇を閉じる破裂音です。"
+ },
+ {
+  "options": [
+   "base",
+   "vase"
+  ],
   "answerIndex": 1,
   "meaning": "vase = 花瓶",
   "hint": "v は前歯を下唇に当てる摩擦音。b は唇を閉じる破裂音です。"
@@ -488,9 +683,25 @@
    "bail",
    "veil"
   ],
+  "answerIndex": 0,
+  "hint": "veil の v は歯と唇の摩擦。唇を閉じないように発音します。"
+ },
+ {
+  "options": [
+   "bail",
+   "veil"
+  ],
   "answerIndex": 1,
   "meaning": "veil = ベール",
   "hint": "veil の v は歯と唇の摩擦。唇を閉じないように発音します。"
+ },
+ {
+  "options": [
+   "curb",
+   "curve"
+  ],
+  "answerIndex": 0,
+  "hint": "語尾の v は歯を唇に当てて「ヴ」と擦る。b は唇を閉じて止めます。"
  },
  {
   "options": [
@@ -512,6 +723,22 @@
  },
  {
   "options": [
+   "robe",
+   "rove"
+  ],
+  "answerIndex": 1,
+  "hint": "robe の b は両唇を閉じて破裂。rove の v は摩擦音で息が続きます。"
+ },
+ {
+  "options": [
+   "bolt",
+   "volt"
+  ],
+  "answerIndex": 0,
+  "hint": "volt の v は前歯を下唇に当てる音。bolt は唇を閉じて破裂させます。"
+ },
+ {
+  "options": [
    "bolt",
    "volt"
   ],
@@ -530,12 +757,36 @@
  },
  {
   "options": [
+   "bend",
+   "vend"
+  ],
+  "answerIndex": 1,
+  "hint": "b は唇の破裂音。v は唇を閉じず歯で下唇を擦る音です。"
+ },
+ {
+  "options": [
+   "marble",
+   "marvel"
+  ],
+  "answerIndex": 0,
+  "hint": "marvel の v は歯と唇の摩擦音。marble の b は唇を閉じる破裂音です。"
+ },
+ {
+  "options": [
    "marble",
    "marvel"
   ],
   "answerIndex": 1,
   "meaning": "marvel = 驚く／驚異",
   "hint": "marvel の v は歯と唇の摩擦音。marble の b は唇を閉じる破裂音です。"
+ },
+ {
+  "options": [
+   "bigger",
+   "vigor"
+  ],
+  "answerIndex": 0,
+  "hint": "vigor の頭の v は歯を下唇に当てて発音。唇を閉じると bigger に近づきます。"
  },
  {
   "options": [
@@ -557,6 +808,22 @@
  },
  {
   "options": [
+   "dribble",
+   "drivel"
+  ],
+  "answerIndex": 1,
+  "hint": "dribble の b は唇を閉じる音。drivel の v は摩擦音で息が漏れ続けます。"
+ },
+ {
+  "options": [
+   "banish",
+   "vanish"
+  ],
+  "answerIndex": 0,
+  "hint": "vanish の v は前歯を下唇に当てる。banish は唇を閉じて「バ」と出します。"
+ },
+ {
+  "options": [
    "banish",
    "vanish"
   ],
@@ -569,9 +836,25 @@
    "flame",
    "frame"
   ],
+  "answerIndex": 0,
+  "hint": "frは唇を丸め舌を浮かせる。flは舌先を歯ぐきに付けて発音。"
+ },
+ {
+  "options": [
+   "flame",
+   "frame"
+  ],
   "answerIndex": 1,
   "meaning": "frame = 額縁・枠",
   "hint": "frは唇を丸め舌を浮かせる。flは舌先を歯ぐきに付けて発音。"
+ },
+ {
+  "options": [
+   "clash",
+   "crash"
+  ],
+  "answerIndex": 0,
+  "hint": "crは舌を奥に引く「クラッシュ」。clは舌先を歯ぐきに付ける。"
  },
  {
   "options": [
@@ -593,12 +876,36 @@
  },
  {
   "options": [
+   "blink",
+   "brink"
+  ],
+  "answerIndex": 1,
+  "hint": "blは舌先を上に付ける。brは舌を引いて唇を丸める。"
+ },
+ {
+  "options": [
+   "clown",
+   "crown"
+  ],
+  "answerIndex": 0,
+  "hint": "crは舌をどこにも付けず奥へ。clは舌先を歯ぐきにしっかり付ける。"
+ },
+ {
+  "options": [
    "clown",
    "crown"
   ],
   "answerIndex": 1,
   "meaning": "crown = 王冠",
   "hint": "crは舌をどこにも付けず奥へ。clは舌先を歯ぐきにしっかり付ける。"
+ },
+ {
+  "options": [
+   "glow",
+   "grow"
+  ],
+  "answerIndex": 0,
+  "hint": "grは舌を引いてこもった音。glは舌先を上歯ぐきに付ける。"
  },
  {
   "options": [
@@ -615,9 +922,35 @@
    "blew",
    "brew"
   ],
+  "answerIndex": 0,
+  "hint": "brは唇を丸めて舌を引く。flやblは舌先を歯ぐきに付ける。"
+ },
+ {
+  "options": [
+   "flew",
+   "blew",
+   "brew"
+  ],
+  "answerIndex": 1,
+  "hint": "brは唇を丸めて舌を引く。flやblは舌先を歯ぐきに付ける。"
+ },
+ {
+  "options": [
+   "flew",
+   "blew",
+   "brew"
+  ],
   "answerIndex": 2,
   "meaning": "brew = (お茶・コーヒーを)淹れる",
   "hint": "brは唇を丸めて舌を引く。flやblは舌先を歯ぐきに付ける。"
+ },
+ {
+  "options": [
+   "bland",
+   "brand"
+  ],
+  "answerIndex": 0,
+  "hint": "brは舌を引いて唇を丸める。blは舌先を歯ぐきに付ける。"
  },
  {
   "options": [
@@ -633,9 +966,25 @@
    "cloud",
    "crowd"
   ],
+  "answerIndex": 0,
+  "hint": "crは舌をどこにも付けない。clは舌先を上歯ぐきに付ける。"
+ },
+ {
+  "options": [
+   "cloud",
+   "crowd"
+  ],
   "answerIndex": 1,
   "meaning": "crowd = 群衆・人混み",
   "hint": "crは舌をどこにも付けない。clは舌先を上歯ぐきに付ける。"
+ },
+ {
+  "options": [
+   "glamour",
+   "grammar"
+  ],
+  "answerIndex": 0,
+  "hint": "grは舌を奥に引く。glは舌先を歯ぐきに付けて発音。"
  },
  {
   "options": [
@@ -651,9 +1000,35 @@
    "blade",
    "braid"
   ],
+  "answerIndex": 0,
+  "hint": "brは唇を丸め舌を引く。blは舌先を歯ぐきに付ける。"
+ },
+ {
+  "options": [
+   "blade",
+   "braid"
+  ],
   "answerIndex": 1,
   "meaning": "braid = 編み込み・三つ編み",
   "hint": "brは唇を丸め舌を引く。blは舌先を歯ぐきに付ける。"
+ },
+ {
+  "options": [
+   "plot",
+   "plod",
+   "prod"
+  ],
+  "answerIndex": 0,
+  "hint": "prは舌を引いて唇を丸める。plは舌先を上歯ぐきにしっかり付ける。"
+ },
+ {
+  "options": [
+   "plot",
+   "plod",
+   "prod"
+  ],
+  "answerIndex": 1,
+  "hint": "prは舌を引いて唇を丸める。plは舌先を上歯ぐきにしっかり付ける。"
  },
  {
   "options": [
@@ -676,6 +1051,22 @@
  },
  {
   "options": [
+   "think",
+   "sink"
+  ],
+  "answerIndex": 1,
+  "hint": "th は舌先を上下の歯で軽く挟んで「スー」と息を出す。s は舌を歯につけず歯ぐきに近づける。"
+ },
+ {
+  "options": [
+   "thick",
+   "sick"
+  ],
+  "answerIndex": 0,
+  "hint": "s は舌を歯に当てず鋭い「スィ」。th は舌先を歯にはさんで息だけ漏らす。"
+ },
+ {
+  "options": [
    "thick",
    "sick"
   ],
@@ -691,6 +1082,22 @@
   "answerIndex": 0,
   "meaning": "thing = もの",
   "hint": "th は舌を前歯で軽く噛む。s は舌を引いて口の中で「スィン」と響かせる。"
+ },
+ {
+  "options": [
+   "thing",
+   "sing"
+  ],
+  "answerIndex": 1,
+  "hint": "th は舌を前歯で軽く噛む。s は舌を引いて口の中で「スィン」と響かせる。"
+ },
+ {
+  "options": [
+   "thigh",
+   "sigh"
+  ],
+  "answerIndex": 0,
+  "hint": "s はクリアな「サイ」。th は舌を歯に挟んだ濁りのない摩擦音。"
  },
  {
   "options": [
@@ -712,6 +1119,22 @@
  },
  {
   "options": [
+   "theme",
+   "seem"
+  ],
+  "answerIndex": 1,
+  "hint": "th は舌先を歯にあてて「スィーム」。s は舌を奥に保ち鋭い「スィーム」。"
+ },
+ {
+  "options": [
+   "thumb",
+   "sum"
+  ],
+  "answerIndex": 0,
+  "hint": "s は歯につけない明瞭な「サム」。th は舌を前歯にあてた息漏れの「サム」。"
+ },
+ {
+  "options": [
    "thumb",
    "sum"
   ],
@@ -727,6 +1150,22 @@
   "answerIndex": 0,
   "meaning": "mouth = 口",
   "hint": "語末 th は舌先を歯に挟んで止める。s は舌を離して鋭い「ス」で終わる。"
+ },
+ {
+  "options": [
+   "mouth",
+   "mouse"
+  ],
+  "answerIndex": 1,
+  "hint": "語末 th は舌先を歯に挟んで止める。s は舌を離して鋭い「ス」で終わる。"
+ },
+ {
+  "options": [
+   "path",
+   "pass"
+  ],
+  "answerIndex": 0,
+  "hint": "s ははっきりした「パス」。th は舌を歯にはさみ柔らかい息の「パス」。"
  },
  {
   "options": [
@@ -748,6 +1187,22 @@
  },
  {
   "options": [
+   "worth",
+   "worse"
+  ],
+  "answerIndex": 1,
+  "hint": "th は最後に舌を歯に当てる。s は舌を当てずにシャープな「ワース」。"
+ },
+ {
+  "options": [
+   "myth",
+   "miss"
+  ],
+  "answerIndex": 0,
+  "hint": "s は短く鋭い「ミス」。th は舌先を歯にあてた弱い摩擦の「ミス」。"
+ },
+ {
+  "options": [
    "myth",
    "miss"
   ],
@@ -763,6 +1218,22 @@
   "answerIndex": 0,
   "meaning": "thank = 感謝する",
   "hint": "th は舌を前歯にはさんで息を出す。s は歯につけず明瞭な「サンク」。"
+ },
+ {
+  "options": [
+   "thank",
+   "sank"
+  ],
+  "answerIndex": 1,
+  "hint": "th は舌を前歯にはさんで息を出す。s は歯につけず明瞭な「サンク」。"
+ },
+ {
+  "options": [
+   "faith",
+   "face"
+  ],
+  "answerIndex": 0,
+  "hint": "s は鋭く澄んだ「フェイス」。th は舌を歯に挟んだ柔らかい終わり方。"
  },
  {
   "options": [
@@ -784,6 +1255,22 @@
  },
  {
   "options": [
+   "thaw",
+   "saw"
+  ],
+  "answerIndex": 1,
+  "hint": "th は舌先を歯にあてた息漏れの「ソー」。s は歯につけないクリアな「ソー」。"
+ },
+ {
+  "options": [
+   "bath",
+   "bass"
+  ],
+  "answerIndex": 0,
+  "hint": "s ははっきりした「バス」。th は舌を前歯に挟んだやわらかい「バス」。"
+ },
+ {
+  "options": [
    "bath",
    "bass"
   ],
@@ -802,11 +1289,27 @@
  },
  {
   "options": [
+   "theory",
+   "series"
+  ],
+  "answerIndex": 1,
+  "hint": "th は語頭で舌を歯にあてる。s は舌を当てず鋭い摩擦で始める。"
+ },
+ {
+  "options": [
    "thought",
    "sought"
   ],
   "answerIndex": 0,
   "meaning": "thought = 考え",
+  "hint": "th は舌先を前歯に挟んで息を出す「ソート」。s は歯につけない明瞭な「ソート」。"
+ },
+ {
+  "options": [
+   "thought",
+   "sought"
+  ],
+  "answerIndex": 1,
   "hint": "th は舌先を前歯に挟んで息を出す「ソート」。s は歯につけない明瞭な「ソート」。"
  },
  {
@@ -820,11 +1323,27 @@
  },
  {
   "options": [
+   "thin",
+   "tin"
+  ],
+  "answerIndex": 1,
+  "hint": "th は舌先を上下の歯で軽く挟んで息を出す。t は舌先を歯ぐきにつけて弾く。"
+ },
+ {
+  "options": [
    "thick",
    "tick"
   ],
   "answerIndex": 0,
   "meaning": "thick = 厚い",
+  "hint": "thick の th は舌を歯に当てて摩擦音。tick の t は破裂音で「ティ」と鋭く。"
+ },
+ {
+  "options": [
+   "thick",
+   "tick"
+  ],
+  "answerIndex": 1,
   "hint": "thick の th は舌を歯に当てて摩擦音。tick の t は破裂音で「ティ」と鋭く。"
  },
  {
@@ -838,11 +1357,27 @@
  },
  {
   "options": [
+   "thank",
+   "tank"
+  ],
+  "answerIndex": 1,
+  "hint": "thank は舌を歯にはさんで「サ」に近い息。tank は「タ」とはっきり弾く。"
+ },
+ {
+  "options": [
    "three",
    "tree"
   ],
   "answerIndex": 0,
   "meaning": "three = 3",
+  "hint": "three は舌を歯に当ててから r へ。tree は「トゥリー」と t を破裂させる。"
+ },
+ {
+  "options": [
+   "three",
+   "tree"
+  ],
+  "answerIndex": 1,
   "hint": "three は舌を歯に当ててから r へ。tree は「トゥリー」と t を破裂させる。"
  },
  {
@@ -856,11 +1391,27 @@
  },
  {
   "options": [
+   "thigh",
+   "tie"
+  ],
+  "answerIndex": 1,
+  "hint": "thigh は舌先を歯に当てる息の音。tie は「タイ」と t を弾く。"
+ },
+ {
+  "options": [
    "thought",
    "taught"
   ],
   "answerIndex": 0,
   "meaning": "thought = 考え(thinkの過去)",
+  "hint": "thought は th の摩擦音で始める。taught は「トー」と t をはっきり。"
+ },
+ {
+  "options": [
+   "thought",
+   "taught"
+  ],
+  "answerIndex": 1,
   "hint": "thought は th の摩擦音で始める。taught は「トー」と t をはっきり。"
  },
  {
@@ -874,11 +1425,27 @@
  },
  {
   "options": [
+   "theme",
+   "team"
+  ],
+  "answerIndex": 1,
+  "hint": "theme は舌を歯に当てる「スィーム」風。team は「ティーム」と t を破裂。"
+ },
+ {
+  "options": [
    "thread",
    "tread"
   ],
   "answerIndex": 0,
   "meaning": "thread = 糸",
+  "hint": "thread は th の息の音から。tread は「トゥレッド」と t を弾く。"
+ },
+ {
+  "options": [
+   "thread",
+   "tread"
+  ],
+  "answerIndex": 1,
   "hint": "thread は th の息の音から。tread は「トゥレッド」と t を弾く。"
  },
  {
@@ -892,11 +1459,27 @@
  },
  {
   "options": [
+   "thorn",
+   "torn"
+  ],
+  "answerIndex": 1,
+  "hint": "thorn は舌を歯にはさむ摩擦。torn は「トーン」と t をはっきり。"
+ },
+ {
+  "options": [
    "both",
    "boat"
   ],
   "answerIndex": 0,
   "meaning": "both = 両方",
+  "hint": "both は語尾で舌を歯に当てて息を抜く。boat は語尾を「ト」と弾く。"
+ },
+ {
+  "options": [
+   "both",
+   "boat"
+  ],
+  "answerIndex": 1,
   "hint": "both は語尾で舌を歯に当てて息を抜く。boat は語尾を「ト」と弾く。"
  },
  {
@@ -910,11 +1493,27 @@
  },
  {
   "options": [
+   "bath",
+   "bat"
+  ],
+  "answerIndex": 1,
+  "hint": "bath は語尾を舌で歯にはさむ息の音。bat は「バット」と t で止める。"
+ },
+ {
+  "options": [
    "path",
    "pat"
   ],
   "answerIndex": 0,
   "meaning": "path = 小道",
+  "hint": "path は語尾 th を歯で出す摩擦。pat は語尾を「ト」と弾く。"
+ },
+ {
+  "options": [
+   "path",
+   "pat"
+  ],
+  "answerIndex": 1,
   "hint": "path は語尾 th を歯で出す摩擦。pat は語尾を「ト」と弾く。"
  },
  {
@@ -928,11 +1527,27 @@
  },
  {
   "options": [
+   "faith",
+   "fate"
+  ],
+  "answerIndex": 1,
+  "hint": "faith は語尾 th を歯にはさむ息。fate は「フェイト」と t を破裂。"
+ },
+ {
+  "options": [
    "fourth",
    "fort"
   ],
   "answerIndex": 0,
   "meaning": "fourth = 4番目",
+  "hint": "fourth は語尾 th を舌で出す。fort は「フォート」と t を弾く。"
+ },
+ {
+  "options": [
+   "fourth",
+   "fort"
+  ],
+  "answerIndex": 1,
   "hint": "fourth は語尾 th を舌で出す。fort は「フォート」と t を弾く。"
  },
  {
@@ -946,11 +1561,27 @@
  },
  {
   "options": [
+   "math",
+   "mat"
+  ],
+  "answerIndex": 1,
+  "hint": "math は語尾 th を歯にはさむ摩擦音。mat は「マット」と t で止める。"
+ },
+ {
+  "options": [
    "thrash",
    "trash"
   ],
   "answerIndex": 0,
   "meaning": "thrash = 激しく打つ",
+  "hint": "thrash は th の摩擦から r へ。trash は「トゥラッシュ」と t を破裂。"
+ },
+ {
+  "options": [
+   "thrash",
+   "trash"
+  ],
+  "answerIndex": 1,
   "hint": "thrash は th の摩擦から r へ。trash は「トゥラッシュ」と t を破裂。"
  },
  {
@@ -964,6 +1595,14 @@
  },
  {
   "options": [
+   "fat",
+   "hat"
+  ],
+  "answerIndex": 1,
+  "hint": "fは上の歯を下唇に当てて「フ」、hは口を開けて息だけの「ハ」。"
+ },
+ {
+  "options": [
    "fall",
    "hall"
   ],
@@ -973,12 +1612,36 @@
  },
  {
   "options": [
+   "fall",
+   "hall"
+  ],
+  "answerIndex": 1,
+  "hint": "fは歯と唇で摩擦音、hは喉から息を出すだけ。唇が触れたらf。"
+ },
+ {
+  "options": [
+   "fear",
+   "hear"
+  ],
+  "answerIndex": 0,
+  "hint": "hは唇を使わず息だけ。下唇に上の歯が当たればf。"
+ },
+ {
+  "options": [
    "fear",
    "hear"
   ],
   "answerIndex": 1,
   "meaning": "hear = 聞こえる",
   "hint": "hは唇を使わず息だけ。下唇に上の歯が当たればf。"
+ },
+ {
+  "options": [
+   "fed",
+   "head"
+  ],
+  "answerIndex": 0,
+  "hint": "hは口を軽く開けた「ヘ」の息。唇を噛むとfになる。"
  },
  {
   "options": [
@@ -1000,12 +1663,36 @@
  },
  {
   "options": [
+   "fit",
+   "hit"
+  ],
+  "answerIndex": 1,
+  "hint": "fは前歯を下唇に乗せて出す音、hは喉の息だけ。"
+ },
+ {
+  "options": [
    "fight",
    "height"
   ],
   "answerIndex": 0,
   "meaning": "fight = 戦い",
   "hint": "唇と歯の摩擦がf、何も触れず息だけがh。"
+ },
+ {
+  "options": [
+   "fight",
+   "height"
+  ],
+  "answerIndex": 1,
+  "hint": "唇と歯の摩擦がf、何も触れず息だけがh。"
+ },
+ {
+  "options": [
+   "fold",
+   "hold"
+  ],
+  "answerIndex": 0,
+  "hint": "hは唇を使わない。日本語のハ行に近い息。"
  },
  {
   "options": [
@@ -1027,6 +1714,22 @@
  },
  {
   "options": [
+   "full",
+   "hull"
+  ],
+  "answerIndex": 1,
+  "hint": "fは唇を噛む「フ」、hは唇を丸めない喉の息。"
+ },
+ {
+  "options": [
+   "fair",
+   "hair"
+  ],
+  "answerIndex": 0,
+  "hint": "hは上の歯を使わない。下唇が触れたらfと判断。"
+ },
+ {
+  "options": [
    "fair",
    "hair"
   ],
@@ -1045,6 +1748,14 @@
  },
  {
   "options": [
+   "fan",
+   "han"
+  ],
+  "answerIndex": 1,
+  "hint": "fは歯と唇の摩擦、hは口を開けた息だけの音。"
+ },
+ {
+  "options": [
    "feel",
    "heel"
   ],
@@ -1054,12 +1765,36 @@
  },
  {
   "options": [
+   "feel",
+   "heel"
+  ],
+  "answerIndex": 1,
+  "hint": "fは前歯を下唇に当てる、hは何も当てず息を出す。"
+ },
+ {
+  "options": [
+   "fill",
+   "hill"
+  ],
+  "answerIndex": 0,
+  "hint": "hは唇を使わず喉から。唇を噛む音ならf。"
+ },
+ {
+  "options": [
    "fill",
    "hill"
   ],
   "answerIndex": 1,
   "meaning": "hill = 丘",
   "hint": "hは唇を使わず喉から。唇を噛む音ならf。"
+ },
+ {
+  "options": [
+   "fad",
+   "had"
+  ],
+  "answerIndex": 0,
+  "hint": "hは「ハ」の息だけ。上の歯が下唇に触れればf。"
  },
  {
   "options": [
@@ -1081,6 +1816,22 @@
  },
  {
   "options": [
+   "fog",
+   "hog"
+  ],
+  "answerIndex": 1,
+  "hint": "fは唇と歯の摩擦で出す音、hは喉からの息。"
+ },
+ {
+  "options": [
+   "fate",
+   "hate"
+  ],
+  "answerIndex": 0,
+  "hint": "hは唇を使わない「ヘイ」、唇を噛めばfになる。"
+ },
+ {
+  "options": [
    "fate",
    "hate"
   ],
@@ -1099,12 +1850,36 @@
  },
  {
   "options": [
+   "found",
+   "hound"
+  ],
+  "answerIndex": 1,
+  "hint": "fは前歯を下唇に乗せた摩擦、hは口を開けた息だけ。"
+ },
+ {
+  "options": [
    "ship",
    "sheep"
   ],
   "answerIndex": 0,
   "meaning": "ship = 船",
   "hint": "短いイの「ship」は口を少しゆるめて素早く。「sheep（羊）」は口を横に引いて長く「イー」。"
+ },
+ {
+  "options": [
+   "ship",
+   "sheep"
+  ],
+  "answerIndex": 1,
+  "hint": "短いイの「ship」は口を少しゆるめて素早く。「sheep（羊）」は口を横に引いて長く「イー」。"
+ },
+ {
+  "options": [
+   "sit",
+   "seat"
+  ],
+  "answerIndex": 0,
+  "hint": "「seat」は「イー」と長く伸ばす。「sit（座る）」は短く鋭く切る。"
  },
  {
   "options": [
@@ -1126,6 +1901,22 @@
  },
  {
   "options": [
+   "bit",
+   "beat"
+  ],
+  "answerIndex": 1,
+  "hint": "「bit」は短い「イ」で軽く。「beat（打つ・鼓動）」は「ビート」と長く。"
+ },
+ {
+  "options": [
+   "live",
+   "leave"
+  ],
+  "answerIndex": 0,
+  "hint": "「leave」は「リーヴ」と長い「イー」。「live（住む）」は短い「イ」。"
+ },
+ {
+  "options": [
    "live",
    "leave"
   ],
@@ -1141,6 +1932,22 @@
   "answerIndex": 0,
   "meaning": "fit = 合う",
   "hint": "「fit」は短く「フィッ」。「feet（足の複数）」は「フィート」と長く伸ばす。"
+ },
+ {
+  "options": [
+   "fit",
+   "feet"
+  ],
+  "answerIndex": 1,
+  "hint": "「fit」は短く「フィッ」。「feet（足の複数）」は「フィート」と長く伸ばす。"
+ },
+ {
+  "options": [
+   "hit",
+   "heat"
+  ],
+  "answerIndex": 0,
+  "hint": "「heat」は「ヒート」と長い「イー」。「hit（打つ）」は短く切る。"
  },
  {
   "options": [
@@ -1162,6 +1969,22 @@
  },
  {
   "options": [
+   "fill",
+   "feel"
+  ],
+  "answerIndex": 1,
+  "hint": "「fill」は短い「イ」。「feel（感じる）」は「フィール」と長く伸ばす。"
+ },
+ {
+  "options": [
+   "chip",
+   "cheap"
+  ],
+  "answerIndex": 0,
+  "hint": "「cheap」は「チープ」と長い「イー」。「chip（かけら）」は短い「イ」。"
+ },
+ {
+  "options": [
    "chip",
    "cheap"
   ],
@@ -1177,6 +2000,22 @@
   "answerIndex": 0,
   "meaning": "dip = 浸す",
   "hint": "「dip」は短く「ディッ」。「deep（深い）」は「ディープ」と長く伸ばす。"
+ },
+ {
+  "options": [
+   "dip",
+   "deep"
+  ],
+  "answerIndex": 1,
+  "hint": "「dip」は短く「ディッ」。「deep（深い）」は「ディープ」と長く伸ばす。"
+ },
+ {
+  "options": [
+   "pick",
+   "peak"
+  ],
+  "answerIndex": 0,
+  "hint": "「peak」は「ピーク」と長い「イー」。「pick（選ぶ）」は短く切る。"
  },
  {
   "options": [
@@ -1198,12 +2037,36 @@
  },
  {
   "options": [
+   "mill",
+   "meal"
+  ],
+  "answerIndex": 1,
+  "hint": "「mill」は短い「イ」。「meal（食事）」は「ミール」と長く伸ばす。"
+ },
+ {
+  "options": [
+   "rich",
+   "reach"
+  ],
+  "answerIndex": 0,
+  "hint": "「reach」は「リーチ」と長い「イー」。「rich（裕福な）」は短い「イ」。"
+ },
+ {
+  "options": [
    "rich",
    "reach"
   ],
   "answerIndex": 1,
   "meaning": "reach = 届く",
   "hint": "「reach」は「リーチ」と長い「イー」。「rich（裕福な）」は短い「イ」。"
+ },
+ {
+  "options": [
+   "it",
+   "eat"
+  ],
+  "answerIndex": 0,
+  "hint": "「eat」は「イート」と長く伸ばす。「it（それ）」は短く軽い「イ」。"
  },
  {
   "options": [
@@ -1225,6 +2088,22 @@
  },
  {
   "options": [
+   "slip",
+   "sleep"
+  ],
+  "answerIndex": 1,
+  "hint": "「slip」は短く「スリッ」。「sleep（眠る）」は「スリープ」と長く伸ばす。"
+ },
+ {
+  "options": [
+   "grin",
+   "green"
+  ],
+  "answerIndex": 0,
+  "hint": "「green」は「グリーン」と長い「イー」。「grin（にやり）」は短く切る。"
+ },
+ {
+  "options": [
    "grin",
    "green"
   ],
@@ -1243,6 +2122,14 @@
  },
  {
   "options": [
+   "bin",
+   "bean"
+  ],
+  "answerIndex": 1,
+  "hint": "「bin」は短い「イ」で軽く。「bean（豆）」は「ビーン」と長く伸ばす。"
+ },
+ {
+  "options": [
    "cat",
    "cut"
   ],
@@ -1252,12 +2139,36 @@
  },
  {
   "options": [
+   "cat",
+   "cut"
+  ],
+  "answerIndex": 1,
+  "hint": "short a /æ/ は「エ」と「ア」の中間で口を横に大きく開く。cut /ʌ/ は口をあまり開けず軽く「ア」。"
+ },
+ {
+  "options": [
+   "cap",
+   "cup"
+  ],
+  "answerIndex": 0,
+  "hint": "cup /ʌ/ は口の力を抜いた短い「ア」。cap /æ/ は口を横に引いて明るい「ェア」。"
+ },
+ {
+  "options": [
    "cap",
    "cup"
   ],
   "answerIndex": 1,
   "meaning": "cup = カップ",
   "hint": "cup /ʌ/ は口の力を抜いた短い「ア」。cap /æ/ は口を横に引いて明るい「ェア」。"
+ },
+ {
+  "options": [
+   "bat",
+   "but"
+  ],
+  "answerIndex": 0,
+  "hint": "but /ʌ/ はあいまいで喉の奥で軽く「ア」。bat /æ/ は口を平たく開けて「ェア」。"
  },
  {
   "options": [
@@ -1279,6 +2190,22 @@
  },
  {
   "options": [
+   "hat",
+   "hut"
+  ],
+  "answerIndex": 1,
+  "hint": "hat /æ/ は口角を横に引いた「ェア」。hut /ʌ/ は口をリラックスさせた短い「ア」。"
+ },
+ {
+  "options": [
+   "bag",
+   "bug"
+  ],
+  "answerIndex": 0,
+  "hint": "bug /ʌ/ は力を抜いた中央寄りの「ア」。bag /æ/ は明るく横に広げる音。"
+ },
+ {
+  "options": [
    "bag",
    "bug"
   ],
@@ -1297,12 +2224,36 @@
  },
  {
   "options": [
+   "cab",
+   "cub"
+  ],
+  "answerIndex": 1,
+  "hint": "cab /æ/ はあごを下げ口を横に開く。cub /ʌ/ は口の開きが小さい曖昧な「ア」。"
+ },
+ {
+  "options": [
+   "ran",
+   "run"
+  ],
+  "answerIndex": 0,
+  "hint": "run /ʌ/ は短く軽い「ラ」。ran /æ/ は口を横に引いた「ラェ」に近い音。"
+ },
+ {
+  "options": [
    "ran",
    "run"
   ],
   "answerIndex": 1,
   "meaning": "run = 走る",
   "hint": "run /ʌ/ は短く軽い「ラ」。ran /æ/ は口を横に引いた「ラェ」に近い音。"
+ },
+ {
+  "options": [
+   "fan",
+   "fun"
+  ],
+  "answerIndex": 0,
+  "hint": "fun /ʌ/ は口を緩めた「ファ」。fan /æ/ は口を横に広げた明るい「ファェ」。"
  },
  {
   "options": [
@@ -1318,6 +2269,14 @@
    "match",
    "much"
   ],
+  "answerIndex": 0,
+  "hint": "much /ʌ/ は力みのない中央の「ア」。match /æ/ は口を平たく横に開く。"
+ },
+ {
+  "options": [
+   "match",
+   "much"
+  ],
   "answerIndex": 1,
   "meaning": "much = たくさん",
   "hint": "much /ʌ/ は力みのない中央の「ア」。match /æ/ は口を平たく横に開く。"
@@ -1327,9 +2286,25 @@
    "rang",
    "rung"
   ],
+  "answerIndex": 0,
+  "hint": "rung /ʌ/ は短い曖昧な「ア」。rang /æ/ は口を横に引いた明るい音。"
+ },
+ {
+  "options": [
+   "rang",
+   "rung"
+  ],
   "answerIndex": 1,
   "meaning": "rung = 鳴った(ringの過去分詞)",
   "hint": "rung /ʌ/ は短い曖昧な「ア」。rang /æ/ は口を横に引いた明るい音。"
+ },
+ {
+  "options": [
+   "ankle",
+   "uncle"
+  ],
+  "answerIndex": 0,
+  "hint": "uncle /ʌ/ は弱く曖昧な「ア」で始まる。ankle /æ/ は口を横に開く明るい「ア」。"
  },
  {
   "options": [
@@ -1351,12 +2326,36 @@
  },
  {
   "options": [
+   "bad",
+   "bud"
+  ],
+  "answerIndex": 1,
+  "hint": "bad /æ/ はあごを下げ口を横に広げる。bud /ʌ/ は力を抜いた短い「ア」。"
+ },
+ {
+  "options": [
    "dad",
    "dud"
   ],
   "answerIndex": 0,
   "meaning": "dad = お父さん",
   "hint": "dad /æ/ は明るく横に広げた「ダェ」。dud /ʌ/ は口を緩めた中央の「ダ」。"
+ },
+ {
+  "options": [
+   "dad",
+   "dud"
+  ],
+  "answerIndex": 1,
+  "hint": "dad /æ/ は明るく横に広げた「ダェ」。dud /ʌ/ は口を緩めた中央の「ダ」。"
+ },
+ {
+  "options": [
+   "lack",
+   "luck"
+  ],
+  "answerIndex": 0,
+  "hint": "luck /ʌ/ は短く力を抜いた「ラ」。lack /æ/ は口を横に引いた明るい音。"
  },
  {
   "options": [
@@ -1372,9 +2371,25 @@
    "stamp",
    "stump"
   ],
+  "answerIndex": 0,
+  "hint": "stump /ʌ/ は口を緩めた曖昧な「ア」。stamp /æ/ は口を横に開く明るい「ア」。"
+ },
+ {
+  "options": [
+   "stamp",
+   "stump"
+  ],
   "answerIndex": 1,
   "meaning": "stump = 切り株",
   "hint": "stump /ʌ/ は口を緩めた曖昧な「ア」。stamp /æ/ は口を横に開く明るい「ア」。"
+ },
+ {
+  "options": [
+   "track",
+   "truck"
+  ],
+  "answerIndex": 0,
+  "hint": "truck /ʌ/ は口の開きが小さい中央の「ア」。track /æ/ は口を横に広げた明るい音。"
  },
  {
   "options": [
@@ -1396,12 +2411,36 @@
  },
  {
   "options": [
+   "pull",
+   "full"
+  ],
+  "answerIndex": 1,
+  "hint": "p は唇を閉じて破裂させる音。f は上の歯を下唇に軽く当てて息を出す音です。"
+ },
+ {
+  "options": [
+   "pan",
+   "fan"
+  ],
+  "answerIndex": 0,
+  "hint": "f は前歯を下唇に当てて「フー」と息を漏らす。p は唇をパッと開く破裂音です。"
+ },
+ {
+  "options": [
    "pan",
    "fan"
   ],
   "answerIndex": 1,
   "meaning": "fan = 扇風機",
   "hint": "f は前歯を下唇に当てて「フー」と息を漏らす。p は唇をパッと開く破裂音です。"
+ },
+ {
+  "options": [
+   "pat",
+   "fat"
+  ],
+  "answerIndex": 0,
+  "hint": "fat の f は歯と唇のすき間から息が続く音。pat の p は一瞬で破裂します。"
  },
  {
   "options": [
@@ -1423,12 +2462,36 @@
  },
  {
   "options": [
+   "pin",
+   "fin"
+  ],
+  "answerIndex": 1,
+  "hint": "pin は唇を閉じてから「プ」と開く。fin は上の歯を下唇に当てて摩擦させます。"
+ },
+ {
+  "options": [
+   "pour",
+   "four"
+  ],
+  "answerIndex": 0,
+  "hint": "four の f は歯と唇で作る摩擦音。pour の p は唇をしっかり閉じて破裂させます。"
+ },
+ {
+  "options": [
    "pour",
    "four"
   ],
   "answerIndex": 1,
   "meaning": "four = 4",
   "hint": "four の f は歯と唇で作る摩擦音。pour の p は唇をしっかり閉じて破裂させます。"
+ },
+ {
+  "options": [
+   "pail",
+   "fail"
+  ],
+  "answerIndex": 0,
+  "hint": "fail は前歯を下唇に当てて「フェ」。pail は両唇を閉じてから「ペ」と開きます。"
  },
  {
   "options": [
@@ -1450,12 +2513,36 @@
  },
  {
   "options": [
+   "pear",
+   "fair"
+  ],
+  "answerIndex": 1,
+  "hint": "pear の p は唇を閉じる破裂音。fair の f は上の歯で下唇をかすめる息の音です。"
+ },
+ {
+  "options": [
+   "peel",
+   "feel"
+  ],
+  "answerIndex": 0,
+  "hint": "feel は歯と唇のすき間から長く息が出る。peel は唇を閉じてパッと開きます。"
+ },
+ {
+  "options": [
    "peel",
    "feel"
   ],
   "answerIndex": 1,
   "meaning": "feel = 感じる",
   "hint": "feel は歯と唇のすき間から長く息が出る。peel は唇を閉じてパッと開きます。"
+ },
+ {
+  "options": [
+   "pig",
+   "fig"
+  ],
+  "answerIndex": 0,
+  "hint": "fig の f は前歯を下唇に当てる摩擦音。pig の p は両唇の破裂音です。"
  },
  {
   "options": [
@@ -1471,9 +2558,25 @@
    "pine",
    "fine"
   ],
+  "answerIndex": 0,
+  "hint": "fine は上の歯を下唇に当てて「ファ」。pine は唇を閉じてから「パ」と開きます。"
+ },
+ {
+  "options": [
+   "pine",
+   "fine"
+  ],
   "answerIndex": 1,
   "meaning": "fine = 元気な",
   "hint": "fine は上の歯を下唇に当てて「ファ」。pine は唇を閉じてから「パ」と開きます。"
+ },
+ {
+  "options": [
+   "copy",
+   "coffee"
+  ],
+  "answerIndex": 0,
+  "hint": "coffee の f は息が続く摩擦音。copy の p は唇を閉じて一瞬で破裂します。"
  },
  {
   "options": [
@@ -1489,9 +2592,25 @@
    "pace",
    "face"
   ],
+  "answerIndex": 0,
+  "hint": "face は前歯を下唇に当てて「フェ」。pace は両唇を閉じてから「ペ」と開きます。"
+ },
+ {
+  "options": [
+   "pace",
+   "face"
+  ],
   "answerIndex": 1,
   "meaning": "face = 顔",
   "hint": "face は前歯を下唇に当てて「フェ」。pace は両唇を閉じてから「ペ」と開きます。"
+ },
+ {
+  "options": [
+   "pork",
+   "fork"
+  ],
+  "answerIndex": 0,
+  "hint": "fork の f は歯と唇の摩擦音。pork の p は唇を閉じてパッと開く破裂音です。"
  },
  {
   "options": [
@@ -1507,9 +2626,25 @@
    "lip",
    "leaf"
   ],
+  "answerIndex": 0,
+  "hint": "leaf の語尾 f は歯と唇から息が漏れる音。lip の p は唇を閉じて止めます。"
+ },
+ {
+  "options": [
+   "lip",
+   "leaf"
+  ],
   "answerIndex": 1,
   "meaning": "leaf = 葉",
   "hint": "leaf の語尾 f は歯と唇から息が漏れる音。lip の p は唇を閉じて止めます。"
+ },
+ {
+  "options": [
+   "cup",
+   "cuff"
+  ],
+  "answerIndex": 0,
+  "hint": "cuff の語尾 f は前歯を下唇に当てて息を出す。cup の p は唇を閉じる破裂音です。"
  },
  {
   "options": [
@@ -1525,6 +2660,14 @@
    "wipe",
    "wife"
   ],
+  "answerIndex": 0,
+  "hint": "wife の語尾 f は歯と唇の摩擦音。wipe の p は両唇を閉じてから開きます。"
+ },
+ {
+  "options": [
+   "wipe",
+   "wife"
+  ],
   "answerIndex": 1,
   "meaning": "wife = 妻",
   "hint": "wife の語尾 f は歯と唇の摩擦音。wipe の p は両唇を閉じてから開きます。"
@@ -1534,9 +2677,25 @@
    "sin",
    "sing"
   ],
+  "answerIndex": 0,
+  "hint": "「n」は舌先を上の歯ぐきにつけて鼻に抜く。「ng」は舌先をどこにもつけず、舌の奥を上げて「ング」と鼻に抜く。"
+ },
+ {
+  "options": [
+   "sin",
+   "sing"
+  ],
   "answerIndex": 1,
   "meaning": "sing = 歌う",
   "hint": "「n」は舌先を上の歯ぐきにつけて鼻に抜く。「ng」は舌先をどこにもつけず、舌の奥を上げて「ング」と鼻に抜く。"
+ },
+ {
+  "options": [
+   "thin",
+   "thing"
+  ],
+  "answerIndex": 0,
+  "hint": "thin は舌先が歯ぐきにつく「ン」、thing は舌先が浮いたまま喉の奥で「ング」。"
  },
  {
   "options": [
@@ -1558,6 +2717,22 @@
  },
  {
   "options": [
+   "win",
+   "wing"
+  ],
+  "answerIndex": 1,
+  "hint": "win は最後に舌先が上につく。wing は舌の奥だけ上がり舌先は触れない。"
+ },
+ {
+  "options": [
+   "ban",
+   "bang"
+  ],
+  "answerIndex": 0,
+  "hint": "bang は「バング」、舌の奥を上げて鼻に響かせる。b07an は舌先を歯ぐきへ。"
+ },
+ {
+  "options": [
    "ban",
    "bang"
   ],
@@ -1576,12 +2751,36 @@
  },
  {
   "options": [
+   "run",
+   "rung"
+  ],
+  "answerIndex": 1,
+  "hint": "run は舌先がしっかり上につく「ラン」。rung は舌先を離したまま「ラング」。"
+ },
+ {
+  "options": [
+   "ton",
+   "tongue"
+  ],
+  "answerIndex": 0,
+  "hint": "tongue は綴りに惑わされず「タング」と奥で鼻に抜く。ton は舌先を歯ぐきに。"
+ },
+ {
+  "options": [
    "ton",
    "tongue"
   ],
   "answerIndex": 1,
   "meaning": "tongue = 舌",
   "hint": "tongue は綴りに惑わされず「タング」と奥で鼻に抜く。ton は舌先を歯ぐきに。"
+ },
+ {
+  "options": [
+   "kin",
+   "king"
+  ],
+  "answerIndex": 0,
+  "hint": "king は「キング」、舌の奥を上げる。kin は舌先を上の歯ぐきへ当てる。"
  },
  {
   "options": [
@@ -1603,6 +2802,14 @@
  },
  {
   "options": [
+   "pin",
+   "ping"
+  ],
+  "answerIndex": 1,
+  "hint": "pin は舌先タッチの「ピン」。ping は舌先を浮かせた「ピング」。"
+ },
+ {
+  "options": [
    "sun",
    "sung"
   ],
@@ -1612,12 +2819,36 @@
  },
  {
   "options": [
+   "sun",
+   "sung"
+  ],
+  "answerIndex": 1,
+  "hint": "sun は舌先が上につく。sung は舌の奥だけ上げて舌先は触れない。"
+ },
+ {
+  "options": [
+   "ran",
+   "rang"
+  ],
+  "answerIndex": 0,
+  "hint": "rang は「ラング」と奥で響かせる。ran は舌先を歯ぐきへ。"
+ },
+ {
+  "options": [
    "ran",
    "rang"
   ],
   "answerIndex": 1,
   "meaning": "rang = 鳴った(ringの過去形)",
   "hint": "rang は「ラング」と奥で響かせる。ran は舌先を歯ぐきへ。"
+ },
+ {
+  "options": [
+   "clan",
+   "clang"
+  ],
+  "answerIndex": 0,
+  "hint": "clang は最後を「ング」と奥で。clan は舌先を上につけて止める。"
  },
  {
   "options": [
@@ -1634,9 +2865,35 @@
    "bang",
    "bun"
   ],
+  "answerIndex": 0,
+  "hint": "bun は母音が「ア」で舌先が上につく。bang は「ング」で奥が上がる。"
+ },
+ {
+  "options": [
+   "ban",
+   "bang",
+   "bun"
+  ],
+  "answerIndex": 1,
+  "hint": "bun は母音が「ア」で舌先が上につく。bang は「ング」で奥が上がる。"
+ },
+ {
+  "options": [
+   "ban",
+   "bang",
+   "bun"
+  ],
   "answerIndex": 2,
   "meaning": "bun = 丸パン",
   "hint": "bun は母音が「ア」で舌先が上につく。bang は「ング」で奥が上がる。"
+ },
+ {
+  "options": [
+   "fan",
+   "fang"
+  ],
+  "answerIndex": 0,
+  "hint": "fang は「ファング」と奥で鼻に抜く。fan は舌先を歯ぐきへ。"
  },
  {
   "options": [
@@ -1652,9 +2909,25 @@
    "gone",
    "gong"
   ],
+  "answerIndex": 0,
+  "hint": "gong は「ゴング」、舌先は浮かせたまま。gone は舌先を上につける。"
+ },
+ {
+  "options": [
+   "gone",
+   "gong"
+  ],
   "answerIndex": 1,
   "meaning": "gong = 銅鑼(どら)",
   "hint": "gong は「ゴング」、舌先は浮かせたまま。gone は舌先を上につける。"
+ },
+ {
+  "options": [
+   "lawn",
+   "long"
+  ],
+  "answerIndex": 0,
+  "hint": "long は「ロング」と舌の奥を上げる。lawn は最後に舌先が上の歯ぐきへ。"
  },
  {
   "options": [
@@ -1671,9 +2944,35 @@
    "hang",
    "hun"
   ],
+  "answerIndex": 0,
+  "hint": "hang は「ハング」と奥で鼻に抜く。舌先はどこにも触れない。"
+ },
+ {
+  "options": [
+   "han",
+   "hang",
+   "hun"
+  ],
   "answerIndex": 1,
   "meaning": "hang = 掛ける",
   "hint": "hang は「ハング」と奥で鼻に抜く。舌先はどこにも触れない。"
+ },
+ {
+  "options": [
+   "han",
+   "hang",
+   "hun"
+  ],
+  "answerIndex": 2,
+  "hint": "hang は「ハング」と奥で鼻に抜く。舌先はどこにも触れない。"
+ },
+ {
+  "options": [
+   "sip",
+   "ship"
+  ],
+  "answerIndex": 0,
+  "hint": "「シ」のように舌を引いて息をこすると sh。s は「ス」に近く舌先を歯ぐきへ。"
  },
  {
   "options": [
@@ -1683,6 +2982,14 @@
   "answerIndex": 1,
   "meaning": "ship = 船",
   "hint": "「シ」のように舌を引いて息をこすると sh。s は「ス」に近く舌先を歯ぐきへ。"
+ },
+ {
+  "options": [
+   "sea",
+   "she"
+  ],
+  "answerIndex": 0,
+  "hint": "she は唇を少し丸めて「シー」。sea は鋭い「スィー」で唇を横に。"
  },
  {
   "options": [
@@ -1704,12 +3011,36 @@
  },
  {
   "options": [
+   "see",
+   "she"
+  ],
+  "answerIndex": 1,
+  "hint": "see は息が細く鋭い「スィー」。sh は息が広がる「シュ」系の音。"
+ },
+ {
+  "options": [
+   "sock",
+   "shock"
+  ],
+  "answerIndex": 0,
+  "hint": "shock は「ショ」、sock は「ソ」。唇を丸めるかどうかで聞き分ける。"
+ },
+ {
+  "options": [
    "sock",
    "shock"
   ],
   "answerIndex": 1,
   "meaning": "shock = 衝撃",
   "hint": "shock は「ショ」、sock は「ソ」。唇を丸めるかどうかで聞き分ける。"
+ },
+ {
+  "options": [
+   "save",
+   "shave"
+  ],
+  "answerIndex": 0,
+  "hint": "shave は語頭が「シェ」。save は「セ」で舌先が歯に近い。"
  },
  {
   "options": [
@@ -1725,9 +3056,25 @@
    "sign",
    "shine"
   ],
+  "answerIndex": 0,
+  "hint": "shine は「シャ」系で唇を丸める。sign は「サ」で鋭い摩擦音。"
+ },
+ {
+  "options": [
+   "sign",
+   "shine"
+  ],
   "answerIndex": 1,
   "meaning": "shine = 輝く",
   "hint": "shine は「シャ」系で唇を丸める。sign は「サ」で鋭い摩擦音。"
+ },
+ {
+  "options": [
+   "seat",
+   "sheet"
+  ],
+  "answerIndex": 0,
+  "hint": "sheet は「シー」、seat は鋭い「スィー」。唇の丸めに注意。"
  },
  {
   "options": [
@@ -1743,9 +3090,25 @@
    "sell",
    "shell"
   ],
+  "answerIndex": 0,
+  "hint": "shell は「シェ」、sell は「セ」。語頭の摩擦が広いか狭いかで判断。"
+ },
+ {
+  "options": [
+   "sell",
+   "shell"
+  ],
   "answerIndex": 1,
   "meaning": "shell = 貝がら",
   "hint": "shell は「シェ」、sell は「セ」。語頭の摩擦が広いか狭いかで判断。"
+ },
+ {
+  "options": [
+   "self",
+   "shelf"
+  ],
+  "answerIndex": 0,
+  "hint": "shelf は「シェ」で始まる。self は「セ」で舌先が前。"
  },
  {
   "options": [
@@ -1761,9 +3124,25 @@
    "same",
    "shame"
   ],
+  "answerIndex": 0,
+  "hint": "shame は「シェ」、same は「セ」。唇を丸めると sh。"
+ },
+ {
+  "options": [
+   "same",
+   "shame"
+  ],
   "answerIndex": 1,
   "meaning": "shame = 恥",
   "hint": "shame は「シェ」、same は「セ」。唇を丸めると sh。"
+ },
+ {
+  "options": [
+   "sour",
+   "shower"
+  ],
+  "answerIndex": 0,
+  "hint": "shower は「シャ」で始まる。sour は「サ」で鋭い。"
  },
  {
   "options": [
@@ -1779,9 +3158,25 @@
    "seep",
    "sheep"
   ],
+  "answerIndex": 0,
+  "hint": "sheep は「シー」、seep は鋭い「スィー」。息の広がりで聞き分ける。"
+ },
+ {
+  "options": [
+   "seep",
+   "sheep"
+  ],
   "answerIndex": 1,
   "meaning": "sheep = 羊",
   "hint": "sheep は「シー」、seep は鋭い「スィー」。息の広がりで聞き分ける。"
+ },
+ {
+  "options": [
+   "sin",
+   "shin"
+  ],
+  "answerIndex": 0,
+  "hint": "shin は「シ」、sin は「スィ」。唇を少し丸めると sh。"
  },
  {
   "options": [
@@ -1797,6 +3192,14 @@
    "sort",
    "short"
   ],
+  "answerIndex": 0,
+  "hint": "short は「ショ」、sort は「ソ」。唇の丸めに注目。"
+ },
+ {
+  "options": [
+   "sort",
+   "short"
+  ],
   "answerIndex": 1,
   "meaning": "short = 短い",
   "hint": "short は「ショ」、sort は「ソ」。唇の丸めに注目。"
@@ -1806,9 +3209,25 @@
    "sue",
    "shoe"
   ],
+  "answerIndex": 0,
+  "hint": "shoe は「シュー」、sue は「スー」。唇を丸めるかで区別。"
+ },
+ {
+  "options": [
+   "sue",
+   "shoe"
+  ],
   "answerIndex": 1,
   "meaning": "shoe = 靴",
   "hint": "shoe は「シュー」、sue は「スー」。唇を丸めるかで区別。"
+ },
+ {
+  "options": [
+   "sour",
+   "sure"
+  ],
+  "answerIndex": 0,
+  "hint": "sure は「シュア」、sour は「サワー」。語頭が sh か s かで判断。"
  },
  {
   "options": [
@@ -1830,6 +3249,22 @@
  },
  {
   "options": [
+   "vest",
+   "west"
+  ],
+  "answerIndex": 1,
+  "hint": "v は上の歯を下唇に軽く当てて出す。w は唇を丸めて突き出すだけで歯は使わない。"
+ },
+ {
+  "options": [
+   "vine",
+   "wine"
+  ],
+  "answerIndex": 0,
+  "hint": "w は唇をすぼめてから「ウ」の形で始める。歯を唇に当てないことを意識。"
+ },
+ {
+  "options": [
    "vine",
    "wine"
   ],
@@ -1848,6 +3283,22 @@
  },
  {
   "options": [
+   "veil",
+   "wail"
+  ],
+  "answerIndex": 1,
+  "hint": "v は前歯を下唇に触れさせて摩擦音を出す。w では歯を一切触れさせない。"
+ },
+ {
+  "options": [
+   "vary",
+   "wary"
+  ],
+  "answerIndex": 0,
+  "hint": "w は丸めた唇から滑り出す。v のように下唇を噛む動きをしないよう注意。"
+ },
+ {
+  "options": [
    "vary",
    "wary"
   ],
@@ -1860,9 +3311,25 @@
    "vent",
    "went"
   ],
+  "answerIndex": 0,
+  "hint": "w は唇を突き出して「ウェ」と滑らかに。v は歯と唇の摩擦でブーンと響く。"
+ },
+ {
+  "options": [
+   "vent",
+   "went"
+  ],
   "answerIndex": 1,
   "meaning": "went = goの過去形（行った）",
   "hint": "w は唇を突き出して「ウェ」と滑らかに。v は歯と唇の摩擦でブーンと響く。"
+ },
+ {
+  "options": [
+   "viper",
+   "wiper"
+  ],
+  "answerIndex": 0,
+  "hint": "w は唇だけを使う。v は上の歯を下唇に当てて息を擦らせる。"
  },
  {
   "options": [
@@ -1884,11 +3351,27 @@
  },
  {
   "options": [
+   "verse",
+   "worse"
+  ],
+  "answerIndex": 1,
+  "hint": "v は下唇に歯を当てる有声摩擦音。w は唇を丸めるだけで歯は無関係。"
+ },
+ {
+  "options": [
    "van",
    "wan"
   ],
   "answerIndex": 0,
   "meaning": "van = 小型トラック（バン）",
+  "hint": "v は歯を唇に当てて出す。w は「ウァ」と唇を丸めて始める。"
+ },
+ {
+  "options": [
+   "van",
+   "wan"
+  ],
+  "answerIndex": 1,
   "hint": "v は歯を唇に当てて出す。w は「ウァ」と唇を丸めて始める。"
  },
  {
@@ -1899,6 +3382,22 @@
   "answerIndex": 0,
   "meaning": "vow = 誓い",
   "hint": "v は前歯で下唇に触れる。w は唇を突き出すだけで歯を使わない。"
+ },
+ {
+  "options": [
+   "vow",
+   "wow"
+  ],
+  "answerIndex": 1,
+  "hint": "v は前歯で下唇に触れる。w は唇を突き出すだけで歯を使わない。"
+ },
+ {
+  "options": [
+   "veered",
+   "weird"
+  ],
+  "answerIndex": 0,
+  "hint": "w は唇を丸めて「ウィ」と滑らかに入る。v は下唇に歯を当てて響かせる。"
  },
  {
   "options": [
@@ -1920,6 +3419,22 @@
  },
  {
   "options": [
+   "vie",
+   "Y"
+  ],
+  "answerIndex": 1,
+  "hint": "v は歯を下唇に当てて始める。半母音 w/y は歯を使わず唇や舌で滑り出す。"
+ },
+ {
+  "options": [
+   "vat",
+   "what"
+  ],
+  "answerIndex": 0,
+  "hint": "w は唇を丸めて「ワ」。v は前歯を下唇に当てる摩擦音で別物。"
+ },
+ {
+  "options": [
    "vat",
    "what"
   ],
@@ -1932,9 +3447,25 @@
    "vile",
    "while"
   ],
+  "answerIndex": 0,
+  "hint": "w は唇をすぼめて始める。v は下唇を上の歯で軽く噛むように出す。"
+ },
+ {
+  "options": [
+   "vile",
+   "while"
+  ],
   "answerIndex": 1,
   "meaning": "while = ～する間",
   "hint": "w は唇をすぼめて始める。v は下唇を上の歯で軽く噛むように出す。"
+ },
+ {
+  "options": [
+   "vie",
+   "we"
+  ],
+  "answerIndex": 0,
+  "hint": "w は唇を丸めて「ウィー」。v は歯と下唇の摩擦で始まる音。"
  },
  {
   "options": [
@@ -1956,6 +3487,22 @@
  },
  {
   "options": [
+   "volley",
+   "wally"
+  ],
+  "answerIndex": 1,
+  "hint": "v は前歯を下唇に当てて出す。w は唇を突き出して「ウォ」と滑り出す。"
+ },
+ {
+  "options": [
+   "veal",
+   "wheel"
+  ],
+  "answerIndex": 0,
+  "hint": "w は唇を丸めて「ウィール」。v は下唇に歯を当てて響かせる有声音。"
+ },
+ {
+  "options": [
    "veal",
    "wheel"
   ],
@@ -1974,12 +3521,36 @@
  },
  {
   "options": [
+   "dare",
+   "their"
+  ],
+  "answerIndex": 1,
+  "hint": "dareのdは破裂のはっきりした音。theirは舌先を前歯にそっと触れさせる柔らかい音。"
+ },
+ {
+  "options": [
+   "dan",
+   "than"
+  ],
+  "answerIndex": 0,
+  "hint": "thanのthは舌を前歯に当てる摩擦音、danのdは破裂音。"
+ },
+ {
+  "options": [
    "dan",
    "than"
   ],
   "answerIndex": 1,
   "meaning": "than = 〜よりも",
   "hint": "thanのthは舌を前歯に当てる摩擦音、danのdは破裂音。"
+ },
+ {
+  "options": [
+   "worded",
+   "worthy"
+  ],
+  "answerIndex": 0,
+  "hint": "worthyの中はth、wordedの中はd。舌の位置が歯か歯ぐきかで聞き分ける。"
  },
  {
   "options": [
@@ -2001,6 +3572,22 @@
  },
  {
   "options": [
+   "doe",
+   "though"
+  ],
+  "answerIndex": 1,
+  "hint": "doeは舌先で歯ぐきを弾くd、thoughは舌を歯に当てるth。"
+ },
+ {
+  "options": [
+   "loaden",
+   "loathing"
+  ],
+  "answerIndex": 0,
+  "hint": "loathingのthは舌を歯に当てる音。dの破裂とは違い息が流れ続ける。"
+ },
+ {
+  "options": [
    "loaden",
    "loathing"
   ],
@@ -2013,9 +3600,25 @@
    "cot",
    "caught"
   ],
+  "answerIndex": 0,
+  "hint": "awは口を大きく開け、唇を丸めて「オー」と長めに。短いoは「ア」に近く短く切る。"
+ },
+ {
+  "options": [
+   "cot",
+   "caught"
+  ],
   "answerIndex": 1,
   "meaning": "caught = 捕まえた（catchの過去形）",
   "hint": "awは口を大きく開け、唇を丸めて「オー」と長めに。短いoは「ア」に近く短く切る。"
+ },
+ {
+  "options": [
+   "pond",
+   "pawned"
+  ],
+  "answerIndex": 0,
+  "hint": "pawnedのawは唇を丸めて「オー」と伸ばす。pondのoは短く「ア」寄り。"
  },
  {
   "options": [
@@ -2037,12 +3640,36 @@
  },
  {
   "options": [
+   "cod",
+   "cawed"
+  ],
+  "answerIndex": 1,
+  "hint": "codは短く「カァッ」。cawedは唇を丸めて「コー」と伸ばす音。"
+ },
+ {
+  "options": [
+   "don",
+   "dawn"
+  ],
+  "answerIndex": 0,
+  "hint": "dawnは唇を丸め「ドーン」と長め。donは短く「ダン」に近い。"
+ },
+ {
+  "options": [
    "don",
    "dawn"
   ],
   "answerIndex": 1,
   "meaning": "dawn = 夜明け",
   "hint": "dawnは唇を丸め「ドーン」と長め。donは短く「ダン」に近い。"
+ },
+ {
+  "options": [
+   "chock",
+   "chalk"
+  ],
+  "answerIndex": 0,
+  "hint": "chalkのalは「オー」と丸めて伸ばす。chockは短く切る「チャッ」。"
  },
  {
   "options": [
@@ -2058,9 +3685,25 @@
    "stock",
    "stalk"
   ],
+  "answerIndex": 0,
+  "hint": "stalkは唇を丸めて「ストーク」。stockは短く「スタック」寄り。"
+ },
+ {
+  "options": [
+   "stock",
+   "stalk"
+  ],
   "answerIndex": 1,
   "meaning": "stalk = （植物の）茎",
   "hint": "stalkは唇を丸めて「ストーク」。stockは短く「スタック」寄り。"
+ },
+ {
+  "options": [
+   "hock",
+   "hawk"
+  ],
+  "answerIndex": 0,
+  "hint": "hawkは唇を丸めて「ホーク」と伸ばす。hockは短く「ハック」。"
  },
  {
   "options": [
@@ -2076,6 +3719,14 @@
    "nod",
    "gnawed"
   ],
+  "answerIndex": 0,
+  "hint": "gnawedは「ノード」と唇を丸めて長め。nodは短く「ナッド」。"
+ },
+ {
+  "options": [
+   "nod",
+   "gnawed"
+  ],
   "answerIndex": 1,
   "meaning": "gnawed = かじった（gnawの過去形）",
   "hint": "gnawedは「ノード」と唇を丸めて長め。nodは短く「ナッド」。"
@@ -2085,9 +3736,25 @@
    "tot",
    "taught"
   ],
+  "answerIndex": 0,
+  "hint": "taughtは「トート」と丸めて伸ばす。totは短く「タッ」と切る。"
+ },
+ {
+  "options": [
+   "tot",
+   "taught"
+  ],
   "answerIndex": 1,
   "meaning": "taught = 教えた（teachの過去形）",
   "hint": "taughtは「トート」と丸めて伸ばす。totは短く「タッ」と切る。"
+ },
+ {
+  "options": [
+   "rot",
+   "wrought"
+  ],
+  "answerIndex": 0,
+  "hint": "wroughtは唇を丸め「ロート」と長め。rotは短く「ラッ」。"
  },
  {
   "options": [
@@ -2109,12 +3776,36 @@
  },
  {
   "options": [
+   "fox",
+   "fawks"
+  ],
+  "answerIndex": 1,
+  "hint": "foxは短く「ファックス」寄り。awの音は唇を丸めて伸ばすので別物。"
+ },
+ {
+  "options": [
    "lodge",
    "lauds"
   ],
   "answerIndex": 0,
   "meaning": "lodge = 山小屋・宿泊する",
   "hint": "lodgeのoは短く「ラ」寄り。lauds（賞賛する）はawで「ロー」と伸ばす。"
+ },
+ {
+  "options": [
+   "lodge",
+   "lauds"
+  ],
+  "answerIndex": 1,
+  "hint": "lodgeのoは短く「ラ」寄り。lauds（賞賛する）はawで「ロー」と伸ばす。"
+ },
+ {
+  "options": [
+   "bot",
+   "bought"
+  ],
+  "answerIndex": 0,
+  "hint": "boughtは唇を丸め「ボート」と長め。botは短く「バッ」。"
  },
  {
   "options": [
@@ -2130,9 +3821,25 @@
    "sot",
    "sought"
   ],
+  "answerIndex": 0,
+  "hint": "soughtは「ソート」と丸めて伸ばす。sotは短く「サッ」と切る。"
+ },
+ {
+  "options": [
+   "sot",
+   "sought"
+  ],
   "answerIndex": 1,
   "meaning": "sought = 探し求めた（seekの過去形）",
   "hint": "soughtは「ソート」と丸めて伸ばす。sotは短く「サッ」と切る。"
+ },
+ {
+  "options": [
+   "clot",
+   "clause"
+  ],
+  "answerIndex": 0,
+  "hint": "clauseのauは唇を丸めて「クロー」と伸ばす。clotは短く「クラッ」。"
  },
  {
   "options": [
@@ -2154,12 +3861,36 @@
  },
  {
   "options": [
+   "chip",
+   "ship"
+  ],
+  "answerIndex": 1,
+  "hint": "chは「チ」と舌をはじく破裂音、shは「シ」と息を流す摩擦音。最初の音に注目。"
+ },
+ {
+  "options": [
+   "chair",
+   "share"
+  ],
+  "answerIndex": 0,
+  "hint": "shareは「シェ」と息だけが流れる音。chairは「チェ」と一瞬止めてはじく。"
+ },
+ {
+  "options": [
    "chair",
    "share"
   ],
   "answerIndex": 1,
   "meaning": "share = 共有する、分け合う",
   "hint": "shareは「シェ」と息だけが流れる音。chairは「チェ」と一瞬止めてはじく。"
+ },
+ {
+  "options": [
+   "cheap",
+   "sheep"
+  ],
+  "answerIndex": 0,
+  "hint": "sheepは「シー」と滑らかに息を出す。cheapは「チー」と舌先を当ててから出す破裂音。"
  },
  {
   "options": [
@@ -2181,6 +3912,14 @@
  },
  {
   "options": [
+   "cheese",
+   "she's"
+  ],
+  "answerIndex": 1,
+  "hint": "cheeseは出だしが「チ」の破裂、she'sは「シ」の摩擦。語頭をよく聞く。"
+ },
+ {
+  "options": [
    "chin",
    "shin"
   ],
@@ -2190,12 +3929,36 @@
  },
  {
   "options": [
+   "chin",
+   "shin"
+  ],
+  "answerIndex": 1,
+  "hint": "chinは「チン」と舌をはじく。shinは「シン」と息を流す。最初だけが違う。"
+ },
+ {
+  "options": [
+   "chew",
+   "shoe"
+  ],
+  "answerIndex": 0,
+  "hint": "shoeは「シュー」と息が連続。chewは「チュー」と一度止めてはじく。"
+ },
+ {
+  "options": [
    "chew",
    "shoe"
   ],
   "answerIndex": 1,
   "meaning": "shoe = 靴",
   "hint": "shoeは「シュー」と息が連続。chewは「チュー」と一度止めてはじく。"
+ },
+ {
+  "options": [
+   "chop",
+   "shop"
+  ],
+  "answerIndex": 0,
+  "hint": "shopは「シャ」と摩擦で始まる。chopは「チャ」と破裂で始まる。"
  },
  {
   "options": [
@@ -2218,12 +3981,46 @@
  },
  {
   "options": [
+   "chair",
+   "share",
+   "cher"
+  ],
+  "answerIndex": 1,
+  "hint": "chairは「チェア」と舌を当ててはじく破裂音。shareは「シェア」と息だけ。"
+ },
+ {
+  "options": [
+   "chair",
+   "share",
+   "cher"
+  ],
+  "answerIndex": 2,
+  "hint": "chairは「チェア」と舌を当ててはじく破裂音。shareは「シェア」と息だけ。"
+ },
+ {
+  "options": [
+   "catch",
+   "cash"
+  ],
+  "answerIndex": 0,
+  "hint": "語尾でcatchは「チ」と止める音、cashは「シュ」と息を流す音。最後を聞く。"
+ },
+ {
+  "options": [
    "catch",
    "cash"
   ],
   "answerIndex": 1,
   "meaning": "cash = 現金",
   "hint": "語尾でcatchは「チ」と止める音、cashは「シュ」と息を流す音。最後を聞く。"
+ },
+ {
+  "options": [
+   "watch",
+   "wash"
+  ],
+  "answerIndex": 0,
+  "hint": "washは語尾が「シュ」と長く息が流れる。watchは「チ」と短く止める。"
  },
  {
   "options": [
@@ -2245,6 +4042,32 @@
  },
  {
   "options": [
+   "match",
+   "mash"
+  ],
+  "answerIndex": 1,
+  "hint": "matchは語尾が「チ」の破裂。mashは「シュ」の摩擦。語尾に注目。"
+ },
+ {
+  "options": [
+   "chime",
+   "time",
+   "shine"
+  ],
+  "answerIndex": 0,
+  "hint": "shineは「シャイン」と息が流れる摩擦音で始まる。chimeは「チャイム」と破裂で始まる。"
+ },
+ {
+  "options": [
+   "chime",
+   "time",
+   "shine"
+  ],
+  "answerIndex": 1,
+  "hint": "shineは「シャイン」と息が流れる摩擦音で始まる。chimeは「チャイム」と破裂で始まる。"
+ },
+ {
+  "options": [
    "chime",
    "time",
    "shine"
@@ -2252,6 +4075,14 @@
   "answerIndex": 2,
   "meaning": "shine = 輝く",
   "hint": "shineは「シャイン」と息が流れる摩擦音で始まる。chimeは「チャイム」と破裂で始まる。"
+ },
+ {
+  "options": [
+   "choose",
+   "shoes"
+  ],
+  "answerIndex": 0,
+  "hint": "shoesは「シューズ」と滑らかに息を出す。chooseは「チューズ」と止めてはじく。"
  },
  {
   "options": [
@@ -2267,9 +4098,25 @@
    "chatter",
    "shatter"
   ],
+  "answerIndex": 0,
+  "hint": "shatterは「シャ」の摩擦で始まる。chatterは「チャ」の破裂で始まる。"
+ },
+ {
+  "options": [
+   "chatter",
+   "shatter"
+  ],
   "answerIndex": 1,
   "meaning": "shatter = 粉々に砕く",
   "hint": "shatterは「シャ」の摩擦で始まる。chatterは「チャ」の破裂で始まる。"
+ },
+ {
+  "options": [
+   "cheat",
+   "sheet"
+  ],
+  "answerIndex": 0,
+  "hint": "sheetは「シー」と息を流す。cheatは「チー」と舌を当ててはじく。"
  },
  {
   "options": [
@@ -2292,12 +4139,46 @@
  },
  {
   "options": [
+   "chick",
+   "chic",
+   "sheik"
+  ],
+  "answerIndex": 1,
+  "hint": "chickは「チ」の破裂で始まる。chic(シック)やsheikは「シ」の摩擦で始まる。"
+ },
+ {
+  "options": [
+   "chick",
+   "chic",
+   "sheik"
+  ],
+  "answerIndex": 2,
+  "hint": "chickは「チ」の破裂で始まる。chic(シック)やsheikは「シ」の摩擦で始まる。"
+ },
+ {
+  "options": [
    "goat",
    "coat"
   ],
   "answerIndex": 0,
   "meaning": "goat = ヤギ",
   "hint": "gは喉を震わせる有声音、kは息だけの無声音。喉に手を当てて震えればg。"
+ },
+ {
+  "options": [
+   "goat",
+   "coat"
+  ],
+  "answerIndex": 1,
+  "hint": "gは喉を震わせる有声音、kは息だけの無声音。喉に手を当てて震えればg。"
+ },
+ {
+  "options": [
+   "bag",
+   "back"
+  ],
+  "answerIndex": 0,
+  "hint": "語尾のkは息が強く出る。gは喉が震え、音がこもる感じ。"
  },
  {
   "options": [
@@ -2319,6 +4200,22 @@
  },
  {
   "options": [
+   "pig",
+   "pick"
+  ],
+  "answerIndex": 1,
+  "hint": "語尾gは喉を震わせて柔らかく終わる。pickのkは鋭く息で切る。"
+ },
+ {
+  "options": [
+   "gold",
+   "cold"
+  ],
+  "answerIndex": 0,
+  "hint": "coldの頭は息のc(k)音。goldは喉を震わせるg音。"
+ },
+ {
+  "options": [
    "gold",
    "cold"
   ],
@@ -2337,12 +4234,36 @@
  },
  {
   "options": [
+   "dog",
+   "dock"
+  ],
+  "answerIndex": 1,
+  "hint": "dogの語尾gは有声でこもる。dockのckは息で鋭く切れる。"
+ },
+ {
+  "options": [
+   "gut",
+   "cut"
+  ],
+  "answerIndex": 0,
+  "hint": "cutの頭kは息が強い無声音。gutは喉を震わせる有声音。"
+ },
+ {
+  "options": [
    "gut",
    "cut"
   ],
   "answerIndex": 1,
   "meaning": "cut = 切る",
   "hint": "cutの頭kは息が強い無声音。gutは喉を震わせる有声音。"
+ },
+ {
+  "options": [
+   "log",
+   "lock"
+  ],
+  "answerIndex": 0,
+  "hint": "lockの語尾ckは息で鋭く終わる。logは喉が震えてこもる。"
  },
  {
   "options": [
@@ -2364,12 +4285,36 @@
  },
  {
   "options": [
+   "got",
+   "cot"
+  ],
+  "answerIndex": 1,
+  "hint": "gotの頭gは喉を震わせる。cotの頭c(k)は息だけで出す。"
+ },
+ {
+  "options": [
    "bug",
    "buck"
   ],
   "answerIndex": 0,
   "meaning": "bug = 虫",
   "hint": "bugの語尾gは有声でこもる。buckのckは息で鋭く切る。"
+ },
+ {
+  "options": [
+   "bug",
+   "buck"
+  ],
+  "answerIndex": 1,
+  "hint": "bugの語尾gは有声でこもる。buckのckは息で鋭く切る。"
+ },
+ {
+  "options": [
+   "gap",
+   "cap"
+  ],
+  "answerIndex": 0,
+  "hint": "capの頭kは息が強い。gapの頭gは喉を震わせる有声音。"
  },
  {
   "options": [
@@ -2383,10 +4328,19 @@
  {
   "options": [
    "pig",
-   "pig"
+   "pick"
   ],
   "answerIndex": 0,
   "meaning": "pig = ブタ",
+  "hint": "語頭pより語尾に注目。gは喉が震えてこもる音。"
+ },
+ {
+  "options": [
+   "pig",
+   "pick"
+  ],
+  "answerIndex": 1,
+  "meaning": "pick = 選ぶ・つまむ",
   "hint": "語頭pより語尾に注目。gは喉が震えてこもる音。"
  },
  {
@@ -2397,6 +4351,22 @@
   "answerIndex": 0,
   "meaning": "gum = ガム",
   "hint": "gumの頭gは喉を震わせる。comeの頭c(k)は息だけの無声音。"
+ },
+ {
+  "options": [
+   "gum",
+   "come"
+  ],
+  "answerIndex": 1,
+  "hint": "gumの頭gは喉を震わせる。comeの頭c(k)は息だけの無声音。"
+ },
+ {
+  "options": [
+   "tag",
+   "tack"
+  ],
+  "answerIndex": 0,
+  "hint": "tackの語尾ckは息で鋭く切れる。tagは喉が震えてこもる。"
  },
  {
   "options": [
@@ -2418,6 +4388,14 @@
  },
  {
   "options": [
+   "girl",
+   "curl"
+  ],
+  "answerIndex": 1,
+  "hint": "girlの頭gは喉を震わせる有声音。curlの頭c(k)は息だけ。"
+ },
+ {
+  "options": [
    "frog",
    "frock"
   ],
@@ -2427,11 +4405,181 @@
  },
  {
   "options": [
+   "frog",
+   "frock"
+  ],
+  "answerIndex": 1,
+  "hint": "frogの語尾gは有声でこもる。frockのckは息で鋭く終わる。"
+ },
+ {
+  "options": [
+   "glue",
+   "clue"
+  ],
+  "answerIndex": 0,
+  "hint": "clueの頭c(k)は息だけの無声音。glueの頭gは喉を震わせる。"
+ },
+ {
+  "options": [
    "glue",
    "clue"
   ],
   "answerIndex": 1,
   "meaning": "clue = 手がかり",
   "hint": "clueの頭c(k)は息だけの無声音。glueの頭gは喉を震わせる。"
+ },
+ {
+  "options": [
+   "night",
+   "knight"
+  ],
+  "answerIndex": 1,
+  "meaning": "knight = 騎士",
+  "hint": "発音は全く同じ /naɪt/。先頭の k は黙字で読まない。文脈で意味を区別する。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "right",
+   "write",
+   "rite"
+  ],
+  "answerIndex": 1,
+  "meaning": "write = 書く",
+  "hint": "3語とも /raɪt/ で同音。write の先頭 w は発音しない。l ではなく r で舌を口内のどこにも付けない。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "hour",
+   "our"
+  ],
+  "answerIndex": 0,
+  "meaning": "hour = 時間",
+  "hint": "hour の h は黙字で /aʊər/。our とほぼ同音。h を息で出さないよう注意。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "know",
+   "no"
+  ],
+  "answerIndex": 0,
+  "meaning": "know = 知っている",
+  "hint": "know の先頭 k は黙字で /noʊ/。no と同音。日本語の「ノー」のように母音を伸ばしすぎない。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "whole",
+   "hole"
+  ],
+  "answerIndex": 0,
+  "meaning": "whole = 全体の",
+  "hint": "whole の w は黙字で /hoʊl/。hole と同音。先頭は h の息の音から始める。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "wear",
+   "where",
+   "ware"
+  ],
+  "answerIndex": 1,
+  "meaning": "where = どこ",
+  "hint": "3語とも /wɛər/ で同音。where の h は発音しない。日本語の「ウェア」より口を横に引いて w を作る。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "sent",
+   "scent",
+   "cent"
+  ],
+  "answerIndex": 1,
+  "meaning": "scent = 香り",
+  "hint": "3語とも /sɛnt/ で同音。scent の c は黙字。語尾の t をしっかり止める。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "plum",
+   "plumb"
+  ],
+  "answerIndex": 1,
+  "meaning": "plumb = 鉛直の・配管する",
+  "hint": "plumb の語尾 b は黙字で /plʌm/。plum と同音。l は舌先を上歯茎に付け、r と混同しない。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "climb",
+   "clime"
+  ],
+  "answerIndex": 0,
+  "meaning": "climb = 登る",
+  "hint": "climb の b は黙字で /klaɪm/。clime(気候帯)と同音。語尾は m で唇を閉じる。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "lam",
+   "lamb"
+  ],
+  "answerIndex": 1,
+  "meaning": "lamb = 子羊",
+  "hint": "lamb の b は黙字で /læm/。lam と同音。母音は日本語のアより口を横に広く開く /æ/。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "new",
+   "knew",
+   "gnu"
+  ],
+  "answerIndex": 1,
+  "meaning": "knew = 知っていた(know の過去形)",
+  "hint": "3語とも /nuː/(または /njuː/)で同音。knew の k、gnu の g は黙字。n から始める。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "wine",
+   "whine"
+  ],
+  "answerIndex": 1,
+  "meaning": "whine = 泣き言を言う・めそめそ鳴く",
+  "hint": "現代米語ではどちらも /waɪn/ で同音。whine の h は基本発音しない。唇を丸めて w で始める。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "high",
+   "hi"
+  ],
+  "answerIndex": 0,
+  "meaning": "high = 高い",
+  "hint": "high の gh は黙字で /haɪ/。hi と同音。h の息をしっかり出してから二重母音 /aɪ/。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "wrap",
+   "rap"
+  ],
+  "answerIndex": 0,
+  "meaning": "wrap = 包む",
+  "hint": "wrap の先頭 w は黙字で /ræp/。rap と同音。l と混同せず r は舌をどこにも付けない。",
+  "homophone": true
+ },
+ {
+  "options": [
+   "doe",
+   "dough"
+  ],
+  "answerIndex": 1,
+  "meaning": "dough = 生地・パン種",
+  "hint": "doe と dough はどちらも /doʊ/ で同音。dough の gh は黙字。語尾は唇を丸めた二重母音 /oʊ/ で終える。",
+  "homophone": true
  }
 ]

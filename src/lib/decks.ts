@@ -32,6 +32,7 @@ interface ListeningRow {
   answerIndex: number;
   meaning?: string;
   hint?: string;
+  homophone?: boolean;
 }
 
 interface ConversationRow {
@@ -73,7 +74,8 @@ const listening: Card[] = (listeningData as ListeningRow[]).map((r, i) => ({
     options: r.options,
     answerIndex: r.answerIndex,
     meaning: r.meaning,
-    hint: r.hint
+    hint: r.hint,
+    homophone: r.homophone
   }
 }));
 
