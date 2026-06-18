@@ -70,9 +70,15 @@
 
   <div class="choices">
     {#each card.conversation?.choices ?? [] as choice, i}
-      <button class={classFor(i)} disabled={answered} onclick={() => choose(i)}>
-        {choice}
-      </button>
+      <div class="choice-row">
+        <button class="choice {classFor(i)}" disabled={answered} onclick={() => choose(i)}>
+          {choice}
+        </button>
+        {#if answered && canSpeak}
+          <!-- 回答後の応答再生ボタン。disabled な選択肢ボタンの外に置く（中だと押せない）。 -->
+          <button class="repeat" aria-label="この応答を聞く" onclick={() => speak(choice)}>🔊</button>
+        {/if}
+      </div>
     {/each}
   </div>
 
@@ -118,20 +124,35 @@
     display: grid;
     gap: 0.6rem;
   }
-  .choices button {
+  .choice-row {
+    display: flex;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+  .choice {
+    flex: 1;
     text-align: left;
     padding: 0.85rem 1rem;
   }
-  .choices button.correct {
+  .choice:disabled {
+    cursor: default;
+  }
+  .choice.correct {
     background: var(--good);
     color: #00121e;
   }
-  .choices button.wrong {
+  .choice.wrong {
     background: var(--bad);
     color: #fff;
   }
-  .choices button.dim {
+  .choice.dim {
     opacity: 0.5;
+  }
+  /* 回答後に各応答を再生するボタン（独立させて押せるようにする） */
+  .repeat {
+    flex: 0 0 auto;
+    font-size: 1.1rem;
+    padding: 0 1rem;
   }
   .dont-know {
     width: 100%;

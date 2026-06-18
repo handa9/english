@@ -62,34 +62,27 @@
 
   <div class="choices">
     {#each options as opt, i}
-      <button class={classFor(i)} disabled={answered} onclick={() => choose(i)}>
-        <span class="word">{opt}</span>
+      <div class="choice-row">
+        <button class="choice {classFor(i)}" disabled={answered} onclick={() => choose(i)}>
+          {opt}
+        </button>
         {#if answered && canSpeak}
-          <span
-            class="repeat"
-            role="button"
-            tabindex="0"
-            aria-label={`${opt} を聞く`}
-            onclick={(e) => {
-              e.stopPropagation();
-              speak(opt);
-            }}
-            onkeydown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                e.stopPropagation();
-                speak(opt);
-              }
-            }}>🔊</span
-          >
+          <!-- 回答後の再生ボタン。disabled な選択肢ボタンの外に置く（中だと押せない）。 -->
+          <button class="repeat" aria-label={`${opt} を聞く`} onclick={() => speak(opt)}>🔊</button>
         {/if}
-      </button>
+      </div>
     {/each}
 
     <!-- 全問共通の「聴き分けられない（同音）」選択肢 -->
-    <button class="same-sound {classFor(SAME_SOUND)}" disabled={answered} onclick={() => choose(SAME_SOUND)}>
-      🔇 聴き分けられない（同音）
-    </button>
+    <div class="choice-row">
+      <button
+        class="choice same-sound {classFor(SAME_SOUND)}"
+        disabled={answered}
+        onclick={() => choose(SAME_SOUND)}
+      >
+        🔇 聴き分けられない（同音）
+      </button>
+    </div>
   </div>
 
   {#if answered}
@@ -135,39 +128,46 @@
     display: grid;
     gap: 0.6rem;
   }
-  .choices button {
-    font-size: 1.15rem;
-    padding: 0.85rem 1rem;
+  .choice-row {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
     gap: 0.5rem;
   }
-  .choices button.correct {
+  .choice {
+    flex: 1;
+    font-size: 1.15rem;
+    padding: 0.85rem 1rem;
+  }
+  /* disabled でも見た目が暗くならないように（pointer-events だけ無効化） */
+  .choice:disabled {
+    cursor: default;
+  }
+  .choice.correct {
     background: var(--good);
     color: #00121e;
   }
-  .choices button.wrong {
+  .choice.wrong {
     background: var(--bad);
     color: #fff;
   }
-  .choices button.dim {
+  .choice.dim {
     opacity: 0.5;
   }
   /* 「聴き分けられない」選択肢は語の選択肢と視覚的に区別する */
   .same-sound {
-    font-size: 0.95rem !important;
+    font-size: 0.95rem;
     border: 1px dashed var(--surface-2);
     background: var(--surface);
-    margin-top: 0.2rem;
   }
   .same-sound.correct,
   .same-sound.wrong {
     border-style: solid;
   }
+  /* 回答後に各選択肢の音声を再生するボタン（独立させて押せるようにする） */
   .repeat {
-    font-size: 0.9rem;
-    cursor: pointer;
+    flex: 0 0 auto;
+    font-size: 1.1rem;
+    padding: 0 1rem;
   }
   .meaning {
     margin-top: 1rem;
