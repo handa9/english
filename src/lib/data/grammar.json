@@ -661,7 +661,7 @@
  },
  {
   "level": "beginner",
-  "question": "___ you can swim well?",
+  "question": "___ you swim well?",
   "choices": [
    "Do",
    "Can",
@@ -2041,7 +2041,7 @@
  },
  {
   "level": "advanced",
-  "question": "If I ___ more carefully with my money in my twenties, I would be a homeowner by now.",
+  "question": "If I ___ more careful with my money in my twenties, I would be a homeowner by now.",
   "choices": [
    "had been",
    "were",
@@ -2049,7 +2049,7 @@
    "would be"
   ],
   "answerIndex": 0,
-  "explanation": "過去の事柄(若い頃の行動)が現在の結果(今持ち家がない)に影響する混合仮定法。if節は過去完了 had been、主節は would be。"
+  "explanation": "過去の事柄(若い頃の行動)が現在の結果(今持ち家がない)に影響する混合仮定法。if節は過去完了 had been、主節は would be。be動詞の補語は形容詞 careful。"
  },
  {
   "level": "advanced",
@@ -2077,7 +2077,7 @@
  },
  {
   "level": "advanced",
-  "question": "If he ___ a more patient person, he wouldn't have lost his temper at the meeting yesterday.",
+  "question": "If he ___ a more patient person by nature, he wouldn't have lost his temper at the meeting yesterday.",
   "choices": [
    "had been",
    "would be",
@@ -2085,7 +2085,7 @@
    "is"
   ],
   "answerIndex": 2,
-  "explanation": "現在の恒常的な性格(忍耐強くない)が過去の出来事(昨日の癇癪)に影響する混合仮定法。if節は過去形 were、主節は wouldn't have lost。"
+  "explanation": "現在の恒常的な性格(生まれつき忍耐強くない)が過去の出来事(昨日の癇癪)に影響する混合仮定法。by nature が恒常的性格を示すため if節は現在の were、主節は wouldn't have lost。"
  },
  {
   "level": "advanced",
@@ -2257,7 +2257,7 @@
  },
  {
   "level": "advanced",
-  "question": "___ the evidence may seem compelling, it does not conclusively establish causation.",
+  "question": "___ the evidence may seem, it does not conclusively establish causation.",
   "choices": [
    "Compelling though",
    "However compelling",
