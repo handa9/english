@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite dev --host",
     "icons": "node scripts/gen-icons.js",
+    "audio": "node scripts/gen-audio.js",
     "prebuild": "node scripts/gen-icons.js",
     "build": "vite build",
     "preview": "vite preview --host",

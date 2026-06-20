@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { speak, speechSupported } from '$lib/speech';
+  import { playWord, speechSupported } from '$lib/speech';
   import type { Card, Grade } from '$lib/types';
 
   let { card, onGrade }: { card: Card; onGrade: (g: Grade) => void } = $props();
@@ -23,7 +23,7 @@
   $effect(() => {
     card;
     selected = null;
-    if (canSpeak && answer) speak(answer);
+    if (canSpeak && answer) playWord(answer);
   });
 
   function choose(i: number) {
@@ -51,7 +51,7 @@
     class="play primary"
     aria-label="もう一度再生"
     disabled={!canSpeak}
-    onclick={() => answer && speak(answer)}
+    onclick={() => answer && playWord(answer)}
   >
     🔊 もう一度聞く
   </button>
@@ -68,7 +68,7 @@
         </button>
         {#if answered && canSpeak}
           <!-- 回答後の再生ボタン。disabled な選択肢ボタンの外に置く（中だと押せない）。 -->
-          <button class="repeat" aria-label={`${opt} を聞く`} onclick={() => speak(opt)}>🔊</button>
+          <button class="repeat" aria-label={`${opt} を聞く`} onclick={() => playWord(opt)}>🔊</button>
         {/if}
       </div>
     {/each}

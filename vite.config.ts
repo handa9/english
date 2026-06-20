@@ -35,7 +35,23 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,json}']
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,json}'],
+        // 音声(mp3)は数百ファイル・数MBになるため初回プリキャッシュに含めず、
+        // 再生したものから実行時にキャッシュしてオフライン化する（CacheFirst）。
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }: { url: URL }) => url.pathname.includes('/audio/'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'listening-audio',
+              expiration: {
+                maxEntries: 600,
+                maxAgeSeconds: 60 * 60 * 24 * 90 // 90日
+              },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          }
+        ]
       },
       devOptions: {
         enabled: true,
